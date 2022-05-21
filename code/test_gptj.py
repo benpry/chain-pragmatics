@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, GPTJForCausalLM, pipeline
 
 if __name__ == "__main__":
     model = GPTJForCausalLM.from_pretrained(
-        "EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16
+        "EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True
     )
     tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-j-6B")
 
