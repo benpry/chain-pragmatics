@@ -10,7 +10,8 @@ os.environ["TRANSFORMERS_CACHE"] = "/data3/benpry/transformers-cache"
 
 if __name__ == "__main__":
     model = GPTJForCausalLM.from_pretrained(
-        "EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True
+        "EleutherAI/gpt-j-6B", revision="float16", torch_dtype=torch.float16, low_cpu_mem_usage=True,
+        cache_dir="/data3/benpry/transformers-cache"
     )
     tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-j-6B")
 
