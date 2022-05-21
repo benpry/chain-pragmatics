@@ -4,6 +4,8 @@ This file takes the model outputs and analyzes them
 import pickle
 import numpy as np
 from pyprojroot import here
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 guess_labels = ["a", "b", "c", "d"]
 def extract_guess(response):
@@ -23,6 +25,15 @@ def rank_guess(guess, ratings):
     """
     return int(ratings[guess])
 
+
+def bootstrapped_ci(scores, n=100000):
+    all_bs = np.random.choice(scores, size=(n, len(scores)))
+    means = np.mean(all_bs, axis=1)
+    mean = np.mean(means)
+    ci_lower = np.percentile(means, 2.5)
+    ci_upper = np.percentile(means, 97.5)
+
+    return mean, ci_lower, ci_upper
 
 def random_baseline(questions):
     """
@@ -51,15 +62,23 @@ if __name__ == "__main__":
 
         rank = rank_guess(guess, question["values"])
         guess_ranks.append(rank)
-    mean_guess_rank = np.mean(guess_ranks)
+
+    mean, ci_lower, ci_upper = bootstrapped_ci(guess_ranks)
+    print(f"mean rank: {mean}, [{ci_lower}, {ci_upper}]")
 
     print(f"{non_parsed_guesses} guesses not parsed")
-    print(f"mean rank: {mean_guess_rank}")
 
     random_means = []
     for i in range(10000):
         random_ratings = random_baseline(question_responses)
         random_means.append(np.mean(random_ratings))
-    p_val = len([m for m in random_means if m > mean_guess_rank]) / len(random_means)
-    print(f"mean random rating {np.mean(random_means)}")
+    random_ci_lower = np.percentile(random_means, 2.5)
+    random_ci_upper = np.percentile(random_means, 97.5)
+    p_val = len([m for m in random_means if m > mean]) / len(random_means)
+    print(f"mean random rating {np.mean(random_means)}, [{random_ci_lower}, {random_ci_upper}]")
     print(f"p-value: {p_val}")
+
+    hist = sns.histplot(guess_ranks)
+    hist.set_title("Response Appropriateness Distribution: Curie 5-shot")
+    hist.set_xlabel("Appropriateness Score")
+    hist.get_figure().savefig(here("figures/appropriateness_distribution_curie.png"))

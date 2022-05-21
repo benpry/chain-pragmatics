@@ -8,7 +8,7 @@ from pyprojroot import here
 from prompt_generation import make_random_k_shot_prompt
 
 K=5
-n_examples = 5
+n_examples = 50
 openai.api_key = os.environ["OPENAI_API_KEY"]
 task_description = "Choose the most appropriate paraphrase of the first sentence"
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
         print(k_shot_prompt)
 
         response = openai.Completion.create(
-            engine="text-curie-001",
+            engine="text-davinci-002",
             prompt=k_shot_prompt,
             max_tokens=256,
             n=1,
@@ -40,5 +40,5 @@ if __name__ == "__main__":
 
         item["model_choices"] = choices
 
-    with open(here(f"data/model-outputs/gpt3_metaphor_multiplechoice_curie_5shot.p"), "wb") as fp:
+    with open(here(f"data/model-outputs/gpt3_metaphor_multiplechoice_davinci_5shot.p"), "wb") as fp:
         pickle.dump(relevant_corpus, fp)
