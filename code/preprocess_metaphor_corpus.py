@@ -1,6 +1,7 @@
 """
 This file reads the metaphor corpus and segments it into prompts and expected answers
 """
+from random import shuffle
 import pickle
 from pyprojroot import here
 
@@ -31,6 +32,8 @@ def write_prompt(parsed_question):
 
     return prompt
 
+train_dev_test = (0.7, 0.15, 0.15)
+
 if __name__ == "__main__":
 
     # read the corpus file
@@ -52,5 +55,17 @@ if __name__ == "__main__":
     for question in parsed_questions:
         question["prompt"] = write_prompt(question)
 
-    with open(here("data/metaphor-corpus/processed-metaphor-corpus.p"), "wb") as fp:
-        pickle.dump(parsed_questions, fp)
+
+    # make train-test split
+    shuffle(parsed_questions)
+
+    train_prop, dev_prop, test_prop = train_dev_test
+    sets = {}
+    sets["train"] = parsed_questions[:int(train_prop * len(parsed_questions))]
+    sets["dev"] = parsed_questions[len(sets["train"]):len(sets["train"]) + int(dev_prop * len(parsed_questions))]
+    sets["test"] = parsed_questions[len(sets["train"]) + len(sets["dev"]):]
+
+    for name, set in sets.items():
+        print(f"{name} set length: {len(set)}")
+        with open(here(f"data/metaphor-corpus/metaphor-corpus-{name}.p"), "wb") as fp:
+            pickle.dump(set, fp)
