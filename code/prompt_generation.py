@@ -8,6 +8,9 @@ from pyprojroot import here
 rationale_prompts = {}
 with open(here("data/prompts/comparison.txt"), "r") as fp:
     rationale_prompts["comparison"] = fp.read()
+with open(here("data/prompts/differences.txt"), "r") as fp:
+    rationale_prompts["differences"] = fp.read()
+
 
 def make_random_k_shot_prompt(chosen_prompt, task_description, questions, k=5, delimiter="###"):
     """

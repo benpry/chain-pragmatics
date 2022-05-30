@@ -48,7 +48,7 @@ def random_baseline(questions):
 
 if __name__ == "__main__":
 
-    with open(here(f"data/model-outputs/gpt3_metaphor_multiplechoice_curie_5shot_comparison.p"), "rb") as fp:
+    with open(here(f"data/model-outputs/gpt3_metaphor_curie_5shot_differences.p"), "rb") as fp:
         question_responses = pickle.load(fp)
 
     non_parsed_guesses = 0
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title("Response Appropriateness Distribution: Curie with 5-shot comparison prompts")
+    hist.set_title("Response Appropriateness Distribution: Curie with 5-shot difference prompts")
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
-    hist.get_figure().savefig(here("figures/appropriateness_distribution_curie_comparison.png"))
+    hist.get_figure().savefig(here("figures/appropriateness_distribution_curie_differences.png"))
