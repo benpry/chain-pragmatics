@@ -4,42 +4,58 @@ This file takes the processed question, asks GPT-3 about it, then saves the resp
 import os
 import time
 import pickle
+import pandas as pd
 import openai
 from pyprojroot import here
-from prompt_generation import make_random_k_shot_prompt, make_rationale_prompt
+from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
-K=5
-n_examples = 50
+corpus = "katz"
+prompt_type = "QUD"
+gpt_version = "curie"
+K=10
 openai.api_key = os.environ["OPENAI_API_KEY"]
-task_description = "Choose the most appropriate paraphrase of the first sentence"
+task_description = "Choose the most appropriate paraphrase of the first sentence."
+
+gpt_version_codes = {
+    "curie": "text-curie-001",
+    "davinci": "text-davinci-002"
+}
 
 if __name__ == "__main__":
 
-    with open(here(f"data/metaphor-corpus/metaphor-corpus-dev.p"), "rb") as fp:
-       processed_corpus = pickle.load(fp)
+    if corpus == "metaphor-paraphrase":
+        with open(here(f"data/metaphor-corpus/metaphor-corpus-dev.p"), "rb") as fp:
+           processed_corpus = pickle.load(fp)
+        df_corpus = pd.DataFrame(processed_corpus)
+    elif corpus == "katz":
+        df_corpus = pd.read_csv(here(f"data/katz-corpus/katz-corpus-dev.csv"))
+    else:
+        raise ValueError(f"Invalid corpus: {corpus}")
 
-    relevant_corpus = processed_corpus
+    model_choices = []
 
-    for item in relevant_corpus:
+    for index, row in df_corpus.iterrows():
 
         # k_shot_prompt = make_random_k_shot_prompt(item["prompt"], task_description, relevant_corpus, k=K)
-        rationale_prompt = make_rationale_prompt(item["prompt"], "differences")
+        if prompt_type == "basic":
+            prompt = make_k_shot_prompt(row, task_description, k=K)
+        else:
+            prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K)
 
-        print(rationale_prompt)
+        print(prompt)
 
-        response = openai.Completion.create(
-            engine="text-curie-001",
-            prompt=rationale_prompt,
-            max_tokens=256,
-            n=1,
-            frequency_penalty=0,
-            presence_penalty=0
-        )
+        # response = openai.Completion.create(
+        #      engine=gpt_version_codes[gpt_version],
+        #      prompt=prompt,
+        #      max_tokens=256,
+        #      n=1,
+        #      frequency_penalty=0,
+        #      presence_penalty=0
+        # )
         choices = response["choices"]
-        print(choices)
-        item["model_choices"] = choices
+        model_choices.append(choices[0]["text"])
+        time.sleep(8)
 
-        time.sleep(10)
+    df_corpus["model_response"] = model_choices
 
-    with open(here(f"data/model-outputs/gpt3_metaphor_curie_5shot_differences.p"), "wb") as fp:
-        pickle.dump(relevant_corpus, fp)
+    df_corpus.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.csv"))
