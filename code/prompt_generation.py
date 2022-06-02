@@ -17,6 +17,9 @@ df_katz_rationales = pd.read_csv(here("data/prompts/katz/train-rationales.csv"))
 QUD_rationale_indices = [1, 6, 9, 11, 13, 18, 22, 25, 26, 28]
 df_qud_rationales = df_katz_rationales.iloc[QUD_rationale_indices]
 rationale_prompts["katz"]["QUD"] = df_qud_rationales
+similarity_rationale_indices = [1, 6, 9, 11, 13, 18, 22, 25, 26, 28]
+df_similarity_rationales = df_katz_rationales.iloc[similarity_rationale_indices]
+rationale_prompts["katz"]["similarity"] = df_similarity_rationales
 
 def make_random_k_shot_prompt(chosen_prompt, task_description, questions, k=5, delimiter="###"):
     """

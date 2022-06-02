@@ -10,7 +10,7 @@ from pyprojroot import here
 from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
 corpus = "katz"
-prompt_type = "QUD"
+prompt_type = "similarity"
 gpt_version = "curie"
 K=10
 openai.api_key = os.environ["OPENAI_API_KEY"]
@@ -43,18 +43,17 @@ if __name__ == "__main__":
             prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K)
 
         print(prompt)
-
-        # response = openai.Completion.create(
-        #      engine=gpt_version_codes[gpt_version],
-        #      prompt=prompt,
-        #      max_tokens=256,
-        #      n=1,
-        #      frequency_penalty=0,
-        #      presence_penalty=0
-        # )
+        response = openai.Completion.create(
+             engine=gpt_version_codes[gpt_version],
+             prompt=prompt,
+             max_tokens=256,
+             n=1,
+             temperature=0.7,
+             frequency_penalty=0,
+             presence_penalty=0
+        )
         choices = response["choices"]
         model_choices.append(choices[0]["text"])
-        time.sleep(8)
 
     df_corpus["model_response"] = model_choices
 

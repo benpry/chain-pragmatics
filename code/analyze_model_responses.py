@@ -18,16 +18,17 @@ def extract_guess(response):
     response = response.strip().lower()
     match = re.findall(r"the answer is ([a-d])", response)
     if len(match) == 0:
-        return None
-    else:
-        return guess_labels.index(match[0])
+        match = re.findall(r"[a-d]", response)
+        if len(match) == 0:
+            return None
+    return match[0]
 
 
 def rank_guess(guess, ratings):
     """
     Given a guess and list of ratings, get the rating corresponding to the chosen guess
     """
-    return int(ratings[guess])
+    return int(ratings[guess_labels.index(guess)])
 
 
 def bootstrapped_ci(scores, n=100000):
@@ -52,7 +53,7 @@ def random_baseline(ratings, n_questions=100):
 
 corpus = "katz"
 gpt_version = "curie"
-prompt_type = "QUD"
+prompt_type = "similarity"
 K = 10
 
 if __name__ == "__main__":
@@ -60,6 +61,7 @@ if __name__ == "__main__":
     df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
+    raw_guesses = []
     for index, row in df_responses.iterrows():
 
         if not isinstance(row["model_response"], str):
@@ -75,6 +77,7 @@ if __name__ == "__main__":
 
         rank = rank_guess(guess, np.fromstring(row["values"][1:-1], sep=" "))
         guess_ranks.append(rank)
+        raw_guesses.append(guess)
 
     mean, ci_lower, ci_upper = bootstrapped_ci(guess_ranks)
     print(f"mean rank: {mean}, [{ci_lower}, {ci_upper}]")
@@ -82,7 +85,7 @@ if __name__ == "__main__":
     print(f"{non_parsed_guesses} guesses not parsed")
 
     random_means = []
-    for i in range(10000):
+    for i in range(1000):
         random_ratings = random_baseline([1, 2, 3, 4])
         random_means.append(np.mean(random_ratings))
     random_ci_lower = np.percentile(random_means, 2.5)
@@ -98,3 +101,13 @@ if __name__ == "__main__":
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
     hist.get_figure().savefig(here(f"figures/appropriateness_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.png"))
+
+    plt.clf()
+
+    print(raw_guesses)
+    hist = sns.countplot(sorted(raw_guesses))
+    hist.set_title(f"Response Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts",
+                   fontsize=10)
+    hist.set_xlabel("Response")
+    hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.png"))
+
