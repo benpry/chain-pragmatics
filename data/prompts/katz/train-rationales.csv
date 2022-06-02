@@ -1,4 +1,4 @@
-,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,QUD_rationale,similarity_rationale
+,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,QUD_rationale,QUD_v2_rationale,QUD_v3_rationale,similarity_rationale
 0,Nonliterary,1.0,119.0,0.0,An idea is a kettle on the stove.,4.27,4.93,2.9,3.8,3.17,3.1,3.87,2.86,3.2,1.5,It takes time for an idea to be ready.,It takes water for an idea to be ready.,An idea is a thought.,Ideas are ready instantly.,,"""An idea is a kettle on the stove.""
 
 a) It takes time for an idea to be ready.
@@ -8,9 +8,12 @@ d) It takes water for an idea to be ready.
 ",[4 2 1 3],"The speaker is addressing the question ""How long does it take for an idea to be ready?""
 A kettle on the stove takes a long time to be ready
 So the speaker is saying that it takes time for an idea to be ready.
-Therefore, the answer is a).","Kettles on the stove take a long time to be ready.
-Ideas can also take a long time to be ready.
-So the speaker is saying that it takes time for an idea to be ready.
+Therefore, the answer is a).","The speaker is addressing the question ""How long does it take for an idea to be ready?""
+A kettle on the stove takes a long time to be ready
+So the speaker is saying a) it takes time for an idea to be ready.","The speaker is addressing the question ""How long does it take for an idea to be ready?""
+The speaker answers this question by comparing an idea to a kettle on the stove.
+A kettle on the stove takes a long time to be ready, so the speaker is saying a) it takes time for an idea to be ready.","Kettles on the stove take a long time to be ready.
+Ideas can also take a long time to be ready, so the speaker is saying that it takes time for an idea to be ready.
 Therefore, the answer is a)."
 1,Nonliterary,1.0,111.0,0.0,Happiness is gold.,6.5,6.3,3.47,4.83,3.93,5.1,4.37,5.03,4.37,2.15,Happiness is valuable.,Happiness is shiny.,Happiness is an emotion.,Happiness is irrelevant.,,"""Happiness is gold.""
 
@@ -21,9 +24,12 @@ d) Happiness is valuable.
 ",[3 1 2 4],"The speaker is addressing the question ""How valuable is happiness?""
 Gold is very valuable.
 So the speaker is saying that happiness is valuable.
-Therefore, the answer is d).","Gold is valuable.
-Happiness can also be valuable.
-So the speaker is saying that happiness is valuable.
+Therefore, the answer is d).","The speaker is addressing the question ""How valuable is happiness?""
+Gold is very valuable.
+So the speaker is saying d) happiness is valuable.","The speaker is addressing the question ""How valuable is happiness?""
+The speaker answers this question by comparing happiness to gold.
+Gold is very valuable, so the speaker is saying d) happiness is valuable.","Gold is valuable.
+Happiness can also be valuable, so the speaker is saying that happiness is valuable.
 Therefore, the answer is d)."
 2,Nonliterary,1.0,133.0,0.0,A lottery is a rich uncle.,3.96,4.93,3.07,3.5,3.03,3.62,3.73,2.71,2.6,1.16,A lottery is wealth that seems accessible but may not be.,A lottery is wealth that is easily accessible.,A lottery is a gambling game.,A lottery is wealth that seems hard to get but is actually easy.,,"""A lottery is a rich uncle.""
 
@@ -34,7 +40,11 @@ d) A lottery is wealth that seems accessible but may not be.
 ",[3 2 1 4],"The speaker is addressing the question ""How accessible is wealth from a lottery?""
 A rich uncle might provide easily accessible wealth, but also might not.
 So the speaker is saying that a lottery is wealth that seems accessible but may not be.
-Therefore, the answer is d).","A rich uncle provides wealth that seems accessible, but may not actually be.
+Therefore, the answer is d).","The speaker is addressing the question ""How accessible is wealth from a lottery?""
+A rich uncle might provide easily accessible wealth, but also might not.
+So the speaker is saying d) a lottery is wealth that seems accessible but may not be.","The speaker is addressing the question ""How accessible is wealth from a lottery?""
+The speaker answers this question by comparing wealth to a rich uncle.
+A rich uncle might provide easily accessible wealth, but also might not, so the speaker is saying d) a lottery is wealth that seems accessible but may not be.","A rich uncle provides wealth that seems accessible, but may not actually be.
 A lottery promises to provide wealth, but winning is very unlikely.
 So the speaker is saying that a lottery is wealth that seems accessible but may not be.
 Therefore, the answer is d)."
@@ -47,7 +57,11 @@ d) A storm is hot.
 ",[2 4 1 3],"The speaker is addressing the question ""How dark is a storm?""
 A coffeepot is very dark.
  So the speaker is saying that a storm is dark.
-Therefore, the answer is b).","A coffeepot is dark.
+Therefore, the answer is b).","The speaker is addressing the question ""How dark is a storm?""
+A coffeepot is very dark.
+ So the speaker is saying b) a storm is dark.","The speaker is addressing the question ""How dark is a storm?""
+The speaker answers this question by comparing a storm to a coffeepot.
+A coffeepot is very dark, so the speaker is saying b) a storm is dark.","A coffeepot is dark.
 Storms can also be dark.
 So the speaker is saying that a storm is dark.
 Therefore, the answer is b)."
@@ -60,7 +74,11 @@ d) The wind is painful.
 ",[4 2 1 3],"The speaker is addressing the question ""How does the wind travel?""
 An arrow travels straight and fast.
 So the speaker is saying the wind goes straight and fast.
-Therefore, the answer is a).","An arrow travels straight and fast.
+Therefore, the answer is a).","The speaker is addressing the question ""How does the wind travel?""
+An arrow travels straight and fast.
+So the speaker is saying a) the wind goes straight and fast.","The speaker is addressing the question ""How does the wind travel?""
+The speaker answers this question by comparing the wind to an arrow.
+An arrow travels straight and fast, so the speaker is saying a) the wind goes straight and fast.","An arrow travels straight and fast.
 The wind can also travel straight and fast.
 So the speaker is saying that the wind goes straight and fast.
 Therefore, the answer is a)."
@@ -73,7 +91,11 @@ d) Time is continued progress of existence.
 ",[3 4 1 2],"The speaker is addressing the question ""How does time affect things?""
 A transforming chisel changes things.
 So the speaker is saying that things change over time.
-Therefore, the answer is b).","A transforming chisel changes things when used.
+Therefore, the answer is b).","The speaker is addressing the question ""How does time affect things?""
+A transforming chisel changes things.
+So the speaker is saying b) things change over time.","The speaker is addressing the question ""How does time affect things?""
+The speaker answers this question by comparing time to a transforming chisel.
+A transforming chisel changes things, so the speaker is saying b) things change over time.","A transforming chisel changes things when used.
 Time can also cause things to change.
 So the speaker is saying that things change over time.
 Therefore, the answer is b)."
@@ -86,7 +108,11 @@ d) Criticism is painful.
 ",[1 2 3 4],"The speaker is addressing the question ""How does criticism feel?""
 A branding iron is very painful.
 So the speaker is saying that criticism is painful.
-Therefore, the answer is d).","Branding irons are extremely painful.
+Therefore, the answer is d).","The speaker is addressing the question ""How does criticism feel?""
+A branding iron is very painful.
+So the speaker is saying d) criticism is painful.","The speaker is addressing the question ""How does criticism feel?""
+The speaker answers this question by comparing criticism to a branding iron.
+A branding iron is very painful, so the speaker is saying d) criticism is painful.","Branding irons are extremely painful.
 Criticism can also be painful.
 So the speaker is saying that criticism is painful.
 Therefore, the answer is d)."
@@ -99,7 +125,11 @@ d) An ant can move a lot of dirt.
 ",[2 1 3 4],"The speaker is addressing the question ""How much dirt can an ant move?""
 A bulldozer can move a lot of dirt
 So the speaker is saying that an ant can move a lot of dirt.
-Therefore, the answer is d).","A bulldozer moves a lot of dirt.
+Therefore, the answer is d).","The speaker is addressing the question ""How much dirt can an ant move?""
+A bulldozer can move a lot of dirt
+So the speaker is saying d) an ant can move a lot of dirt.","The speaker is addressing the question ""How much dirt can an ant move?""
+The speaker answers this question by comparing an ant to a bulldozer.
+A bulldozer can move a lot of dirt, so the speaker is saying d) an ant can move a lot of dirt.","A bulldozer moves a lot of dirt.
 Ants can also move dirt.
 So the speaker is saying that an ant can move a lot of dirt.
 Therefore, the answer is d)."
@@ -112,7 +142,11 @@ d) The wind is strong and agile.
 ",[2 1 3 4],"The speaker is addressing the question ""How strong and agile is the wind?""
 A wrestler is strong and agile
 So the speaker is saying that the wind is strong and agile.
-Therefore, the answer is d).","A wrestler is strong and agile.
+Therefore, the answer is d).","The speaker is addressing the question ""How strong and agile is the wind?""
+A wrestler is strong and agile
+So the speaker is saying d) the wind is strong and agile.","The speaker is addressing the question ""How strong and agile is the wind?""
+The speaker answers this question by comparing the wind to a wrestler.
+A wrestler is strong and agile, so the speaker is saying d) the wind is strong and agile.","A wrestler is strong and agile.
 The wind can also be strong and agile.
 So the speaker is saying that the wind is strong an agile.
 Therefore, the answer is d)."
@@ -125,7 +159,11 @@ d) Many ailments like sickness and broken bones heal with time.
 ",[1 3 2 4],"The speaker is addressing the question ""How does time affect sicknesses and injuries?""
 A physician heals wounds and sicknesses.
 So the speaker is saying that many ailments like sickness and broken bones heal with time.
-Therefore, the answer is d).","Physicians heal ailments.
+Therefore, the answer is d).","The speaker is addressing the question ""How does time affect sicknesses and injuries?""
+A physician heals wounds and sicknesses.
+So the speaker is saying d) many ailments like sickness and broken bones heal with time.","The speaker is addressing the question ""How does time affect sicknesses and injuries?""
+The speaker answers this question by comparing time to a physician.
+A physician heals wounds and sicknesses, so the speaker is saying d) many ailments like sickness and broken bones heal with time.","Physicians heal ailments.
 Ailments like sicknesses and broken bones often heal over time.
 So the speaker is saying that many ailments like sickness and broken bones heal over time.
 Therefore, the answer is d)."
@@ -138,7 +176,11 @@ d) Older people have more memories.
 ",[1 2 3 4],"The speaker is addressing the question ""How does age affect memories?""
 An altar of memories has many memories.
 So the speaker is saying that older people have more memories.
-Therefore, the answer is d)","An altar of memories has many memories.
+Therefore, the answer is d)","The speaker is addressing the question ""How does age affect memories?""
+An altar of memories has many memories.
+So the speaker is saying d) older people have more memories.","The speaker is addressing the question ""How does age affect memories?""
+The speaker answers this question by comparing age to an altar of memories.
+An altar of memories has many memories, so the speaker is saying d) older people have more memories.","An altar of memories has many memories.
 Older people also have many memories.
 So the speaker is saying that older people have more memories.
 Therefore, the answer is d)."
@@ -151,7 +193,11 @@ d) Genes are paper.
 ",[4 1 2 3],"The speaker is addressing the question ""What do genes do?""
 Blueprints are instructions for building.
 So the speaker is saying that genes are instructions.
-Therefore, the answer is a).","Blueprints are instructions for how to build something.
+Therefore, the answer is a).","The speaker is addressing the question ""What do genes do?""
+Blueprints are instructions for building.
+So the speaker is saying a) genes are instructions.","The speaker is addressing the question ""What do genes do?""
+The speaker answers this question by comparing genes to blueprints.
+Blueprints are instructions for building, so the speaker is saying a) genes are instructions.","Blueprints are instructions for how to build something.
 Genes also contain instructions for building living things.
 So the speaker is saying that genes are instructions.
 Therefore, the answer is a)."
@@ -164,7 +210,11 @@ d) History is a story of the past.
 ",[1 4 3 2],"The speaker is addressing the question ""How does history affect us?""
 Alarm clocks motivate people to start the day.
 So the speaker is saying that history is motivation.
-Therefore, the answer is b).","Alarm clocks motivate people to get out of bed.
+Therefore, the answer is b).","The speaker is addressing the question ""How does history affect us?""
+Alarm clocks motivate people to start the day.
+So the speaker is saying b) history is motivation.","The speaker is addressing the question ""How does history affect us?""
+The speaker answers this question by comparing history to an alarm clock.
+Alarm clocks motivate people to start the day. so the speaker is saying b) history is motivation.","Alarm clocks motivate people to get out of bed.
 History can also motivate people.
 So the speaker is saying that history is motivation.
 Therefore, the answer is b)."
@@ -177,7 +227,11 @@ d) A bagpipe is a musical instrument.
 ",[1 3 4 2],"The speaker is addressing the question ""How does a bagpipe sound?""
 Newborn babies are loud.
 So the speaker is saying that a bagpipe is loud.
-Therefore, the answer is c).","A newborn baby is loud.
+Therefore, the answer is c).","The speaker is addressing the question ""How does a bagpipe sound?""
+Newborn babies are loud.
+So the speaker is saying c) a bagpipe is loud.","The speaker is addressing the question ""How does a bagpipe sound?""
+The speaker answers this question by comparing a bagpipe to a newborn baby.
+A newborn baby is loud, so the speaker is saying c) a bagpipe is loud.","A newborn baby is loud.
 Bagpipes are also loud.
 So the speaker is saying that a bagpipe is loud.
 Therefore, the answer is c)."
@@ -190,7 +244,10 @@ d) Mankind is conscious.
 ",[4 1 3 2],"The speaker is addressing the question ""How much control do people have over what they want?""
 A prisoner of wishes does not have control over their wishes
 So the speaker is saying that people don't have control over what they want
-Therefore, the answer is a).","A prisoner of wishes has no control over what they want.
+Therefore, the answer is a).","The speaker is addressing the question ""How much control do people have over what they want?""
+A prisoner of wishes does not have control over their wishes
+So the speaker is saying a) people don't have control over what they want.","The speaker is addressing the question ""How much control do people have over what they want?""
+A prisoner of wishes does not have control over their wishes, so the speaker is saying a) people don't have control over what they want.","A prisoner of wishes has no control over what they want.
 Mankind can also struggle with a lack of control over what they want.
 So the speaker is saying that people don't have control over what they want.
 Therefore, the answer is a)."
@@ -203,7 +260,11 @@ d) Power can be injected.
 ",[1 4 2 3],"The speaker is addressing the question ""What can power do?""
 Penicillin is a strong antibiotic that can solve medical problems.
 So the speaker is saying that power can resolve problems.
-Therefore, the answer is b).","Penicilin is a strong antibiotic that can solve medical problems.
+Therefore, the answer is b).","The speaker is addressing the question ""What can power do?""
+Penicillin is a strong antibiotic that can solve medical problems.
+So the speaker is saying b) power can resolve problems.","The speaker is addressing the question ""What can power do?""
+The speaker answers this question by comparing power to penicillin.
+Penicillin is a strong antibiotic that can solve medical problems, so the speaker is saying b) power can resolve problems.","Penicilin is a strong antibiotic that can solve medical problems.
 Power can also solve many problems.
 So the speaker is saying that power can resolve problems.
 Therefore, the answer is b)."
@@ -216,7 +277,11 @@ d) People do bad things sometimes.
 ",[2 1 4 3],"The speaker is addressing the question ""What is people's relationship to their desires?""
 Wandering outlaws of dark minds often do bad things.
 So the speaker is saying that people can't help themselves from wanting to do bad things sometimes.
-Therefore, the answer is c).","A wandering outlaw of a dark mind does bad things.
+Therefore, the answer is c).","The speaker is addressing the question ""What is people's relationship to their desires?""
+Wandering outlaws of dark minds often do bad things.
+So the speaker is saying c) people can't help themselves from wanting to do bad things sometimes.","The speaker is addressing the question ""What is people's relationship to their desires?""
+The speaker answers this question by comparing man to a wandering outlaw.
+Wandering outlaws of dark minds often do bad things, so the speaker is saying c) people can't help themselves from wanting to do bad things sometimes.","A wandering outlaw of a dark mind does bad things.
 Man often wants to do bad things.
 So the speaker is saying that people can't help themselves from wanting to do bad things.
 Therefore, the answer is c)"
@@ -229,7 +294,11 @@ d) A mosquito is an insect.
 ",[3 1 4 2],"The speaker is addressing the question ""What do mosquitoes do?""
 Arrows fly through the air and can puncture people's skin.
 So the speaker is saying that mosquitoes fly through the air and into people.
-Therefore, the answer is c).","An arrow flies through the air and punctures people's skin.
+Therefore, the answer is c).","The speaker is addressing the question ""What do mosquitoes do?""
+Arrows fly through the air and can puncture people's skin.
+So the speaker is saying c) mosquitoes fly through the air and into people.","The speaker is addressing the question ""What does a mosquito do?""
+The speaker answers this question by comparing a mosquito to an arrow.
+An arrow flies through the air and can puncture people's skin, so the speaker is saying c) mosquitoes fly through the air and into people.","An arrow flies through the air and punctures people's skin.
 Mosquitos also fly through the air and puncture people's skin.
 So the speaker is saying that mosquitos fly through the air and into people.
 Therefore, the answer is c)."
@@ -239,10 +308,14 @@ a) Billboards provide information about companies.
 b) Billboards are advertisements.
 c) Billboards are ugly.
 d) Billboards lack information.
-",[4 2 3 1],"The speaker is addressing the question ""What role to billboards play on the highway?""
+",[4 2 3 1],"The speaker is addressing the question ""What role do billboards play on the highway?""
 The yellow pages provide readers with information about companies.
 So the speaker is saying that billboards provide information about companies.
-Therefore, the answer is a).","The yellow pages provide information about companies.
+Therefore, the answer is a).","The speaker is addressing the question ""What role do billboards play on the highway?""
+The yellow pages provide readers with information about companies.
+So the speaker is saying a) billboards provide information about companies.","The speaker is addressing the question ""What role do billboards play on the highway?""
+The speaker answers this question by comparing billboards to the yellow pages.
+The yellow pages provide readers with information about companies, so the speaker is saying a) billboards provide information about companies.","The yellow pages provide information about companies.
 Billboards on the highway also provide information about companies.
 So the speaker is saying that billboards provide information about companies.
 Therefore, the answer is a)."
@@ -255,7 +328,11 @@ d) Silence is the absense of sound.
 ",[3 1 4 2],"The speaker is addressing the quesiton ""What is silence like?""
 A black cavern is mysterious as people cannot see inside.
 So the speaker is saying that silence is mysterious.
-Therefore, the answer is c).","A black cavern is mysterious.
+Therefore, the answer is c).","The speaker is addressing the quesiton ""What is silence like?""
+A black cavern is mysterious as people cannot see inside.
+So the speaker is saying c) silence is mysterious.","The speaker is addressing the quesiton ""What is silence like?""
+The speaker answers this question by comparing silence to a black cavern.
+A black cavern is mysterious as people cannot see inside, so the speaker is saying c) silence is mysterious.","A black cavern is mysterious.
 Silence can also be mysterious.
 So the speaker is saying that silence is mysterious.
 Therefore, the answer is c)."
@@ -268,7 +345,11 @@ d) A person's life is important and impactful.
 ",[4 2 3 1],"The speaker is addressing the question ""How important is a person's life on the scale of the earth?""
 A worm is small compared to the carcass it feeds from.
 So the author is saying that a person's life is small and irrelevant.
-Therefore, the answer is a).","A worm that lives on a carcass is small and irrelevant on the scale of the carcass.
+Therefore, the answer is a).","The speaker is addressing the question ""How important is a person's life on the scale of the earth?""
+A worm is small compared to the carcass it feeds from.
+So the author is saying a) a person's life is small and irrelevant.","The speaker is addressing the question ""How important is a person's life on the scale of the earth?""
+The speaker answers this question by comparing man to a worm that lives on the carcass of the earth.
+A worm is small compared to the carcass it feeds from, so the author is saying a) a person's life is small and irrelevant.","A worm that lives on a carcass is small and irrelevant on the scale of the carcass.
 People are small and irrelevant on the scale of the earth.
 So the speaker is saying that a person's life is small and irrelevant.
 Therefore, the answer is a)."
@@ -278,10 +359,14 @@ a) Craters are invisible.
 b) Craters give texture to the moon's surface.
 c) Craters are indentions in the moon.
 d) Craters give character to the moon's surface.
-",[1 3 2 4],"The speaker is addressing the question ""What role to craters play on the moon's surface?""
+",[1 3 2 4],"The speaker is addressing the question ""What role do craters play on the moon's surface?""
 Dimples give a person's face character.
 So the speaker is saying that craters give character to the moon's surface.
-Therefore, the answer is d).","Dimples give character to a person's face.
+Therefore, the answer is d).","The speaker is addressing the question ""What role do craters play on the moon's surface?""
+Dimples give a person's face character.
+So the speaker is saying d) craters give character to the moon's surface.","The speaker is addressing the question ""What role do craters play on the moon's surface?""
+The speaker answers this question by comparing craters to dimples.
+Dimples give a person's face character, so the speaker is saying d) craters give character to the moon's surface.","Dimples give character to a person's face.
 The moon has craters that give it character.
 So the speaker is saying that craters give character to the moon's surface.
 Therefore, the answer is d)."
@@ -294,7 +379,11 @@ d) Silence is made of cloth.
 ",[1 4 2 3],"The speaker is addressing the question ""What does silence do?""
 Aprons prevent risk to cooks.
 So the speaker is saying that silence prevents risk.
-Therefore, the answer is b).","Aprons prevent risk to cooks.
+Therefore, the answer is b).","The speaker is addressing the question ""What does silence do?""
+Aprons prevent risk to cooks.
+So the speaker is saying b) silence prevents risk.","The speaker is addressing the question ""What does silence do?""
+The speaker answers this question by comparing silence to an apron.
+An apron prevents risk to cooks, so the speaker is saying b) silence prevents risk.","Aprons prevent risk to cooks.
 Silence can also prevent risk by avoiding confrontations.
 So the speaker is saying that silence prevents risk.
 Therefore, the answer is b)."
@@ -307,7 +396,11 @@ d) History is a record.
 ",[2 1 4 3],"The speaker is addressing the question ""How does history change over time?""
 A sponge absorbs water.
 So the speaker is saying that history absorbs people and stories.
-Therefore, the answer is c).","A sponge absorbs liquids.
+Therefore, the answer is c).","The speaker is addressing the question ""How does history change over time?""
+A sponge absorbs water.
+So the speaker is saying c) history absorbs people and stories.","The speaker is addressing the question ""How does history change over time?""
+The speaker answers this question by comparing history to a sponge.
+A sponge absorbs water, so the speaker is saying c) history absorbs people and stories.","A sponge absorbs liquids.
 History can absorb things, like people and stories.
 So the speaker is saying that history absorbs people and stories.
 Therefore, the answer is b)."
@@ -320,7 +413,11 @@ d) Terrorists are people who use violenece and intimidation.
 ",[1 4 3 2],"The speaker is addressing the question ""What do terrorists seek to do?""
 Hawks violently attack fowl, while fowl are mostly passive.
 So the speaker is saying that terrorists seek to use violence among people who don't wish to use violence.
-Therefore, the answer is b).","Hawks among fowl uses violence to attack the fowl who are not violent.
+Therefore, the answer is b).","The speaker is addressing the question ""What do terrorists seek to do?""
+Hawks violently attack fowl, while fowl are mostly passive.
+So the speaker is saying b) terrorists seek to use violence among people who don't wish to use violence.","The speaker is addressing the question ""What do terrorists seek to do?""
+The speaker answers this question by comparing terrorists to hawks among fowl.
+Hawks violently attack fowl, while fowl are mostly passive, so the speaker is saying b) terrorists seek to use violence among people who don't wish to use violence.","Hawks among fowl uses violence to attack the fowl who are not violent.
 Terrorists also use violence against people who are not violent.
 So the speaker is saying that terrorists are people who seek to use violence among people who don't wish to use violence.
 Therefore, the answer is b)."
@@ -333,7 +430,11 @@ d) The sea captain is in charge of a ship.
 ",[3 4 1 2],"The speaker is addressing the question ""What is the sea captain's role on his ship?""
 The quarterback is in charge of the football team while playing.
 So the speaker is saying that the sea captain is in charge of his ship.
-Therefore, the answer is b).","A quarterback is in charge of a football team.
+Therefore, the answer is b).","The speaker is addressing the question ""What is the sea captain's role on his ship?""
+The quarterback is in charge of the football team while playing.
+So the speaker is saying b) the sea captain is in charge of his ship.","The speaker is addressing the question ""What is the sea captain's role on his ship?""
+The speaker answers this question by comparing the sea captain to the quarterback.
+The quarterback is in charge of the football team while playing, so the speaker is saying b) the sea captain is in charge of his ship.","A quarterback is in charge of a football team.
 A sea captain is also in charge of a ship.
 So the speaker is saying that the sea captain is in charge of his ship.
 Therefore, the answer is b)."
@@ -346,7 +447,11 @@ d) Thunderclouds are made of cloth.
 ",[1 2 4 3],"The speaker is addressing the question ""How do thunderclouds affect the sun?""
 Draperies cover the things they are pulled across.
 So the speaker is saying that thunderclouds cover the sun.
-Therefore, the answer is c).","Draperies cover the light from the windows they are front of.
+Therefore, the answer is c).","The speaker is addressing the question ""How do thunderclouds affect the sun?""
+Draperies cover the things they are pulled across.
+So the speaker is saying c) thunderclouds cover the sun.","The speaker is addressing the question ""How do thunderclouds affect the sun?""
+The speaker answers this question by comparing thunderclouds to draperies pulled across the sun.
+Draperies cover the things they are pulled across, so the speaker is saying c) thunderclouds cover the sun.","Draperies cover the light from the windows they are front of.
 Thunderclouds cover the sun.
 So the speaker is saying that thunderclouds cover the sun.
 Therefore, the answer is c)."
@@ -359,7 +464,11 @@ d) The spy satellite helps protect our nation's security.
 ",[4 2 1 3],"The speaker is addressing the question ""What does the spy satellite do four our nation's security?
 Shepherds monitor their herds to make sure they are secure.
 So the speaker is saying that the spy satellite helps monitor our nation's security.
-Therefore, the answer is a).","Shepherds monitor their sheep to keep them secure.
+Therefore, the answer is a).","The speaker is addressing the question ""What does the spy satellite do four our nation's security?
+Shepherds monitor their herds to make sure they are secure.
+So the speaker is saying a) the spy satellite helps monitor our nation's security.","The speaker is addressing the question ""What does the spy satellite do four our nation's security?
+The speaker answers this question by comparing the spy satellite to a shepherd.
+A shepherd monitors their herd to make sure they are secure, so the speaker is saying a) the spy satellite helps monitor our nation's security.","Shepherds monitor their sheep to keep them secure.
 Spy satellites also do monitoring to maintain national security.
 So the speaker is saying that the spy satellite helps monitor our nation's security.
 Therefore, the answer is a)."
@@ -369,10 +478,14 @@ a) A desert is vast.
 b) A desert is flat.
 c) A desert is small.
 d) A desert is a hot and dry area of land.
-",[4 3 1 2],"The speaker is addressing the question ""How big is the desert?""
+",[4 3 1 2],"The speaker is addressing the question ""How big is a desert?""
 A sea is vast.
 So the speaker is saying that a desert is vast.
-Therefore, the answer is a).","A sea is vast.
+Therefore, the answer is a).","The speaker is addressing the question ""How big is a desert?""
+A sea is vast.
+So the speaker is saying a) a desert is vast.","The speaker is addressing the question ""How big is a desert?""
+The speaker answers this question by comparing a desert to a sea.
+A sea is vast, so the speaker is saying a) a desert is vast.","A sea is vast.
 A desert can also be vast.
 So the speaker is saying that a desert is vast.
 Therefore, the answer is a)."
@@ -385,7 +498,11 @@ d) Nature is a controlled place.
 ",[4 3 2 1],"The speaker is addressing the question ""How predictable is nature?""
 A laboratory is not predictable.
 So the speaker is saying that nature is an unpredictable place.
-Therefore, the answer is a).","A vast laboratory is unpredictable.
+Therefore, the answer is a).","The speaker is addressing the question ""How predictable is nature?""
+A laboratory is not predictable.
+So the speaker is saying a) nature is an unpredictable place.","The speaker is addressing the question ""How predictable is nature?""
+The speaker answers this question by comparing nature to a vast laboratory.
+A vast laboratory is not predictable, so the speaker is saying a) nature is an unpredictable place.","A vast laboratory is unpredictable.
 Nature can also be unpredictable.
 So the speaker is saying that nature is an unpredictable place.
 Therefore, the answer is a)."

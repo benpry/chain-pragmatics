@@ -10,8 +10,9 @@ from pyprojroot import here
 from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
 corpus = "katz"
-prompt_type = "similarity"
+prompt_type = "QUD_v3"
 gpt_version = "curie"
+temp = 0.9
 K=10
 openai.api_key = os.environ["OPENAI_API_KEY"]
 task_description = "Choose the most appropriate paraphrase of the first sentence."
@@ -48,7 +49,7 @@ if __name__ == "__main__":
              prompt=prompt,
              max_tokens=256,
              n=1,
-             temperature=0.7,
+             temperature=temp,
              frequency_penalty=0,
              presence_penalty=0
         )
@@ -57,4 +58,4 @@ if __name__ == "__main__":
 
     df_corpus["model_response"] = model_choices
 
-    df_corpus.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.csv"))
+    df_corpus.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))

@@ -18,9 +18,14 @@ def extract_guess(response):
     response = response.strip().lower()
     match = re.findall(r"the answer is ([a-d])", response)
     if len(match) == 0:
-        match = re.findall(r"[a-d]", response)
+        match = re.findall(r"so the speaker is saying ([a-d])\)", response)
         if len(match) == 0:
-            return None
+            if len(response) < 10:
+                match = re.findall(r"[a-d]", response)
+                if len(match) == 0:
+                    return None
+            else:
+                return None
     return match[0]
 
 
@@ -53,12 +58,13 @@ def random_baseline(ratings, n_questions=100):
 
 corpus = "katz"
 gpt_version = "curie"
-prompt_type = "similarity"
+prompt_type = "QUD_v3"
 K = 10
+temp = 0.9
 
 if __name__ == "__main__":
 
-    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.csv"))
+    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
     raw_guesses = []
@@ -96,11 +102,11 @@ if __name__ == "__main__":
 
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title(f"Response Appropriateness Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts",
+    hist.set_title(f"Response Appropriateness Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts, temp={temp}",
                    fontsize=10)
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
-    hist.get_figure().savefig(here(f"figures/appropriateness_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.png"))
+    hist.get_figure().savefig(here(f"figures/appropriateness_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
 
     plt.clf()
 
@@ -109,5 +115,5 @@ if __name__ == "__main__":
     hist.set_title(f"Response Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts",
                    fontsize=10)
     hist.set_xlabel("Response")
-    hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}.png"))
+    hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
 

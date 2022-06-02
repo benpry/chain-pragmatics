@@ -587,12 +587,12 @@ b) Responsibility is easy.
 c) Responsibility is a virtue.
 d) Responsibility is hard.
 ",[3 1 2 4]
-Nonliterary,1.0,93.0,0.0,A surgeon is an interior decorator.,5.53,6.2,3.03,3.77,3.97,3.93,5.27,2.77,3.23,1.9,A surgeon organizes the body so it can function better.,A surgeon operates on the body so it can look my stylish.,A surgeon is a doctor.,A surgeon organizes the body so it can lose function.,,"""A surgeon is an interior decorator.""
+Nonliterary,1.0,93.0,0.0,A surgeon is an interior decorator.,5.53,6.2,3.03,3.77,3.97,3.93,5.27,2.77,3.23,1.9,A surgeon organizes the body so it can function better.,A surgeon operates on the body so it can look more stylish.,A surgeon is a doctor.,A surgeon organizes the body so it can lose function.,,"""A surgeon is an interior decorator.""
 
 a) A surgeon is a doctor.
 b) A surgeon organizes the body so it can function better.
 c) A surgeon organizes the body so it can lose function.
-d) A surgeon operates on the body so it can look my stylish.
+d) A surgeon operates on the body so it can look more stylish.
 ",[2 4 1 3]
 Nonliterary,1.0,215.0,0.0,A folk dance is a braid of steps.,5.13,5.53,3.9,4.33,4.3,3.87,3.93,2.47,4.7,1.31,A folk dance is intricate. ,A folk dance can be learned.,A folk dance is a cultural expression.,A folk dance is simple.,,"""A folk dance is a braid of steps.""
 
