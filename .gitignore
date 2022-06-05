@@ -131,3 +131,4 @@ dmypy.json
 # PyCharm things
 .idea
 .DS_Store
+.Rproj.user

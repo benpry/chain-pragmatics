@@ -13,7 +13,7 @@ with open(here("data/prompts/paraphrase-corpus/comparison.txt"), "r") as fp:
 with open(here("data/prompts/paraphrase-corpus/differences.txt"), "r") as fp:
     rationale_prompts["paraphrase"]["differences"] = fp.read()
 
-rationale_indices = [1, 6, 9, 11, 13, 18, 22, 25, 26, 28]
+rationale_indices = [1, 5, 6, 9, 11, 13, 17, 21, 22, 25, 28]
 df_katz_rationales = pd.read_csv(here("data/prompts/katz/train-rationales.csv"))
 rationale_prompts["katz"] = df_katz_rationales.iloc[rationale_indices]
 
@@ -34,7 +34,7 @@ def make_random_k_shot_prompt(chosen_prompt, task_description, questions, k=5, d
     prompt += chosen_prompt
     return prompt
 
-def make_rationale_prompt(main_question, task_description, corpus="katz", rationale_type="QUD", k=10):
+def make_rationale_prompt(main_question, task_description, corpus="katz", rationale_type="QUD", k=10, step_by_step=True):
     """
     Make a prompt that encourages the model to generate a rationale alongside the answer
     """
@@ -42,7 +42,8 @@ def make_rationale_prompt(main_question, task_description, corpus="katz", ration
     df_qud_rationales = rationale_prompts[corpus]
     for index, row in df_qud_rationales.sample(n=k).iterrows():
         prompt += row["prompt"] + "\n"
-        prompt += "Let's think step by step.\n"
+        if step_by_step:
+            prompt += "Let's think step by step.\n"
         prompt += row[f"{rationale_type}_rationale"] + "\n"
         prompt += "###\n"
 
@@ -73,8 +74,8 @@ def make_k_shot_prompt(test_row, task_description, k=5):
     Make a k-shot prompt using the Katz corpus
     """
     full_prompt = f"{task_description}\n###\n"
-    df_rationales = df_katz_rationales.sample(n=k)
-    for index, row in df_rationales.iterrows():
+    df_shots = rationale_prompts["katz"].sample(n=k)
+    for index, row in df_shots.iterrows():
         # write the prompt
         full_prompt += row["prompt"]
         # write the answer

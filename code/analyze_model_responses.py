@@ -58,7 +58,7 @@ def random_baseline(ratings, n_questions=100):
 
 corpus = "katz"
 gpt_version = "curie"
-prompt_type = "QUD_v3"
+prompt_type = "basic"
 K = 10
 temp = 0.9
 
@@ -72,18 +72,29 @@ if __name__ == "__main__":
 
         if not isinstance(row["model_response"], str):
             non_parsed_guesses += 1
+            guess_ranks.append(None)
+            raw_guesses.append(None)
             print("nan response")
             continue
 
         guess = extract_guess(row["model_response"])
         if guess is None:
             non_parsed_guesses += 1
+            guess_ranks.append(None)
+            raw_guesses.append(None)
             print(f"couldn't parse guess: {row['model_response']}")
             continue
 
         rank = rank_guess(guess, np.fromstring(row["values"][1:-1], sep=" "))
         guess_ranks.append(rank)
         raw_guesses.append(guess)
+
+    df_responses["appropriateness_score"] = guess_ranks
+    df_responses["raw_guess"] = raw_guesses
+    df_responses.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
+
+    guess_ranks = [x for x in guess_ranks if x is not None]
+    raw_guesses = [x for x in raw_guesses if x is not None]
 
     mean, ci_lower, ci_upper = bootstrapped_ci(guess_ranks)
     print(f"mean rank: {mean}, [{ci_lower}, {ci_upper}]")
@@ -116,4 +127,3 @@ if __name__ == "__main__":
                    fontsize=10)
     hist.set_xlabel("Response")
     hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
-

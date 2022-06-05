@@ -1,0 +1,727 @@
+,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,model_response
+0,Nonliterary,1.0,50.0,0.0,The mind is a sponge.,6.33,6.55,3.9,4.93,5.13,4.7,5.43,5.6,5.27,2.17,The mind is capable of learning a lot.,The mind is capable of forgetting a lot.,The mind enables a person to be aware.,The mind has a fixed capacity.,,"""The mind is a sponge.""
+
+a) The mind enables a person to be aware.
+b) The mind is capable of forgetting a lot.
+c) The mind has a fixed capacity.
+d) The mind is capable of learning a lot.
+",[2 3 1 4],"
+c)"
+1,Nonliterary,1.0,237.0,29.0,Truth is a labyrinth.,4.21,4.2,3.1,3.93,3.4,3.1,3.63,2.97,3.1,1.45,Truth can be hard to find.,Truth is a puzzle.,Truth is a virtue.,Truth is simple.,,"""Truth is a labyrinth.""
+
+a) Truth can be hard to find.
+b) Truth is a virtue.
+c) Truth is a puzzle.
+d) Truth is simple.
+",[4 2 3 1],
+2,Nonliterary,1.0,226.0,0.0,Our environment is a chamber pot.,4.1,4.17,3.13,3.03,2.93,2.8,3.37,2.17,2.77,1.25,Our environment is filthy.,Our environment smells bad.,Our environment is where we live.,Our environment is beautiful.,,"""Our environment is a chamber pot.""
+
+a) Our environment is where we live.
+b) Our environment is filthy.
+c) Our environment is beautiful.
+d) Our environment smells bad.
+",[2 4 1 3], c)
+3,Nonliterary,1.0,125.0,0.0,Evolution is a lottery.,3.63,3.1,2.43,3.1,2.1,3.17,2.33,2.45,1.97,1.36,Evolution involves luck.,Evolution is bingo.,Evolution is process.,Evolution is fate.,,"""Evolution is a lottery.""
+
+a) Evolution is fate.
+b) Evolution is bingo.
+c) Evolution is process.
+d) Evolution involves luck.
+",[1 3 2 4], c)
+4,Nonliterary,1.0,152.0,3.0,A forest is a harmonica.,3.7,3.37,2.53,2.6,2.23,3.03,2.57,2.03,2.6,1.43,There is always noise in the forest.,A forest is relaxing.,A forest is a collection of trees.,The forest is scary.,,"""A forest is a harmonica.""
+
+a) A forest is relaxing.
+b) A forest is a collection of trees.
+c) The forest is scary.
+d) There is always noise in the forest.
+",[3 2 1 4], b)
+5,Nonliterary,1.0,113.0,3.0,A forest is a harp.,3.63,3.57,2.37,2.8,2.43,2.66,2.67,2.04,1.93,1.32,A forest is relaxing.,There is always noise in the forest.,A forest is a collection of trees.,The forest is scary.,,"""A forest is a harp.""
+
+a) A forest is a collection of trees.
+b) A forest is relaxing.
+c) There is always noise in the forest.
+d) The forest is scary.
+",[2 4 3 1], c)
+6,Literary,1.0,147.0,0.0,A photograph is a one-sided skin of truth.,5.33,5.53,3.9,3.97,4.63,4.5,3.57,4.43,4.6,1.83,The amount of information you can show on a photograph is limited.,Photographs never mislead.,A photograph is a two-dimensional representation of the physical world from a specific moment in space and time.,The amount of information you can show on a photograph is unlimited.,,"""A photograph is a one-sided skin of truth.""
+
+a) The amount of information you can show on a photograph is limited.
+b) A photograph is a two-dimensional representation of the physical world from a specific moment in space and time.
+c) Photographs never mislead.
+d) The amount of information you can show on a photograph is unlimited.
+",[4 2 3 1],"
+c)"
+7,Nonliterary,1.0,173.0,21.0,The skyscraper is the giraffe of buildings.,5.9,6.31,3.59,4.37,5.2,4.73,5.41,3.25,4.14,1.45,The skyscraper is the tallest of buildings.,The skyscraper moves slowly.,The skyscraper is a company headquarters.,The skycraper is the smallest of buildings.,,"""The skyscraper is the giraffe of buildings.""
+
+a) The skyscraper moves slowly.
+b) The skyscraper is a company headquarters.
+c) The skycraper is the smallest of buildings.
+d) The skyscraper is the tallest of buildings.
+",[3 2 1 4], c)
+8,Nonliterary,1.0,207.0,0.0,Marriage is an alloy.,4.87,4.97,3.5,3.8,3.77,3.8,3.6,3.03,3.5,1.69,Marriage keeps people together.,Marriage is painful.,Marriage is a formal union of two people.,Marriage is temporary.,,"""Marriage is an alloy.""
+
+a) Marriage is a formal union of two people.
+b) Marriage keeps people together.
+c) Marriage is temporary.
+d) Marriage is painful.
+",[2 4 1 3], c)
+9,Literary,1.0,119.0,0.0,Despair is a living tree feeding on death.,5.03,4.47,3.13,4.53,3.77,3.3,4.03,4.67,3.8,1.57,Despair is sustained by negativity.,Despair tastes bad.,Despair is the absence of hope.,Despair is sustained by positivity.,,"""Despair is a living tree feeding on death.""
+
+a) Despair is sustained by positivity.
+b) Despair tastes bad.
+c) Despair is the absence of hope.
+d) Despair is sustained by negativity.
+",[1 3 2 4],
+10,Literary,1.0,52.0,0.0,Earth is a buzzing beehive grove.,5.03,4.93,3.77,4.17,5.13,4.23,4.73,4.5,3.6,2.07,Earth is an active place.,Earth is a quiet place.,Earth is a planet.,Earth is an inactive place.,,"""Earth is a buzzing beehive grove.""
+
+a) Earth is an inactive place.
+b) Earth is a quiet place.
+c) Earth is a planet.
+d) Earth is an active place.
+",[1 3 2 4], c)
+11,Nonliterary,1.0,146.0,0.0,Dreams are the movies of the mind.,6.33,6.57,4.66,5.57,5.8,5.4,6.07,5.23,5.97,2.3,Dreams are personal entertainment.,Dreams require tickets.,Dreams are what people remember from sleep.,Dreams are boring.,,"""Dreams are the movies of the mind.""
+
+a) Dreams are what people remember from sleep.
+b) Dreams are boring.
+c) Dreams require tickets.
+d) Dreams are personal entertainment.
+",[2 1 3 4],"
+a)"
+12,Nonliterary,1.0,202.0,0.0,Dictators are the stranglers of liberty.,6.1,5.63,3.97,4.97,5.14,5.37,3.97,4.31,5.57,1.79,Dictators oppose liberty.,Dictators dislike liberty.,Dictators are the rulers of authoritarian countries.,Dictators promote liberty.,,"""Dictators are the stranglers of liberty.""
+
+a) Dictators are the rulers of authoritarian countries.
+b) Dictators promote liberty.
+c) Dictators oppose liberty.
+d) Dictators dislike liberty.
+",[2 1 4 3],"
+c)"
+13,Nonliterary,1.0,85.0,0.0,Poems are the seeds of culture.,4.47,4.27,3.07,3.87,3.3,3.6,3.43,3.1,3.47,1.59,Poems are an early part of culture.,Poems are a daily part of culture.,Poems are artistic expressions.,Poems are not a part of culture.,,"""Poems are the seeds of culture.""
+
+a) Poems are a daily part of culture.
+b) Poems are artistic expressions.
+c) Poems are an early part of culture.
+d) Poems are not a part of culture.
+",[3 2 4 1],
+14,Nonliterary,1.0,132.0,0.0,A fisherman is a spider.,3.6,3.3,2.27,2.6,3.13,2.48,2.67,1.9,2.3,1.39,A fisherman waits for their prey.,A fisherman traps their prey.,A fisherman is someone who goes fishing.,A fisherman attacks their prey.,,"""A fisherman is a spider.""
+
+a) A fisherman is someone who goes fishing.
+b) A fisherman attacks their prey.
+c) A fisherman traps their prey.
+d) A fisherman waits for their prey.
+",[2 1 3 4],
+15,Nonliterary,1.0,91.0,0.0,Whiskey is penicillin for the soul.,4.17,4.33,2.9,3.03,2.57,3.1,3.0,2.5,2.24,1.17,Whiskey relieves existential pain.,Whiskey kills bacteria.,Whiskey is alcohol.,Whiskey is bad for the soul.,,"""Whiskey is penicillin for the soul.""
+
+a) Whiskey relieves existential pain.
+b) Whiskey kills bacteria.
+c) Whiskey is alcohol.
+d) Whiskey is bad for the soul.
+",[4 3 2 1],b)
+16,Nonliterary,1.0,29.0,27.0,Time is a wave.,5.52,5.17,2.46,3.92,4.24,3.79,3.96,3.97,3.81,2.04,There are cycles of times.,Time is invisible.,Time is a dimension.,Time is static.,,"""Time is a wave.""
+
+a) Time is a dimension.
+b) Time is static.
+c) Time is invisible.
+d) There are cycles of times.
+",[2 1 3 4], c)
+17,Literary,1.0,194.0,9.0,Love is the star guiding every wandering ship.,5.97,6.07,3.6,5.4,5.47,4.93,5.33,5.93,4.43,1.7,Love can be informative.,Love can be found in a ship.,Love is an emotion.,Love is to be ignored.,,"""Love is the star guiding every wandering ship.""
+
+a) Love can be informative.
+b) Love can be found in a ship.
+c) Love is to be ignored.
+d) Love is an emotion.
+",[4 3 1 2],"
+d)"
+18,Nonliterary,1.0,37.0,0.0,A good professor is an oasis in the desert.,5.93,5.9,3.77,4.87,4.2,3.73,4.13,3.63,4.77,1.93,A good professor is stimulating.,A good professor is beautiful.,A good professor is on the faculty at a university.,A good professor is unwanted.,,"""A good professor is an oasis in the desert.""
+
+a) A good professor is on the faculty at a university.
+b) A good professor is unwanted.
+c) A good professor is beautiful.
+d) A good professor is stimulating.
+",[2 1 3 4],"
+
+c)"
+19,Nonliterary,1.0,167.0,0.0,The nightly news is a chamber of horrors.,5.73,5.53,3.23,3.33,4.43,4.2,4.03,4.43,4.27,1.97,The nightly news is one horrible story after the next.,The nightly news is one entertaining story after the next.,The nightly news is a television program.,The nightly news is one happy story after the next.,,"""The nightly news is a chamber of horrors.""
+
+a) The nightly news is one entertaining story after the next.
+b) The nightly news is one horrible story after the next.
+c) The nightly news is one happy story after the next.
+d) The nightly news is a television program.
+",[3 4 1 2], c)
+20,Nonliterary,1.0,148.0,0.0,Chess masters are computers.,5.3,5.63,3.57,3.67,4.77,3.83,4.33,4.13,4.5,1.83,Chess masters are mechanical thinkers.,Chess masters are good thinkers.,Chess masters are excellent players.,Chess masters are bad thinkers,,"""Chess masters are computers.""
+
+a) Chess masters are excellent players.
+b) Chess masters are good thinkers.
+c) Chess masters are bad thinkers
+d) Chess masters are mechanical thinkers.
+",[2 3 1 4],b)
+21,Nonliterary,1.0,48.0,0.0,A beauitful woman is a desert flower.,5.33,5.59,2.77,3.87,4.73,4.7,4.13,3.9,4.0,2.1,A beautiful woman stands out.,A beautiful woman is colorful.,A beautiful woman is a person.,A beautiful woman blends in.,,"""A beauitful woman is a desert flower.""
+
+a) A beautiful woman stands out.
+b) A beautiful woman blends in.
+c) A beautiful woman is a person.
+d) A beautiful woman is colorful.
+",[4 1 2 3], c)
+22,Nonliterary,1.0,128.0,0.0,A dynasty is a play.,3.13,3.13,2.73,3.0,2.13,2.72,2.43,1.89,2.24,0.96,Dynasties have several phases.,Dynasties are predictable.,A dynasty is a period of political rule.,Dynasties never end.,,"""A dynasty is a play.""
+
+a) Dynasties are predictable.
+b) Dynasties have several phases.
+c) A dynasty is a period of political rule.
+d) Dynasties never end.
+",[3 4 2 1],b)
+23,Nonliterary,1.0,52.0,21.0,Skyscrapers are the giraffes of the city.,6.47,6.41,3.6,4.43,5.37,4.77,5.53,4.23,4.53,1.53,Skyscrapers are the tallest of buildings.,Skyscrapers are slow movers.,Skyscrapers are usually office buildings.,Skyscrapers are the smallest of buildings.,,"""Skyscrapers are the giraffes of the city.""
+
+a) Skyscrapers are the smallest of buildings.
+b) Skyscrapers are slow movers.
+c) Skyscrapers are the tallest of buildings.
+d) Skyscrapers are usually office buildings.
+",[1 3 4 2], c)
+24,Nonliterary,1.0,103.0,0.0,Books are treasure chests of information.,6.6,6.41,4.37,5.63,5.23,5.57,5.37,5.7,5.7,1.93,Books have lots of valuable information.,Books are heavy.,Books are made of paper.,Books have little valuable information.,,"""Books are treasure chests of information.""
+
+a) Books have little valuable information.
+b) Books are made of paper.
+c) Books are heavy.
+d) Books have lots of valuable information.
+",[1 2 3 4], c)
+25,Nonliterary,1.0,105.0,0.0,An island is a cork.,4.53,4.53,2.17,3.33,3.63,3.93,3.9,2.53,2.97,1.43,An island is a place without water.,An island prevents liquid from leaking out of a bottle.,An island is a piece of land surrounded by water.,An island is a place covered in water.,,"""An island is a cork.""
+
+a) An island is a place without water.
+b) An island prevents liquid from leaking out of a bottle.
+c) An island is a place covered in water.
+d) An island is a piece of land surrounded by water.
+",[4 3 1 2],
+26,Nonliterary,1.0,141.0,0.0,Fame is a credit card.,4.61,4.69,2.7,3.5,3.2,3.6,3.14,3.03,3.43,1.41,Fame is worth money.,Fame is temporary.,Fame is when you are known by a lot of people.,Fame is easy to get.,,"""Fame is a credit card.""
+
+a) Fame is worth money.
+b) Fame is temporary.
+c) Fame is easy to get.
+d) Fame is when you are known by a lot of people.
+",[4 3 1 2], c)
+27,Nonliterary,1.0,84.0,0.0,A dream is a solar eclipse.,3.21,3.52,2.47,3.27,2.62,2.67,3.5,2.3,2.17,1.75,A dream is a major event.,A dream is a bright event.,A dream usually involves mental imagery.,A dream is a mundane event.,,"""A dream is a solar eclipse.""
+
+a) A dream usually involves mental imagery.
+b) A dream is a major event.
+c) A dream is a bright event.
+d) A dream is a mundane event.
+",[2 4 3 1],b)
+28,Nonliterary,1.0,192.0,0.0,Deceit is an ambush.,4.67,5.0,3.4,3.9,3.23,3.37,3.73,3.0,3.9,1.72,Deceit is unexpected and damaging.,Deceit is violent and damaging.,Deceit is lying.,Deceit is anticipated and and damaging.,,"""Deceit is an ambush.""
+
+a) Deceit is anticipated and and damaging.
+b) Deceit is unexpected and damaging.
+c) Deceit is violent and damaging.
+d) Deceit is lying.
+",[1 4 3 2], c)
+29,Nonliterary,1.0,190.0,0.0,Dictionaries are microscopes of words.,4.83,5.53,3.63,4.53,4.0,3.83,4.43,3.37,4.23,1.76,Dictionaries have detailed information about words.,Dictionaries are small.,Dictionaries are books with definitions of words.,Dictionaries are useless.,,"""Dictionaries are microscopes of words.""
+
+a) Dictionaries are small.
+b) Dictionaries are books with definitions of words.
+c) Dictionaries are useless.
+d) Dictionaries have detailed information about words.
+",[3 2 1 4],"
+b)"
+30,Literary,1.0,112.0,0.0,Hope is a castle built on reeds.,5.03,4.87,3.17,4.1,4.13,3.6,4.13,4.27,3.47,1.73,Hope is precarious.,Hope is beautiful.,Hope is an emotion.,Hope is guaranteed.,,"""Hope is a castle built on reeds.""
+
+a) Hope is an emotion.
+b) Hope is beautiful.
+c) Hope is guaranteed.
+d) Hope is precarious.
+",[2 3 1 4], c)
+31,Nonliterary,1.0,241.0,0.0,Caves are empty pockets.,5.79,5.77,3.77,3.73,4.62,4.97,5.62,2.83,4.5,1.45,Caves have space that is available for use.,Caves can be on clothing.,Caves are large underground chambers.,Caves have no space that is available for use.,,"""Caves are empty pockets.""
+
+a) Caves have space that is available for use.
+b) Caves are large underground chambers.
+c) Caves can be on clothing.
+d) Caves have no space that is available for use.
+",[4 2 3 1],b)
+32,Nonliterary,1.0,110.0,0.0,Memory is a trash-masher.,3.4,3.7,2.47,2.92,2.66,2.53,3.2,1.93,2.5,1.58,We remember distorted versions of the past.,We remember compressed versions of the past.,Memory is what people remember.,We remember accurate versions of the past.,,"""Memory is a trash-masher.""
+
+a) We remember accurate versions of the past.
+b) Memory is what people remember.
+c) We remember distorted versions of the past.
+d) We remember compressed versions of the past.
+",[1 2 4 3],
+33,Nonliterary,1.0,211.0,0.0,A story is a string of beads.,5.17,5.4,2.73,3.77,3.93,3.77,4.87,3.2,3.63,2.03,A story is a connected series of events.,A story is an artistic creation.,"A story is a tale with a beginning, middle, and end.",A story is disconnected.,,"""A story is a string of beads.""
+
+a) A story is a connected series of events.
+b) A story is a tale with a beginning, middle, and end.
+c) A story is disconnected.
+d) A story is an artistic creation.
+",[4 2 1 3], c)
+34,Nonliterary,1.0,139.0,0.0,Education is a lantern.,5.75,6.07,3.3,5.3,4.73,5.03,5.07,4.67,4.63,2.04,Education helps to reveal reality.,Education is fire.,Education is learning at school.,Education is expensive.,,"""Education is a lantern.""
+
+a) Education is learning at school.
+b) Education is expensive.
+c) Education is fire.
+d) Education helps to reveal reality.
+",[2 1 3 4],"
+b)"
+35,Nonliterary,1.0,140.0,17.0,Money is a lubricant.,4.57,5.0,2.7,4.1,3.6,3.8,3.24,3.0,3.5,1.81,Money helps make things happen.,Money is easy to spend.,Money is a medium of economic exchange.,Money makes it harder to get things done.,,"""Money is a lubricant.""
+
+a) Money is a medium of economic exchange.
+b) Money makes it harder to get things done.
+c) Money helps make things happen.
+d) Money is easy to spend.
+",[2 1 4 3],
+36,Nonliterary,1.0,54.0,6.0,A trailer-home is a souped-up closet.,4.9,5.07,2.83,3.4,3.77,3.5,3.33,2.87,2.9,1.43,A trailer-home doesn't have much extra space.,A trailer-home is a way to take more stuff on trips.,A trailer-home is a portable home.,A trailer-home is protection.,,"""A trailer-home is a souped-up closet.""
+
+a) A trailer-home is a way to take more stuff on trips.
+b) A trailer-home doesn't have much extra space.
+c) A trailer-home is a portable home.
+d) A trailer-home is protection.
+",[3 4 2 1], c)
+37,Nonliterary,1.0,134.0,0.0,Humor is a salve.,3.5,3.97,2.87,3.63,2.33,3.13,3.07,2.9,3.3,1.15,Humor is soothing.,You can buy humor.,Humor is funny. ,Humor is irritating.,,"""Humor is a salve.""
+
+a) Humor is funny. 
+b) You can buy humor.
+c) Humor is irritating.
+d) Humor is soothing.
+",[2 3 1 4],c)
+38,Nonliterary,1.0,71.0,0.0,The success of capitalism is a thorn in the side of socialism.,5.23,5.17,3.77,4.34,3.97,3.83,3.77,3.47,4.75,1.24,The success of capitalism is problematic for socialism.,The success of capitalism is irrelevant to socialism.,The success of capitalism is a topic of debate.,The success of capitalism is good for socialism.,,"""The success of capitalism is a thorn in the side of socialism.""
+
+a) The success of capitalism is a topic of debate.
+b) The success of capitalism is good for socialism.
+c) The success of capitalism is irrelevant to socialism.
+d) The success of capitalism is problematic for socialism.
+",[2 1 3 4],b)
+39,Nonliterary,1.0,118.0,0.0,An ambassador is a peacock.,4.0,3.9,2.3,3.17,2.77,3.21,3.17,2.52,2.6,1.32,An ambassador should attract attention.,An ambassador is beautiful.,An ambassador is a representative of a country.,An ambassador should irritate people.,,"""An ambassador is a peacock.""
+
+a) An ambassador should attract attention.
+b) An ambassador should irritate people.
+c) An ambassador is beautiful.
+d) An ambassador is a representative of a country.
+",[4 1 3 2],
+40,Nonliterary,1.0,162.0,0.0,Typhoons are nature's exterior decorators.,5.03,5.3,3.73,3.43,4.4,3.93,3.73,2.73,3.0,1.63,Typhoons can change the physical landscape of an area.,Typhoons can alter the social dynamics of an area.,Typhoons are a serious weather event.,Typhoons hardly impact the physical landscape of an area.,,"""Typhoons are nature's exterior decorators.""
+
+a) Typhoons hardly impact the physical landscape of an area.
+b) Typhoons can alter the social dynamics of an area.
+c) Typhoons are a serious weather event.
+d) Typhoons can change the physical landscape of an area.
+",[1 3 2 4], c)
+41,Literary,1.0,9.0,0.0,The mind is a mountainous landscape,5.83,5.57,3.73,4.7,5.47,4.03,5.13,5.17,3.83,2.23,The mind thinks lots of different thoughts.,The mind is vast.,The mind is the part of a person that enables them to be aware of the world.,The mind thinks the same thoughts over and over again.,,"""The mind is a mountainous landscape""
+
+a) The mind is the part of a person that enables them to be aware of the world.
+b) The mind thinks lots of different thoughts.
+c) The mind is vast.
+d) The mind thinks the same thoughts over and over again.
+",[2 4 3 1], c)
+42,Nonliterary,1.0,213.0,0.0,Perjury is a boomerang.,4.97,5.17,3.1,4.27,3.67,3.73,3.6,2.63,4.03,1.66,Perjury comes back to hurt you.,Perjury comes back to help you.,Perjury is an illegal behavior.,Purjury comes back to free you.,,"""Perjury is a boomerang.""
+
+a) Perjury is an illegal behavior.
+b) Perjury comes back to hurt you.
+c) Purjury comes back to free you.
+d) Perjury comes back to help you.
+",[2 4 1 3],c)
+43,Nonliterary,1.0,26.0,0.0,A scientist is a spawning trout.,3.71,3.96,2.81,2.56,1.9,3.41,2.54,2.28,2.11,1.46,Scientists have lots of ideas.,Scientists have lots of friends.,A scientist is a worker.,Scientists have few ideas.,,"""A scientist is a spawning trout.""
+
+a) Scientists have few ideas.
+b) Scientists have lots of ideas.
+c) Scientists have lots of friends.
+d) A scientist is a worker.
+",[1 4 3 2],"
+b)"
+44,Nonliterary,1.0,92.0,0.0,A fan is a private summer's breeze.,5.6,6.13,3.5,4.28,4.77,5.27,4.9,3.67,4.97,1.52,A fan is refreshing.,A fan is hot.,A fan is a tool for moving air around.,A fan is uncomfortable.,,"""A fan is a private summer's breeze.""
+
+a) A fan is a tool for moving air around.
+b) A fan is refreshing.
+c) A fan is hot.
+d) A fan is uncomfortable.
+",[2 4 3 1],"
+c)"
+45,Literary,1.0,114.0,0.0,A dead loved-one is ink-blotted from life's page.,5.3,5.37,3.3,3.9,4.4,4.07,4.3,4.33,3.1,1.43,A dead loved-one is a fundamental change.,A dead loved-one is a superficial change.,A dead loved-one is no longer alive.,A dead loved-one is an easy change.,,"""A dead loved-one is ink-blotted from life's page.""
+
+a) A dead loved-one is an easy change.
+b) A dead loved-one is a superficial change.
+c) A dead loved-one is no longer alive.
+d) A dead loved-one is a fundamental change.
+",[1 3 2 4],b)
+46,Nonliterary,1.0,185.0,24.0,The unconscious is the kitchen of ideas.,4.73,4.9,3.13,4.17,3.4,3.13,4.07,2.37,3.73,1.93,Ideas become better through unconscious processes.,Ideas become different through unconscious processes.,The unconscious is the part of the mind that is inaccessible to people.,Ideas become worse through unconscious processes.,,"""The unconscious is the kitchen of ideas.""
+
+a) Ideas become worse through unconscious processes.
+b) Ideas become better through unconscious processes.
+c) Ideas become different through unconscious processes.
+d) The unconscious is the part of the mind that is inaccessible to people.
+",[1 4 3 2],
+47,Nonliterary,1.0,227.0,18.0,School teachers are encyclopedias.,5.69,5.47,3.1,3.67,4.28,4.4,4.0,3.66,4.1,2.07,School teachers are knowledgable,School teachers are detailed.,Old schoolteachers are people who have taught for a long time.,School teachers are boring.,"Note: changed from ""old schoolteachers""","""School teachers are encyclopedias.""
+
+a) School teachers are detailed.
+b) Old schoolteachers are people who have taught for a long time.
+c) School teachers are boring.
+d) School teachers are knowledgable
+",[3 2 1 4], c)
+48,Literary,1.0,16.0,0.0,A bed is a temple of love.,6.1,6.1,3.5,4.07,5.0,5.1,4.2,5.5,3.27,2.07,A bed is sacred.,A bed is religious furniture.,A bed is furnature.,A bed is just a piece of furniture.,,"""A bed is a temple of love.""
+
+a) A bed is religious furniture.
+b) A bed is furnature.
+c) A bed is just a piece of furniture.
+d) A bed is sacred.
+",[3 2 1 4],
+49,Nonliterary,1.0,179.0,0.0,The mosquito is a vampire.,6.53,6.33,3.6,4.07,5.1,5.23,5.8,4.33,5.37,2.31,The mosquito drinks blood.,The mosquito wears a cape.,The mosquito is an insect.,The mosquito does not drink blood.,,"""The mosquito is a vampire.""
+
+a) The mosquito is an insect.
+b) The mosquito wears a cape.
+c) The mosquito does not drink blood.
+d) The mosquito drinks blood.
+",[2 3 1 4],
+50,Nonliterary,1.0,12.0,21.0,A skyscraper is a slumbering giant.,5.56,5.29,3.46,4.36,4.17,4.72,4.5,3.66,4.33,1.73,A skyscraper is big.,A skyscraper moves slowly.,A skyscraper is a tall building.,A skycraper is small.,,"""A skyscraper is a slumbering giant.""
+
+a) A skyscraper is a tall building.
+b) A skyscraper is big.
+c) A skyscraper moves slowly.
+d) A skycraper is small.
+",[2 4 3 1],"
+b)"
+51,Nonliterary,1.0,117.0,9.0,A wish is a rainbow.,4.7,4.93,2.27,3.7,3.73,4.34,4.1,3.69,3.6,1.61,A wish is beautiful.,A wish is delicate.,A wish is a hope for the future.,A wish is harsh.,,"""A wish is a rainbow.""
+
+a) A wish is a hope for the future.
+b) A wish is delicate.
+c) A wish is harsh.
+d) A wish is beautiful.
+",[2 3 1 4],
+52,Nonliterary,1.0,101.0,0.0,An accountant is a juggler.,5.87,5.57,3.77,4.57,4.1,4.67,4.33,3.3,3.73,1.96,An accountant has to complete lots of different tasks.,An acountant is entertaining.,An accountant is a worker.,Being an accountant is an easy job.,,"""An accountant is a juggler.""
+
+a) An accountant has to complete lots of different tasks.
+b) An accountant is a worker.
+c) Being an accountant is an easy job.
+d) An acountant is entertaining.
+",[4 2 1 3], b)
+53,Literary,1.0,118.0,0.0,"A broken heart is a shattered mirror, reflecting life in pieces.",5.43,5.93,3.77,6.0,6.07,4.8,5.4,5.6,5.4,2.07,"Romantic grief, though traumatic, can be a learning process.","Romatic grief, though traumatic, can be violent.",A broken heart is failed organ.,"Romatic grief, though traumatic, can be worthless.",,"""A broken heart is a shattered mirror, reflecting life in pieces.""
+
+a) A broken heart is failed organ.
+b) Romatic grief, though traumatic, can be violent.
+c) Romantic grief, though traumatic, can be a learning process.
+d) Romatic grief, though traumatic, can be worthless.
+",[2 3 4 1],"
+b)"
+54,Nonliterary,1.0,87.0,0.0,Honey is a bear's best friend.,6.5,6.03,4.33,3.9,4.83,5.63,5.03,5.93,4.43,1.97,Bears love honey.,Honey is sticky for bears.,Honey is made from bees.,Bates hate honey.,,"""Honey is a bear's best friend.""
+
+a) Bears love honey.
+b) Honey is sticky for bears.
+c) Bates hate honey.
+d) Honey is made from bees.
+",[4 3 1 2],
+55,Nonliterary,1.0,42.0,2.0,A dusty and crowded attic is a scrapbook older people love to page through.,6.2,6.45,4.07,5.4,5.13,5.03,5.9,4.77,5.43,1.8,A dusty and crowded attic has a lot of memories.,A dusty and crowded attic is fun for children.,A dusty and crowded attic is an upstairs room.,A dusty and crowded attic is a scary place,,"""A dusty and crowded attic is a scrapbook older people love to page through.""
+
+a) A dusty and crowded attic has a lot of memories.
+b) A dusty and crowded attic is a scary place
+c) A dusty and crowded attic is an upstairs room.
+d) A dusty and crowded attic is fun for children.
+",[4 1 2 3], c)
+56,Nonliterary,1.0,5.0,15.0,Freedom is truth. ,5.42,4.79,3.81,4.36,3.14,3.48,2.96,5.1,5.11,1.69,Freedom is important.,Freedom is the only thing that matters.,Freedom is an ideal.,Freedom is irrelevant.,Another freedom,"""Freedom is truth. ""
+
+a) Freedom is important.
+b) Freedom is the only thing that matters.
+c) Freedom is irrelevant.
+d) Freedom is an ideal.
+",[4 3 1 2],"
+d)"
+57,Literary,1.0,28.0,0.0,Moonlight is bleach.,5.67,5.0,3.17,3.57,4.3,4.03,3.87,3.8,3.6,1.53,Moonlight makes everything look white.,Moonlight removes bacteria.,Moonlight is the reflection of energy from the sun off the moon.,Moonlight makes everything look dark.,,"""Moonlight is bleach.""
+
+a) Moonlight makes everything look white.
+b) Moonlight makes everything look dark.
+c) Moonlight is the reflection of energy from the sun off the moon.
+d) Moonlight removes bacteria.
+",[4 1 2 3], c)
+58,Nonliterary,1.0,195.0,24.0,The subconscious is an arena.,3.47,3.73,2.8,2.97,3.03,2.73,3.17,2.63,2.93,1.72,The subconscious is open and unconstrained.,It is possible to watch the subconscious.,The subconscious is the part of the mind that is inaccessible to people.,The subconscious is hidden.,,"""The subconscious is an arena.""
+
+a) It is possible to watch the subconscious.
+b) The subconscious is open and unconstrained.
+c) The subconscious is hidden.
+d) The subconscious is the part of the mind that is inaccessible to people.
+",[3 4 1 2],
+59,Nonliterary,1.0,8.0,23.0,The stars are signposts. ,5.4,5.5,3.35,4.12,3.69,4.0,3.58,3.9,3.63,1.81,The stars guide travelers.,The stars block travelers.,The stars are fireballs.,The stars hide information.,,"""The stars are signposts. ""
+
+a) The stars are fireballs.
+b) The stars guide travelers.
+c) The stars block travelers.
+d) The stars hide information.
+",[2 4 3 1], c)
+60,Nonliterary,1.0,104.0,0.0,A wave is a tick of a clock.,3.67,3.7,2.17,3.1,3.03,2.93,2.93,2.73,2.23,1.54,A wave is fast.,A wave is quiet.,A wave is a hand gesture.,A wave is slow.,,"""A wave is a tick of a clock.""
+
+a) A wave is quiet.
+b) A wave is slow.
+c) A wave is fast.
+d) A wave is a hand gesture.
+",[3 1 4 2],
+61,Literary,1.0,102.0,3.0,The stars are fireflies.,5.73,6.13,3.87,4.0,5.8,5.53,5.97,5.63,4.33,1.77,The stars are bright.,The stars are circles.,The stars are in the sky.,The stars are connected.,,"""The stars are fireflies.""
+
+a) The stars are in the sky.
+b) The stars are circles.
+c) The stars are bright.
+d) The stars are connected.
+",[2 3 4 1],"
+d)"
+62,Nonliterary,1.0,221.0,0.0,Indecision is a whirlpool.,5.7,5.8,2.9,5.13,4.63,4.67,5.67,4.0,4.83,2.03,Indecision causes chaos.,Indecision moves in a circle.,Indecision is the inability to make a decision.,Indecision is useful.,,"""Indecision is a whirlpool.""
+
+a) Indecision causes chaos.
+b) Indecision is useful.
+c) Indecision moves in a circle.
+d) Indecision is the inability to make a decision.
+",[4 1 3 2],"
+c)"
+63,Nonliterary,1.0,180.0,0.0,Experiments are the lasso of progress.,5.0,5.1,3.3,4.4,3.57,3.6,3.33,2.8,4.38,1.59,Experiments are a useful method for making quick progress.,Experiments are made of rope.,Experiments are an important piece of the scientific method.,Experiments are misleading.,,"""Experiments are the lasso of progress.""
+
+a) Experiments are misleading.
+b) Experiments are an important piece of the scientific method.
+c) Experiments are made of rope.
+d) Experiments are a useful method for making quick progress.
+",[1 2 3 4],c)
+64,Nonliterary,1.0,171.0,0.0,A pimple is the skin's volcano.,6.5,6.4,3.3,3.97,5.5,4.87,5.77,4.03,4.4,1.57,Pimples burst.,Pimples are round. ,A pimple is a red bump.,Pimples are hard to see.,,"""A pimple is the skin's volcano.""
+
+a) Pimples burst.
+b) A pimple is a red bump.
+c) Pimples are round. 
+d) Pimples are hard to see.
+",[4 2 3 1], c)
+65,Nonliterary,1.0,135.0,0.0,A braggart is a snowman.,3.07,2.79,2.63,2.3,1.97,2.6,2.62,1.8,2.1,0.93,A braggart is cold and unfeeling.,A braggart is round.,A braggart is a person who boasts.,A braggart is warm and sensitive.,,"""A braggart is a snowman.""
+
+a) A braggart is warm and sensitive.
+b) A braggart is cold and unfeeling.
+c) A braggart is a person who boasts.
+d) A braggart is round.
+",[1 4 2 3],"
+c)"
+66,Nonliterary,1.0,222.0,28.0,Tree trunks are straws for thirsty leaves and branches.,6.07,6.2,3.4,4.53,4.97,5.13,5.5,4.27,5.17,1.79,Tree trunks provide nutrients for leaves and branches.,Tree trunks provide support for leaves and branches.,Tree trunks are leftover when trees are cut down.,Tree trunks are empty.,,"""Tree trunks are straws for thirsty leaves and branches.""
+
+a) Tree trunks provide support for leaves and branches.
+b) Tree trunks are leftover when trees are cut down.
+c) Tree trunks are empty.
+d) Tree trunks provide nutrients for leaves and branches.
+",[3 2 1 4],b)
+67,Nonliterary,1.0,130.0,0.0,Extravagance is poison ivy.,4.14,4.4,2.67,3.4,2.23,3.17,3.77,2.76,2.97,1.61,Extravagance causes problems but its hard to eliminate.,Extravagance causes a rash.,Extravagance is a lack of restraint.,Extravagance is important.,,"""Extravagance is poison ivy.""
+
+a) Extravagance is important.
+b) Extravagance is a lack of restraint.
+c) Extravagance causes a rash.
+d) Extravagance causes problems but its hard to eliminate.
+",[1 2 3 4], c)
+68,Nonliterary,1.0,201.0,0.0,Babies are angels.,6.1,5.43,3.23,3.87,5.4,5.5,4.93,5.53,4.57,2.34,Babies are soothing.,Babies are gentle.,Babies are young people.,Babies are violent.,,"""Babies are angels.""
+
+a) Babies are gentle.
+b) Babies are violent.
+c) Babies are soothing.
+d) Babies are young people.
+",[3 1 4 2],"
+d)"
+69,Literary,1.0,36.0,4.0,The wind is a hammer driving heads of rain before it.,5.03,5.27,3.2,4.57,4.93,4.27,4.47,4.27,3.4,1.66,The wind moves rain forcefully.,The wind moves rain into wood.,Wind is the natural movement of air.,The wind moves rain gently.,,"""The wind is a hammer driving heads of rain before it.""
+
+a) Wind is the natural movement of air.
+b) The wind moves rain forcefully.
+c) The wind moves rain into wood.
+d) The wind moves rain gently.
+",[2 4 3 1], c)
+70,Nonliterary,1.0,97.0,0.0,The automobile is a mechanical horse.,6.07,6.17,3.37,4.2,4.4,4.7,4.9,4.33,4.9,1.93,The automobile replaced the horse for many people.,The automobile is faster than a mechanical horse.,The automobile is a land vehicle.,The automobile is not a mechanical horse.,,"""The automobile is a mechanical horse.""
+
+a) The automobile is a land vehicle.
+b) The automobile replaced the horse for many people.
+c) The automobile is faster than a mechanical horse.
+d) The automobile is not a mechanical horse.
+",[2 4 3 1],c)
+71,Nonliterary,1.0,40.0,26.0,Thunderclouds are wild horses galloping across the sky.,5.83,6.0,2.67,5.03,5.33,5.3,5.23,4.1,4.3,2.3,Thunderclouds look powerful and move quickly.,Thunderclouds cover the sun.,Thunderclouds are rainclouds.,Thunderclouds look weak and move slowly.,,"""Thunderclouds are wild horses galloping across the sky.""
+
+a) Thunderclouds cover the sun.
+b) Thunderclouds look powerful and move quickly.
+c) Thunderclouds are rainclouds.
+d) Thunderclouds look weak and move slowly.
+",[3 4 2 1], c)
+72,Nonliterary,1.0,98.0,0.0,A rocket is a bullet to the stars.,6.13,6.47,3.7,4.63,5.2,5.43,5.83,3.9,5.23,1.89,A rocket can fly quickly to the stars.,A rocket can be a small object.,A rocket is vehicle for going to outerspace.,A rocket can fly slowly to the stars.,,"""A rocket is a bullet to the stars.""
+
+a) A rocket can fly slowly to the stars.
+b) A rocket can be a small object.
+c) A rocket is vehicle for going to outerspace.
+d) A rocket can fly quickly to the stars.
+",[1 3 2 4],c)
+73,Literary,1.0,197.0,0.0,Books are the full-ripened grain of a poet's mind.,5.47,5.17,3.43,4.77,4.4,3.9,4.13,4.9,3.87,1.97,Books are the final result of a long process.,Books are made of plants.,Books are written works with pages bound in covers.,Books are easy to write.,,"""Books are the full-ripened grain of a poet's mind.""
+
+a) Books are the final result of a long process.
+b) Books are written works with pages bound in covers.
+c) Books are easy to write.
+d) Books are made of plants.
+",[4 2 1 3], c)
+74,Nonliterary,1.0,89.0,0.0,An umbrella is a portable roof.,6.2,6.67,4.41,4.27,5.2,5.67,5.6,4.33,5.23,1.83,An umbrella can provide shelter anywhere.,An umbrella is heavy.,An umbrella is a tool for staying dry.,An umbrella can leak.,,"""An umbrella is a portable roof.""
+
+a) An umbrella is heavy.
+b) An umbrella is a tool for staying dry.
+c) An umbrella can provide shelter anywhere.
+d) An umbrella can leak.
+",[3 2 4 1],"
+c)"
+75,Nonliterary,1.0,206.0,10.0,Alcohol is a joyride.,5.2,5.67,3.63,3.5,3.83,4.3,3.2,4.03,3.43,2.14,Drinking is fun but risky.,Drinking is scary.,Alcohol is a drink that can make people feel relaxed.,People can become dependent on alcohol.,,"""Alcohol is a joyride.""
+
+a) Drinking is scary.
+b) Drinking is fun but risky.
+c) People can become dependent on alcohol.
+d) Alcohol is a drink that can make people feel relaxed.
+",[3 4 1 2],"
+c)"
+76,Nonliterary,1.0,138.0,0.0,Hard work is a ladder.,6.11,5.97,3.47,4.77,5.33,5.2,5.1,5.07,4.97,2.19,Hard work is the way to make progress.,Hard work is the way to perform better.,Hard work is working hard.,Hard work leads to stagnation.,,"""Hard work is a ladder.""
+
+a) Hard work leads to stagnation.
+b) Hard work is the way to make progress.
+c) Hard work is the way to perform better.
+d) Hard work is working hard.
+",[1 4 3 2],"
+c)"
+77,Nonliterary,1.0,86.0,0.0,Smoke is a fire's calling card.,6.17,5.97,4.13,4.87,4.97,5.2,5.4,4.2,5.13,1.62,Smoke is always present when there's a fire.,Smoke reveals where a fire is.,Smoke is what rises from a fire.,Smoke is never present when there's a fire.,,"""Smoke is a fire's calling card.""
+
+a) Smoke is always present when there's a fire.
+b) Smoke reveals where a fire is.
+c) Smoke is never present when there's a fire.
+d) Smoke is what rises from a fire.
+",[4 3 1 2],
+78,Literary,1.0,8.0,0.0,Peace is a wild wood-dove.,5.28,4.77,3.17,3.67,5.03,3.43,4.6,4.13,3.43,1.6,Peace is elusive.,Peace is beautiful.,Peace is the absense of violence.,Peace is everywhere.,,"""Peace is a wild wood-dove.""
+
+a) Peace is elusive.
+b) Peace is beautiful.
+c) Peace is everywhere.
+d) Peace is the absense of violence.
+",[4 3 1 2],
+79,Nonliterary,1.0,164.0,0.0,Loneliness is a desert.,6.23,6.2,3.83,4.8,5.77,5.57,5.77,4.93,5.8,2.23,The feeling of loneliness is isolating.,The feeling of loneliness is dry.,Loneliness is the feeling of being alone.,The feeling of loneliness is pleasant.,,"""Loneliness is a desert.""
+
+a) Loneliness is the feeling of being alone.
+b) The feeling of loneliness is dry.
+c) The feeling of loneliness is pleasant.
+d) The feeling of loneliness is isolating.
+",[2 3 1 4],
+80,Nonliterary,1.0,245.0,0.0,Each new idea is a sun.,5.52,5.37,3.0,4.7,4.69,4.3,4.14,4.24,5.1,1.97,Each new idea can be inspiring.,Each new idea can provide warmth.,Each new idea is a thought.,Each new idea is terrible.,,"""Each new idea is a sun.""
+
+a) Each new idea is a thought.
+b) Each new idea can provide warmth.
+c) Each new idea can be inspiring.
+d) Each new idea is terrible.
+",[2 3 4 1],"
+d)"
+81,Nonliterary,1.0,259.0,0.0,Scientific research is mountain climbing.,5.97,6.07,3.03,4.73,4.69,5.07,4.69,4.29,4.4,2.04,Scientific resarch is strenuous work.,Scientific research is physical work.,Scientific research is hard work.,Scientific research is relaxing.,,"""Scientific research is mountain climbing.""
+
+a) Scientific research is hard work.
+b) Scientific research is physical work.
+c) Scientific research is relaxing.
+d) Scientific resarch is strenuous work.
+",[2 3 1 4],c)
+82,Nonliterary,1.0,220.0,20.0,Responsibility is a shackle.,4.69,4.67,2.83,3.23,2.73,3.57,3.4,2.8,3.23,1.21,Responsibility is confining.,Responsibility is exercise.,Responsibility is a virtue.,Responsibility is easy.,,"""Responsibility is a shackle.""
+
+a) Responsibility is a virtue.
+b) Responsibility is exercise.
+c) Responsibility is confining.
+d) Responsibility is easy.
+",[2 3 4 1],
+83,Nonliterary,1.0,142.0,20.0,Responsibility is a barbell.,4.82,4.79,2.63,3.27,3.23,3.67,3.72,3.1,2.87,1.52,Responsibility is hard.,Responsibility is exercise.,Responsibility is a virtue.,Responsibility is easy.,,"""Responsibility is a barbell.""
+
+a) Responsibility is exercise.
+b) Responsibility is easy.
+c) Responsibility is a virtue.
+d) Responsibility is hard.
+",[3 1 2 4],"
+d)"
+84,Nonliterary,1.0,93.0,0.0,A surgeon is an interior decorator.,5.53,6.2,3.03,3.77,3.97,3.93,5.27,2.77,3.23,1.9,A surgeon organizes the body so it can function better.,A surgeon operates on the body so it can look more stylish.,A surgeon is a doctor.,A surgeon organizes the body so it can lose function.,,"""A surgeon is an interior decorator.""
+
+a) A surgeon is a doctor.
+b) A surgeon organizes the body so it can function better.
+c) A surgeon organizes the body so it can lose function.
+d) A surgeon operates on the body so it can look more stylish.
+",[2 4 1 3],
+85,Nonliterary,1.0,215.0,0.0,A folk dance is a braid of steps.,5.13,5.53,3.9,4.33,4.3,3.87,3.93,2.47,4.7,1.31,A folk dance is intricate. ,A folk dance can be learned.,A folk dance is a cultural expression.,A folk dance is simple.,,"""A folk dance is a braid of steps.""
+
+a) A folk dance can be learned.
+b) A folk dance is intricate. 
+c) A folk dance is a cultural expression.
+d) A folk dance is simple.
+",[3 4 2 1], c)
+86,Nonliterary,1.0,114.0,9.0,A wish is a butterfly.,3.63,4.0,2.1,2.77,2.47,3.07,2.97,2.9,2.67,1.43,A wish is delicate.,A wish is beautiful.,A wish is what someone hopes will happen.,A wish is harsh.,,"""A wish is a butterfly.""
+
+a) A wish is delicate.
+b) A wish is what someone hopes will happen.
+c) A wish is beautiful.
+d) A wish is harsh.
+",[4 2 3 1],  c)
+87,Literary,1.0,76.0,0.0,"The three ports of life are dreaming, waking and dying.",5.07,5.2,4.0,3.77,4.3,3.47,3.9,4.57,3.17,1.93,"There are three ways to transition into or out of normal life: dreaming, waking and dying.","There are three ways to enjoy normal life: dreaming, waking and dying.",The three ports of life are three places to enter or exit being alive.,"There are three ways to maintain normal life: dreaming, waking and dying.",,"""The three ports of life are dreaming, waking and dying.""
+
+a) There are three ways to transition into or out of normal life: dreaming, waking and dying.
+b) The three ports of life are three places to enter or exit being alive.
+c) There are three ways to maintain normal life: dreaming, waking and dying.
+d) There are three ways to enjoy normal life: dreaming, waking and dying.
+",[4 2 1 3],
+88,Literary,1.0,159.0,0.0,The tongue is a bayonet.,5.8,5.43,3.53,5.07,4.73,4.53,5.17,5.13,3.97,2.47,The tongue helps break down food.,The tongue is long and thin.,The tongue is a muscle.,The tongue is still.,,"""The tongue is a bayonet.""
+
+a) The tongue helps break down food.
+b) The tongue is long and thin.
+c) The tongue is still.
+d) The tongue is a muscle.
+",[4 3 1 2], c)
+89,Nonliterary,1.0,168.0,0.0,Conscience is a thorn in the mind.,5.97,6.1,3.23,4.53,4.47,4.0,4.87,4.87,4.8,1.83,Conscience is inconvenient and painful.,Conscience is inconvenient and joyful.,Conscience is a person's inner voice.,Conscience is convenient and joyful.,,"""Conscience is a thorn in the mind.""
+
+a) Conscience is inconvenient and joyful.
+b) Conscience is inconvenient and painful.
+c) Conscience is convenient and joyful.
+d) Conscience is a person's inner voice.
+",[3 4 1 2],
+90,Nonliterary,1.0,49.0,12.0,Bargain hunters are flocks of chickens.,4.97,4.59,3.07,3.7,4.03,4.27,4.17,3.07,3.67,1.73,Bargain hunters move in groups.,Bargain hunters scratch at merchandise.,Bargain hunters are people looking to save money.,Bargain hunters look for treasure.,,"""Bargain hunters are flocks of chickens.""
+
+a) Bargain hunters look for treasure.
+b) Bargain hunters scratch at merchandise.
+c) Bargain hunters are people looking to save money.
+d) Bargain hunters move in groups.
+",[1 3 2 4],"
+c)"
+91,Literary,1.0,195.0,6.0,The body is a fading mansion taken on a short lease.,5.3,5.2,3.4,4.17,3.9,3.9,3.87,4.8,3.57,1.7,The body is getting older and closely observed.,The body is losing color and close by.,The body is the physical structure of a person.,The body is getting younger and ignored.,,"""The body is a fading mansion taken on a short lease.""
+
+a) The body is the physical structure of a person.
+b) The body is getting younger and ignored.
+c) The body is losing color and close by.
+d) The body is getting older and closely observed.
+",[2 1 3 4], c)
+92,Nonliterary,1.0,257.0,14.0,Criticism is the helpful medicine only friends can prescribe.,6.14,5.63,4.23,4.43,4.62,5.0,4.52,4.41,4.67,1.48,Criticism is necessary and best heard from friends.,Criticism is necessary but never from friends.,Criticism is a kind of feedback.,Criticism is more painful from friends.,,"""Criticism is the helpful medicine only friends can prescribe.""
+
+a) Criticism is necessary and best heard from friends.
+b) Criticism is a kind of feedback.
+c) Criticism is necessary but never from friends.
+d) Criticism is more painful from friends.
+",[4 2 3 1],"
+c)"
+93,Nonliterary,1.0,157.0,0.0,Political success is a house of cards.,5.13,5.1,3.07,4.0,4.0,3.7,3.63,3.47,3.8,1.83,Political success is unstable over the long term.,Political success can be built over the long term.,Politiccal success is winning elected office.,Political success is easy over the long term.,,"""Political success is a house of cards.""
+
+a) Political success is easy over the long term.
+b) Politiccal success is winning elected office.
+c) Political success is unstable over the long term.
+d) Political success can be built over the long term.
+",[1 2 4 3],
+94,Literary,1.0,115.0,0.0,Waves are the sailor's steed.,5.5,5.17,3.8,4.47,4.3,4.13,4.5,4.6,4.1,1.33,Waves move sailors through water.,Waves need to be fed by sailors.,Waves are the natural movements of water.,Waves stabilize sailors.,,"""Waves are the sailor's steed.""
+
+a) Waves move sailors through water.
+b) Waves stabilize sailors.
+c) Waves need to be fed by sailors.
+d) Waves are the natural movements of water.
+",[4 1 3 2], b)
+95,Literary,1.0,2.0,7.0,Snow is winter's robes.,6.13,6.6,3.9,4.97,5.73,4.83,5.1,5.7,4.47,1.93,Snow can be a covering.,Snow can be warm.,Snow is frozen water that falls from the sky.,Snow can be see-through.,,"""Snow is winter's robes.""
+
+a) Snow can be warm.
+b) Snow can be a covering.
+c) Snow can be see-through.
+d) Snow is frozen water that falls from the sky.
+",[3 4 1 2],
+96,Nonliterary,1.0,39.0,0.0,A good lover is a teddy bear.,5.33,5.41,3.27,4.03,4.8,4.87,5.1,4.03,4.0,2.5,A good lover is cuddly.,A good lover is a stuffed animal.,A good lover is a romantic partner.,A good lover is irritable.,,"""A good lover is a teddy bear.""
+
+a) A good lover is a stuffed animal.
+b) A good lover is a romantic partner.
+c) A good lover is irritable.
+d) A good lover is cuddly.
+",[3 2 1 4],"
+c)"
+97,Nonliterary,1.0,66.0,0.0,A pond is nature's mirror.,6.03,6.07,3.7,5.0,5.4,5.53,5.43,5.0,5.14,1.79,A pond is reflective.,A pond is flat.,A pond is a small body of water.,A pond is dark.,,"""A pond is nature's mirror.""
+
+a) A pond is reflective.
+b) A pond is a small body of water.
+c) A pond is flat.
+d) A pond is dark.
+",[4 2 3 1],b)
+98,Nonliterary,1.0,255.0,21.0,Skyscrapers are honeycombs of glass.,5.38,4.55,2.97,3.97,4.0,4.0,4.1,2.77,3.93,1.24,Skyscrapers have an intricate geometric structure.,Skyscrapers are sweet.,Skyscrapers are tall buildings.,Skyscrapers have a simple geometric structure.,,"""Skyscrapers are honeycombs of glass.""
+
+a) Skyscrapers have a simple geometric structure.
+b) Skyscrapers are sweet.
+c) Skyscrapers have an intricate geometric structure.
+d) Skyscrapers are tall buildings.
+",[1 3 4 2],c)
+99,Nonliterary,1.0,176.0,0.0,The fall of an empire is the sunset of civilization.,5.03,5.1,3.6,4.2,4.2,4.4,4.5,3.27,3.9,1.45,The fall of an empire is the end of civilization.,The fall of an empire is the middle of civilization.,The fall of an empire is the end of a political period of rule.,The fall of an empire is the beginning of civilization.,,"""The fall of an empire is the sunset of civilization.""
+
+a) The fall of an empire is the end of a political period of rule.
+b) The fall of an empire is the middle of civilization.
+c) The fall of an empire is the end of civilization.
+d) The fall of an empire is the beginning of civilization.
+",[2 3 4 1], c)

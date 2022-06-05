@@ -10,7 +10,7 @@ from pyprojroot import here
 from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
 corpus = "katz"
-prompt_type = "QUD_v3"
+prompt_type = "non_explanation"
 gpt_version = "curie"
 temp = 0.9
 K=10
@@ -40,19 +40,21 @@ if __name__ == "__main__":
         # k_shot_prompt = make_random_k_shot_prompt(item["prompt"], task_description, relevant_corpus, k=K)
         if prompt_type == "basic":
             prompt = make_k_shot_prompt(row, task_description, k=K)
+        elif prompt_type == "non_explanation":
+            prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K, step_by_step=False)
         else:
-            prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K)
+            prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K, step_by_step=True)
 
         print(prompt)
-        response = openai.Completion.create(
-             engine=gpt_version_codes[gpt_version],
-             prompt=prompt,
-             max_tokens=256,
-             n=1,
-             temperature=temp,
-             frequency_penalty=0,
-             presence_penalty=0
-        )
+        # response = openai.Completion.create(
+        #      engine=gpt_version_codes[gpt_version],
+        #      prompt=prompt,
+        #      max_tokens=256,
+        #      n=1,
+        #      temperature=temp,
+        #      frequency_penalty=0,
+        #      presence_penalty=0
+        # )
         choices = response["choices"]
         model_choices.append(choices[0]["text"])
 

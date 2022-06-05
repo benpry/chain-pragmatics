@@ -1,4 +1,4 @@
-,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,QUD_rationale,QUD_v2_rationale,QUD_v3_rationale,similarity_rationale
+,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,QUD_rationale,QUD_v2_rationale,QUD_v3_rationale,similarity_rationale,contrast_rationale,non_explanation_rationale
 0,Nonliterary,1.0,119.0,0.0,An idea is a kettle on the stove.,4.27,4.93,2.9,3.8,3.17,3.1,3.87,2.86,3.2,1.5,It takes time for an idea to be ready.,It takes water for an idea to be ready.,An idea is a thought.,Ideas are ready instantly.,,"""An idea is a kettle on the stove.""
 
 a) It takes time for an idea to be ready.
@@ -13,8 +13,10 @@ A kettle on the stove takes a long time to be ready
 So the speaker is saying a) it takes time for an idea to be ready.","The speaker is addressing the question ""How long does it take for an idea to be ready?""
 The speaker answers this question by comparing an idea to a kettle on the stove.
 A kettle on the stove takes a long time to be ready, so the speaker is saying a) it takes time for an idea to be ready.","Kettles on the stove take a long time to be ready.
-Ideas can also take a long time to be ready, so the speaker is saying that it takes time for an idea to be ready.
-Therefore, the answer is a)."
+Ideas can also take a long time to be ready, so the speaker is saying a) it takes time for an idea to be ready.","An kettle on the stove takes time to be ready.
+In contrast, an idea does not go through a physical process of preparation.
+This contrast projects the property of taking time to be ready to an idea, so the speaker is saying a) it takes time for an idea to be ready.","People can have ideas at unexpected times.
+The speaker is saying a) it takes time for an idea to be ready."
 1,Nonliterary,1.0,111.0,0.0,Happiness is gold.,6.5,6.3,3.47,4.83,3.93,5.1,4.37,5.03,4.37,2.15,Happiness is valuable.,Happiness is shiny.,Happiness is an emotion.,Happiness is irrelevant.,,"""Happiness is gold.""
 
 a) Happiness is shiny.
@@ -29,8 +31,10 @@ Gold is very valuable.
 So the speaker is saying d) happiness is valuable.","The speaker is addressing the question ""How valuable is happiness?""
 The speaker answers this question by comparing happiness to gold.
 Gold is very valuable, so the speaker is saying d) happiness is valuable.","Gold is valuable.
-Happiness can also be valuable, so the speaker is saying that happiness is valuable.
-Therefore, the answer is d)."
+Happiness can also be valuable, so the speaker is saying d) happiness is valuable.","Gold is valuable.
+In contrast, happiness is intangible and it is unclear how to assess its value.
+This contrast projects the property of being valuable to happiness, so the speaker is saying d) happiness is valuable.","Smiling is a common way to express happiness.
+The speaker is saying d) happiness is valuable."
 2,Nonliterary,1.0,133.0,0.0,A lottery is a rich uncle.,3.96,4.93,3.07,3.5,3.03,3.62,3.73,2.71,2.6,1.16,A lottery is wealth that seems accessible but may not be.,A lottery is wealth that is easily accessible.,A lottery is a gambling game.,A lottery is wealth that seems hard to get but is actually easy.,,"""A lottery is a rich uncle.""
 
 a) A lottery is wealth that is easily accessible.
@@ -45,9 +49,7 @@ A rich uncle might provide easily accessible wealth, but also might not.
 So the speaker is saying d) a lottery is wealth that seems accessible but may not be.","The speaker is addressing the question ""How accessible is wealth from a lottery?""
 The speaker answers this question by comparing wealth to a rich uncle.
 A rich uncle might provide easily accessible wealth, but also might not, so the speaker is saying d) a lottery is wealth that seems accessible but may not be.","A rich uncle provides wealth that seems accessible, but may not actually be.
-A lottery promises to provide wealth, but winning is very unlikely.
-So the speaker is saying that a lottery is wealth that seems accessible but may not be.
-Therefore, the answer is d)."
+A lottery promises to provide wealth, but winning is very unlikely, so the speaker is saying d) a lottery is wealth that seems accessible but may not be.",???,???
 3,Nonliterary,1.0,9.0,0.0,A storm is a coffeepot.,3.44,4.0,2.19,2.8,3.03,2.28,3.35,2.1,2.37,1.69,A storm is dark.,A storm is hot.,A storm is a disturbed state of the environment.,A storm is clear.,,"""A storm is a coffeepot.""
 
 a) A storm is a disturbed state of the environment.
@@ -62,9 +64,7 @@ A coffeepot is very dark.
  So the speaker is saying b) a storm is dark.","The speaker is addressing the question ""How dark is a storm?""
 The speaker answers this question by comparing a storm to a coffeepot.
 A coffeepot is very dark, so the speaker is saying b) a storm is dark.","A coffeepot is dark.
-Storms can also be dark.
-So the speaker is saying that a storm is dark.
-Therefore, the answer is b)."
+Storms can also be dark, so the speaker is saying b) a storm is dark.",???,???
 4,Nonliterary,1.0,210.0,25.0,The wind is an arrow.,4.83,4.97,2.43,3.2,3.53,3.8,3.43,2.53,2.9,1.55,The wind goes straight and fast.,The wind is painful.,The wind is air that blows.,The wind goes in circles.,,"""The wind is an arrow.""
 
 a) The wind goes straight and fast.
@@ -79,9 +79,7 @@ An arrow travels straight and fast.
 So the speaker is saying a) the wind goes straight and fast.","The speaker is addressing the question ""How does the wind travel?""
 The speaker answers this question by comparing the wind to an arrow.
 An arrow travels straight and fast, so the speaker is saying a) the wind goes straight and fast.","An arrow travels straight and fast.
-The wind can also travel straight and fast.
-So the speaker is saying that the wind goes straight and fast.
-Therefore, the answer is a)."
+The wind can also travel straight and fast, so the speaker is saying that the wind goes straight and fast.",???,???
 5,Literary,1.0,137.0,1.0,Time is a transforming chisel.,5.23,5.5,3.53,4.0,4.43,3.37,4.0,4.83,3.77,2.07,Things change over time.,Time is strong.,Time is continued progress of existence.,Nothing changes over time.,,"""Time is a transforming chisel.""
 
 a) Time is strong.
@@ -96,9 +94,10 @@ A transforming chisel changes things.
 So the speaker is saying b) things change over time.","The speaker is addressing the question ""How does time affect things?""
 The speaker answers this question by comparing time to a transforming chisel.
 A transforming chisel changes things, so the speaker is saying b) things change over time.","A transforming chisel changes things when used.
-Time can also cause things to change.
-So the speaker is saying that things change over time.
-Therefore, the answer is b)."
+Time can also cause things to change, so the speaker is saying b) things change over time.","A transforming chisel changes things.
+In contrast, time is not an agent or tool that can directly change things.
+This contrast projects the property of changing things to time, so the speaker is saying b) things change over time.","Time can be measured in minutes.
+The speaker is saying b) things change over time."
 6,Nonliterary,1.0,58.0,14.0,Criticism is a branding iron.,4.9,5.28,3.2,4.03,4.07,3.8,4.33,3.57,3.69,1.79,Criticism is painful.,Criticism is hot.,Criticism is a kind of feedback.,Criticism is fun to hear.,,"""Criticism is a branding iron.""
 
 a) Criticism is fun to hear.
@@ -113,9 +112,10 @@ A branding iron is very painful.
 So the speaker is saying d) criticism is painful.","The speaker is addressing the question ""How does criticism feel?""
 The speaker answers this question by comparing criticism to a branding iron.
 A branding iron is very painful, so the speaker is saying d) criticism is painful.","Branding irons are extremely painful.
-Criticism can also be painful.
-So the speaker is saying that criticism is painful.
-Therefore, the answer is d)."
+Criticism can also be painful, so the speaker is saying d) criticism is painful.","A branding iron is hot and physically painful.
+In contrast, criticism is not physical and cannot create physical pain.
+This contrast projects the property of being painful to criticism, so the speaker is saying d) criticism is painful.","People give criticism to point out flaws.
+The speaker is saying d) criticism is painful."
 7,Nonliterary,1.0,1.0,0.0,An ant is a bulldozer.,4.88,4.46,2.27,3.6,3.31,3.83,4.15,3.86,2.81,2.08,An ant can move a lot of dirt.,An ant is big.,An ant is an insect.,An ant is not very effective.,,"""An ant is a bulldozer.""
 
 a) An ant is an insect.
@@ -130,9 +130,7 @@ A bulldozer can move a lot of dirt
 So the speaker is saying d) an ant can move a lot of dirt.","The speaker is addressing the question ""How much dirt can an ant move?""
 The speaker answers this question by comparing an ant to a bulldozer.
 A bulldozer can move a lot of dirt, so the speaker is saying d) an ant can move a lot of dirt.","A bulldozer moves a lot of dirt.
-Ants can also move dirt.
-So the speaker is saying that an ant can move a lot of dirt.
-Therefore, the answer is d)."
+Ants can also move dirt, so the speaker is saying d) an ant can move a lot of dirt.",???,???
 8,Literary,1.0,10.0,4.0,The wind is a wrestler.,5.5,5.37,3.57,4.4,5.0,4.43,4.63,4.47,3.43,2.07,The wind is strong and agile.,The wind is competing.,The wind is the natural movement of air.,The wind is soft and clumsy.,,"""The wind is a wrestler.""
 
 a) The wind is the natural movement of air.
@@ -147,9 +145,7 @@ A wrestler is strong and agile
 So the speaker is saying d) the wind is strong and agile.","The speaker is addressing the question ""How strong and agile is the wind?""
 The speaker answers this question by comparing the wind to a wrestler.
 A wrestler is strong and agile, so the speaker is saying d) the wind is strong and agile.","A wrestler is strong and agile.
-The wind can also be strong and agile.
-So the speaker is saying that the wind is strong an agile.
-Therefore, the answer is d)."
+The wind can also be strong and agile, so the speaker is saying d) the wind is strong an agile.",???,???
 9,Nonliterary,1.0,198.0,27.0,Time is a physician.,3.67,4.27,2.07,2.67,2.13,2.97,2.37,3.07,2.93,1.48,Many ailments like sickness and broken bones heal with time.,Many ailments like sickness and broken bones bring joy with time.,Time is a dimension.,Many ailments like sickness and broken bones get worse with time.,,"""Time is a physician.""
 
 a) Many ailments like sickness and broken bones get worse with time.
@@ -164,9 +160,10 @@ A physician heals wounds and sicknesses.
 So the speaker is saying d) many ailments like sickness and broken bones heal with time.","The speaker is addressing the question ""How does time affect sicknesses and injuries?""
 The speaker answers this question by comparing time to a physician.
 A physician heals wounds and sicknesses, so the speaker is saying d) many ailments like sickness and broken bones heal with time.","Physicians heal ailments.
-Ailments like sicknesses and broken bones often heal over time.
-So the speaker is saying that many ailments like sickness and broken bones heal over time.
-Therefore, the answer is d)."
+Ailments like sicknesses and broken bones often heal over time, so the speaker is saying d) many ailments like sickness and broken bones heal over time.","A physician heals many ailments like sickness and broken bones.
+In contrast, time is not a person and cannot literally treat ailments.
+This contrasts projects the property of healing ailments to time, so the speaker is saying 4) many ailments like sickness and broken bones heal with time.","Clocks keep track of the time.
+The speaker is saying d) many ailments like sickness and broken bones heal with time."
 10,Nonliterary,1.0,191.0,0.0,Age is an altar of memories.,5.13,5.13,3.73,4.33,4.33,3.83,4.43,3.8,4.67,1.79,Older people have more memories.,People acquire memories as they get older.,Age is the number of years something has been alive.,People start to lose their memory as they age.,,"""Age is an altar of memories.""
 
 a) People start to lose their memory as they age.
@@ -181,9 +178,7 @@ An altar of memories has many memories.
 So the speaker is saying d) older people have more memories.","The speaker is addressing the question ""How does age affect memories?""
 The speaker answers this question by comparing age to an altar of memories.
 An altar of memories has many memories, so the speaker is saying d) older people have more memories.","An altar of memories has many memories.
-Older people also have many memories.
-So the speaker is saying that older people have more memories.
-Therefore, the answer is d)."
+Older people also have many memories, so the speaker is saying d) older people have more memories.",???,???
 11,Nonliterary,1.0,149.0,0.0,Genes are blueprints.,6.73,6.63,4.93,5.83,5.6,5.23,5.0,5.93,5.77,1.93,Genes are instructions.,Genes are paper.,Genes are the basic physical unit of heredity.,Genes are distracting.,,"""Genes are blueprints.""
 
 a) Genes are instructions.
@@ -198,9 +193,10 @@ Blueprints are instructions for building.
 So the speaker is saying a) genes are instructions.","The speaker is addressing the question ""What do genes do?""
 The speaker answers this question by comparing genes to blueprints.
 Blueprints are instructions for building, so the speaker is saying a) genes are instructions.","Blueprints are instructions for how to build something.
-Genes also contain instructions for building living things.
-So the speaker is saying that genes are instructions.
-Therefore, the answer is a)."
+Genes also contain instructions for building living things, so the speaker is saying a) genes are instructions.","Blueprints are instructions that people can read.
+In contrast, people cannot directly read the information encoded in genes.
+This contrast projects the property of being instructions from blueprints to genes, so the speaker is saying a) genes are instructions.","Genes are made of DNA.
+The speaker is saying a) genes are instructions."
 12,Nonliterary,1.0,96.0,16.0,History is an alarm clock.,3.7,3.57,2.37,2.7,2.13,3.03,2.7,2.1,2.23,1.21,History is motivation.,History is why some people get out of bed in the morning.,History is a story of the past.,History is lazy.,,"""History is an alarm clock.""
 
 a) History is lazy.
@@ -215,9 +211,10 @@ Alarm clocks motivate people to start the day.
 So the speaker is saying b) history is motivation.","The speaker is addressing the question ""How does history affect us?""
 The speaker answers this question by comparing history to an alarm clock.
 Alarm clocks motivate people to start the day. so the speaker is saying b) history is motivation.","Alarm clocks motivate people to get out of bed.
-History can also motivate people.
-So the speaker is saying that history is motivation.
-Therefore, the answer is b)."
+History can also motivate people, so the speaker is saying b) history is motivation.","An alarm clock makes sounds that motivate people to wake up.
+In contrast, history does not produce direct sensory experiences that people respond to.
+This contrast projects the property of motivation from an alarm clock to history, so the speaker is saying b) history is motivation.","History extends back thousands of years.
+The speaker is saying b) history is motivation."
 13,Nonliterary,1.0,27.0,0.0,A bagpipe is a newborn baby.,4.25,3.88,2.19,2.44,2.21,2.72,2.96,1.82,1.7,1.31,A bagpipe is loud.,A bagpipe is delicate.,A bagpipe is a musical instrument.,A bagpipe is quiet.,,"""A bagpipe is a newborn baby.""
 
 a) A bagpipe is quiet.
@@ -232,9 +229,10 @@ Newborn babies are loud.
 So the speaker is saying c) a bagpipe is loud.","The speaker is addressing the question ""How does a bagpipe sound?""
 The speaker answers this question by comparing a bagpipe to a newborn baby.
 A newborn baby is loud, so the speaker is saying c) a bagpipe is loud.","A newborn baby is loud.
-Bagpipes are also loud.
-So the speaker is saying that a bagpipe is loud.
-Therefore, the answer is c)."
+A bagpipe also loud, so the speaker is saying c) a bagpipe is loud.","A newborn baby screams loudly.
+In contrast, a bagpipe does not scream.
+This contrast projects the property of loudness from a newborn baby to a bagpipe, so the speaker is saying c) a bagpipe is loud.","Bagpipes originated in Scotland.
+The speaker is saying c) a bagpipe is loud."
 14,Literary,1.0,165.0,2.0,Mankind is a prisoner of wishes.,5.8,5.1,4.43,4.47,4.1,3.57,4.0,5.13,3.9,1.9,People don't have control over what they want.,People never want to do anything.,Mankind is conscious.,People have control over what they want.,,"""Mankind is a prisoner of wishes.""
 
 a) People don't have control over what they want.
@@ -248,9 +246,7 @@ Therefore, the answer is a).","The speaker is addressing the question ""How much
 A prisoner of wishes does not have control over their wishes
 So the speaker is saying a) people don't have control over what they want.","The speaker is addressing the question ""How much control do people have over what they want?""
 A prisoner of wishes does not have control over their wishes, so the speaker is saying a) people don't have control over what they want.","A prisoner of wishes has no control over what they want.
-Mankind can also struggle with a lack of control over what they want.
-So the speaker is saying that people don't have control over what they want.
-Therefore, the answer is a)."
+Mankind can also struggle with a lack of control over what they want, so the speaker is saying a) people don't have control over what they want.",???,???
 15,Nonliterary,1.0,61.0,19.0,Power is penicillin.,4.33,4.13,3.03,2.97,2.4,3.23,2.53,2.97,2.55,1.38,Power can resolve problems.,Power can be injected.,Power is being able to take control.,Power can cause problems.,,"""Power is penicillin.""
 
 a) Power can cause problems.
@@ -265,9 +261,7 @@ Penicillin is a strong antibiotic that can solve medical problems.
 So the speaker is saying b) power can resolve problems.","The speaker is addressing the question ""What can power do?""
 The speaker answers this question by comparing power to penicillin.
 Penicillin is a strong antibiotic that can solve medical problems, so the speaker is saying b) power can resolve problems.","Penicilin is a strong antibiotic that can solve medical problems.
-Power can also solve many problems.
-So the speaker is saying that power can resolve problems.
-Therefore, the answer is b)."
+Power can also solve many problems, so the speaker is saying b) power can resolve problems.",???,???
 16,Literary,1.0,116.0,2.0,Man is the wandering outlaw of his own dark mind.,5.17,4.87,3.2,4.5,4.0,3.8,3.7,4.67,3.93,1.53,People can't help themselves from wanting to do bad things sometimes.,People do bad things sometimes.,Man is conscious.,People can't help themselves from wanting to do good things sometimes.,,"""Man is the wandering outlaw of his own dark mind.""
 
 a) Man is conscious.
@@ -282,9 +276,7 @@ Wandering outlaws of dark minds often do bad things.
 So the speaker is saying c) people can't help themselves from wanting to do bad things sometimes.","The speaker is addressing the question ""What is people's relationship to their desires?""
 The speaker answers this question by comparing man to a wandering outlaw.
 Wandering outlaws of dark minds often do bad things, so the speaker is saying c) people can't help themselves from wanting to do bad things sometimes.","A wandering outlaw of a dark mind does bad things.
-Man often wants to do bad things.
-So the speaker is saying that people can't help themselves from wanting to do bad things.
-Therefore, the answer is c)"
+Man often wants to do bad things, so the speaker is saying c) people can't help themselves from wanting to do bad things.",???,???
 17,Nonliterary,1.0,112.0,0.0,A mosquito is an arrow.,5.03,5.2,2.57,3.67,3.93,3.68,4.0,2.86,3.4,1.71,Mosquitos fly through the air and into people.,Mosquitos can move fast.,A mosquito is an insect.,Mosquitos only move sometimes.,,"""A mosquito is an arrow.""
 
 a) Mosquitos can move fast.
@@ -299,9 +291,10 @@ Arrows fly through the air and can puncture people's skin.
 So the speaker is saying c) mosquitoes fly through the air and into people.","The speaker is addressing the question ""What does a mosquito do?""
 The speaker answers this question by comparing a mosquito to an arrow.
 An arrow flies through the air and can puncture people's skin, so the speaker is saying c) mosquitoes fly through the air and into people.","An arrow flies through the air and punctures people's skin.
-Mosquitos also fly through the air and puncture people's skin.
-So the speaker is saying that mosquitos fly through the air and into people.
-Therefore, the answer is c)."
+Mosquitos also fly through the air and puncture people's skin, so the speaker is saying c) mosquitos fly through the air and into people.","An arrow is shot through the air and pierces people's skin with a sharp tip.
+In contrast, a mosquito is not shot from anything and does not have a sharp tip.
+This contrast projects the properties of flying and piercing people to a mosquito, so the speaker is saying c) mosquitos fly through the air and into people.","Mosquitos carry many diseases, such as malaria.
+The speaker is saying c) mosquitos fly through the air and into people."
 18,Nonliterary,1.0,38.0,13.0,Billboards are the yellow pages of the highway.,6.2,6.0,4.03,5.37,4.6,5.0,4.97,3.1,5.07,1.93,Billboards provide information about companies.,Billboards are ugly.,Billboards are advertisements.,Billboards lack information.,,"""Billboards are the yellow pages of the highway.""
 
 a) Billboards provide information about companies.
@@ -316,9 +309,7 @@ The yellow pages provide readers with information about companies.
 So the speaker is saying a) billboards provide information about companies.","The speaker is addressing the question ""What role do billboards play on the highway?""
 The speaker answers this question by comparing billboards to the yellow pages.
 The yellow pages provide readers with information about companies, so the speaker is saying a) billboards provide information about companies.","The yellow pages provide information about companies.
-Billboards on the highway also provide information about companies.
-So the speaker is saying that billboards provide information about companies.
-Therefore, the answer is a)."
+Billboards on the highway also provide information about companies, so the speaker is saying a) billboards provide information about companies.",???,???
 19,Literary,1.0,42.0,0.0,Silence is a black cavern.,5.93,5.8,3.57,4.77,5.47,4.47,4.77,4.97,4.87,2.1,Silence is mysterious.,It is quiet underground.,Silence is the absense of sound.,Silence is familiar.,,"""Silence is a black cavern.""
 
 a) It is quiet underground.
@@ -333,9 +324,7 @@ A black cavern is mysterious as people cannot see inside.
 So the speaker is saying c) silence is mysterious.","The speaker is addressing the quesiton ""What is silence like?""
 The speaker answers this question by comparing silence to a black cavern.
 A black cavern is mysterious as people cannot see inside, so the speaker is saying c) silence is mysterious.","A black cavern is mysterious.
-Silence can also be mysterious.
-So the speaker is saying that silence is mysterious.
-Therefore, the answer is c)."
+Silence can also be mysterious, so the speaker is saying c) silence is mysterious.",???,???
 20,Literary,1.0,17.0,2.0,Man is a worm that lives on the carcass of the earth.,5.77,5.53,3.5,3.8,4.37,4.0,4.03,4.7,3.17,1.9,A person's life is small and irrelevant.,People can wriggle around on the ground.,Man is conscious.,A person's life is important and impactful.,,"""Man is a worm that lives on the carcass of the earth.""
 
 a) A person's life is small and irrelevant.
@@ -350,9 +339,7 @@ A worm is small compared to the carcass it feeds from.
 So the author is saying a) a person's life is small and irrelevant.","The speaker is addressing the question ""How important is a person's life on the scale of the earth?""
 The speaker answers this question by comparing man to a worm that lives on the carcass of the earth.
 A worm is small compared to the carcass it feeds from, so the author is saying a) a person's life is small and irrelevant.","A worm that lives on a carcass is small and irrelevant on the scale of the carcass.
-People are small and irrelevant on the scale of the earth.
-So the speaker is saying that a person's life is small and irrelevant.
-Therefore, the answer is a)."
+People are small and irrelevant on the scale of the earth, so the speaker is saying a) a person's life is small and irrelevant.",???,???
 21,Nonliterary,1.0,230.0,0.0,Craters are the moon's dimples.,6.34,6.2,3.1,4.47,5.8,5.1,5.63,3.8,4.67,1.52,Craters give character to the moon's surface.,Craters give texture to the moon's surface.,Craters are indentions in the moon.,Craters are invisible.,,"""Craters are the moon's dimples.""
 
 a) Craters are invisible.
@@ -367,9 +354,10 @@ Dimples give a person's face character.
 So the speaker is saying d) craters give character to the moon's surface.","The speaker is addressing the question ""What role do craters play on the moon's surface?""
 The speaker answers this question by comparing craters to dimples.
 Dimples give a person's face character, so the speaker is saying d) craters give character to the moon's surface.","Dimples give character to a person's face.
-The moon has craters that give it character.
-So the speaker is saying that craters give character to the moon's surface.
-Therefore, the answer is d)."
+The moon has craters that give it character, so the speaker is saying d) craters give character to the moon's surface.","Dimples are indentations in people's faces that give them character.
+In contrast, craters do not exist on people's faces.
+This contrast projects the property of giving character to craters, so the speaker is saying d) craters give character to the moon's surface.","Craters are caused by collisions with meteors and comets.
+The speaker is saying d) craters give character to the moon's surface."
 22,Nonliterary,1.0,194.0,0.0,Silence is an apron.,3.27,3.67,2.47,2.33,2.03,2.73,3.13,2.33,2.47,1.24,Silence prevents risk.,Silence is made of cloth.,Silence is the complete absence of sound.,Silence causes risk.,,"""Silence is an apron.""
 
 a) Silence causes risk.
@@ -384,9 +372,10 @@ Aprons prevent risk to cooks.
 So the speaker is saying b) silence prevents risk.","The speaker is addressing the question ""What does silence do?""
 The speaker answers this question by comparing silence to an apron.
 An apron prevents risk to cooks, so the speaker is saying b) silence prevents risk.","Aprons prevent risk to cooks.
-Silence can also prevent risk by avoiding confrontations.
-So the speaker is saying that silence prevents risk.
-Therefore, the answer is b)."
+Silence can also prevent risk by avoiding confrontations, so the speaker is saying b) silence prevents risk.","An apron is protective clothing worn by cooks to prevent risk while cooking.
+In contrast, silence cannot be worn.
+This contrast projects the property of preventing risk to silence, so the speaker is saying b) silence prevents risk.","Silence can make it easier to sleep.
+The speaker is saying b) silence prevents risk."
 23,Nonliterary,1.0,23.0,16.0,History is a sponge.,4.08,4.58,3.31,3.4,2.48,2.66,3.12,2.76,3.0,1.46,History absorbs people and stories.,History is a record.,History is a story.,We see ourselves in history.,,"""History is a sponge.""
 
 a) History is a story.
@@ -401,9 +390,7 @@ A sponge absorbs water.
 So the speaker is saying c) history absorbs people and stories.","The speaker is addressing the question ""How does history change over time?""
 The speaker answers this question by comparing history to a sponge.
 A sponge absorbs water, so the speaker is saying c) history absorbs people and stories.","A sponge absorbs liquids.
-History can absorb things, like people and stories.
-So the speaker is saying that history absorbs people and stories.
-Therefore, the answer is b)."
+History can absorb things, like people and stories, so the speaker is saying b) history absorbs people and stories.",???,???
 24,Nonliterary,1.0,247.0,0.0,Terrorists are hawks among the fowl.,5.93,5.93,3.4,4.8,5.07,4.7,5.38,3.41,5.07,1.79,Terrorists are people who seek to use violence among people who don't wish to use violence.,Terrorists are people who seek to use violence among people who also wish to use violence.,Terrorists are people who use violenece and intimidation.,Terrorists are people who seek to prevent violence among people who wish to use violence.,,"""Terrorists are hawks among the fowl.""
 
 a) Terrorists are people who seek to prevent violence among people who wish to use violence.
@@ -418,15 +405,13 @@ Hawks violently attack fowl, while fowl are mostly passive.
 So the speaker is saying b) terrorists seek to use violence among people who don't wish to use violence.","The speaker is addressing the question ""What do terrorists seek to do?""
 The speaker answers this question by comparing terrorists to hawks among fowl.
 Hawks violently attack fowl, while fowl are mostly passive, so the speaker is saying b) terrorists seek to use violence among people who don't wish to use violence.","Hawks among fowl uses violence to attack the fowl who are not violent.
-Terrorists also use violence against people who are not violent.
-So the speaker is saying that terrorists are people who seek to use violence among people who don't wish to use violence.
-Therefore, the answer is b)."
-25,Nonliterary,1.0,216.0,0.0,The sea captain is the quarterback of his ship.,6.53,6.33,3.93,4.4,5.43,5.43,5.0,4.53,5.03,1.83,The sea captain is in charge of his ship.,The sea captain plays football on his ship.,The sea captain is in charge of a ship.,The sea captain is asleep on his ship.,,"""The sea captain is the quarterback of his ship.""
+Terrorists also use violence against people who are not violent, so the speaker is saying b) terrorists are people who seek to use violence among people who don't wish to use violence.",???,???
+25,Nonliterary,1.0,216.0,0.0,The sea captain is the quarterback of his ship.,6.53,6.33,3.93,4.4,5.43,5.43,5.0,4.53,5.03,1.83,The sea captain is in charge of his ship.,The sea captain plays football on his ship.,The sea captain sails the sea.,The sea captain is asleep on his ship.,,"""The sea captain is the quarterback of his ship.""
 
 a) The sea captain plays football on his ship.
 b) The sea captain is in charge of his ship.
 c) The sea captain is asleep on his ship.
-d) The sea captain is in charge of a ship.
+d) The sea captain sails the sea.
 ",[3 4 1 2],"The speaker is addressing the question ""What is the sea captain's role on his ship?""
 The quarterback is in charge of the football team while playing.
 So the speaker is saying that the sea captain is in charge of his ship.
@@ -435,9 +420,10 @@ The quarterback is in charge of the football team while playing.
 So the speaker is saying b) the sea captain is in charge of his ship.","The speaker is addressing the question ""What is the sea captain's role on his ship?""
 The speaker answers this question by comparing the sea captain to the quarterback.
 The quarterback is in charge of the football team while playing, so the speaker is saying b) the sea captain is in charge of his ship.","A quarterback is in charge of a football team.
-A sea captain is also in charge of a ship.
-So the speaker is saying that the sea captain is in charge of his ship.
-Therefore, the answer is b)."
+A sea captain is also in charge of a ship, so the speaker is saying b) the sea captain is in charge of his ship.","The quarterback is in charge of a football team.
+In contrast, the sea captain is not on a football team.
+This contrast projects the property of being in charge from the quarterback to the sea captain, so the speaker is saying b) the captain is in charge of his ship.","Sea captains are responsible for the safety of their vessels.
+The speaker is saying b) the captain is in charge of his ship."
 26,Nonliterary,1.0,251.0,26.0,Thunderclouds are draperies pulled across the sun.,5.9,6.2,2.93,4.47,4.83,4.79,5.48,3.64,4.67,1.81,Thunderclouds cover the sun.,Thunderclouds are made of cloth.,Thunderclouds are rainclouds.,Thunderclouds look powerful and move quickly.,,"""Thunderclouds are draperies pulled across the sun.""
 
 a) Thunderclouds look powerful and move quickly.
@@ -452,9 +438,7 @@ Draperies cover the things they are pulled across.
 So the speaker is saying c) thunderclouds cover the sun.","The speaker is addressing the question ""How do thunderclouds affect the sun?""
 The speaker answers this question by comparing thunderclouds to draperies pulled across the sun.
 Draperies cover the things they are pulled across, so the speaker is saying c) thunderclouds cover the sun.","Draperies cover the light from the windows they are front of.
-Thunderclouds cover the sun.
-So the speaker is saying that thunderclouds cover the sun.
-Therefore, the answer is c)."
+Thunderclouds cover the sun, so the speaker is saying c) thunderclouds cover the sun.",???,???
 27,Nonliterary,1.0,184.0,0.0,The spy satellite is the shepherd of our nation's security.,4.6,4.63,3.47,3.33,3.53,3.1,2.8,1.73,3.23,1.17,The spy satellite helps monitor our nation's security.,The spy satellite helps protect our nation's security.,The spy satelite is a satelite that orbits the earth from space.,The spy satellite helps destroy our nation's security.,,"""The spy satellite is the shepherd of our nation's security.""
 
 a) The spy satellite helps monitor our nation's security.
@@ -469,9 +453,7 @@ Shepherds monitor their herds to make sure they are secure.
 So the speaker is saying a) the spy satellite helps monitor our nation's security.","The speaker is addressing the question ""What does the spy satellite do four our nation's security?
 The speaker answers this question by comparing the spy satellite to a shepherd.
 A shepherd monitors their herd to make sure they are secure, so the speaker is saying a) the spy satellite helps monitor our nation's security.","Shepherds monitor their sheep to keep them secure.
-Spy satellites also do monitoring to maintain national security.
-So the speaker is saying that the spy satellite helps monitor our nation's security.
-Therefore, the answer is a)."
+Spy satellites also do monitoring to maintain national security, so the speaker is saying a) the spy satellite helps monitor our nation's security.",???,???
 28,Nonliterary,1.0,7.0,0.0,A desert is a sea. ,5.32,4.71,2.4,3.68,4.07,4.38,3.73,4.41,3.26,1.81,A desert is vast.,A desert is flat.,A desert is a hot and dry area of land.,A desert is small.,,"""A desert is a sea. ""
 
 a) A desert is vast.
@@ -486,9 +468,10 @@ A sea is vast.
 So the speaker is saying a) a desert is vast.","The speaker is addressing the question ""How big is a desert?""
 The speaker answers this question by comparing a desert to a sea.
 A sea is vast, so the speaker is saying a) a desert is vast.","A sea is vast.
-A desert can also be vast.
-So the speaker is saying that a desert is vast.
-Therefore, the answer is a)."
+A desert can also be vast, so the speaker is saying a) a desert is vast.","A sea is a vast body of water.
+In contrast, a desert is not a body of water.
+This contrast projects the property of vastness to a desert, so the speaker is saying a) a desert is vast.","A desert is full of sand.
+The speaker is saying a) a desert is vast."
 29,Nonliterary,1.0,236.0,17.0,Nature is a vast laboratory.,5.34,5.2,3.67,4.52,4.7,4.77,4.7,3.87,4.7,1.97,Nature is an unpredictable place.,Nature is a large place.,Nature is all phenomena of the physical world.,Nature is a controlled place.,,"""Nature is a vast laboratory.""
 
 a) Nature is an unpredictable place.
@@ -503,6 +486,4 @@ A laboratory is not predictable.
 So the speaker is saying a) nature is an unpredictable place.","The speaker is addressing the question ""How predictable is nature?""
 The speaker answers this question by comparing nature to a vast laboratory.
 A vast laboratory is not predictable, so the speaker is saying a) nature is an unpredictable place.","A vast laboratory is unpredictable.
-Nature can also be unpredictable.
-So the speaker is saying that nature is an unpredictable place.
-Therefore, the answer is a)."
+Nature can also be unpredictable, so the speaker is saying a) nature is an unpredictable place.",???,???
