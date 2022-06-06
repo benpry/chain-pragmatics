@@ -10,8 +10,9 @@ from pyprojroot import here
 from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
 corpus = "katz"
-prompt_type = "non_explanation"
-gpt_version = "curie"
+prompt_type = "contrast"
+gpt_version = "davinci"
+corpus_set = "test"
 temp = 0.9
 K=10
 openai.api_key = os.environ["OPENAI_API_KEY"]
@@ -29,7 +30,12 @@ if __name__ == "__main__":
            processed_corpus = pickle.load(fp)
         df_corpus = pd.DataFrame(processed_corpus)
     elif corpus == "katz":
-        df_corpus = pd.read_csv(here(f"data/katz-corpus/katz-corpus-dev.csv"))
+        if corpus_set == "dev":
+            df_corpus = pd.read_csv(here(f"data/katz-corpus/katz-corpus-dev.csv"))
+        elif corpus_set == "test":
+            df_corpus = pd.read_csv(here(f"data/katz-corpus/katz-corpus-test.csv"))
+        else:
+            raise ValueError(f"Invalid corpus set: {corpus_set}")
     else:
         raise ValueError(f"Invalid corpus: {corpus}")
 
@@ -45,19 +51,18 @@ if __name__ == "__main__":
         else:
             prompt = make_rationale_prompt(row["prompt"], task_description, corpus, rationale_type=prompt_type, k=K, step_by_step=True)
 
-        print(prompt)
-        # response = openai.Completion.create(
-        #      engine=gpt_version_codes[gpt_version],
-        #      prompt=prompt,
-        #      max_tokens=256,
-        #      n=1,
-        #      temperature=temp,
-        #      frequency_penalty=0,
-        #      presence_penalty=0
-        # )
+        response = openai.Completion.create(
+             engine=gpt_version_codes[gpt_version],
+             prompt=prompt,
+             max_tokens=256,
+             n=1,
+             temperature=temp,
+             frequency_penalty=0,
+             presence_penalty=0
+        )
         choices = response["choices"]
         model_choices.append(choices[0]["text"])
 
     df_corpus["model_response"] = model_choices
 
-    df_corpus.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
+    df_corpus.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))

@@ -1,0 +1,1421 @@
+,Type,Include,ID,Group,Statement,CMP,ESI,MET,MGD,IMG,IMS,IMP,FAM,SRL,ALT,Good (4),Less good (3),Semantic (2) - category/desription,Bad (1),NOTE,prompt,values,model_response
+0,Nonliterary,1.0,69.0,0.0,A kennel is a pet hotel.,6.3,6.63,4.57,3.8,4.97,4.83,5.4,4.1,5.34,1.48,A kennel is a temporary place for pets to stay.,A kennel is a temporary place for pets to play.,A kennel is a place that will care for a pet.,A kennel is a permanent place for pets to stay.,,"""A kennel is a pet hotel.""
+
+a) A kennel is a permanent place for pets to stay.
+b) A kennel is a temporary place for pets to play.
+c) A kennel is a place that will care for a pet.
+d) A kennel is a temporary place for pets to stay.
+",[1 3 2 4],"A pet hotel is a place that will take care of a pet while the pet's owner is away.
+In contrast, a kennel is not a place where a pet can live permanently.
+This contrast projects the property of permanence to a kennel, so the speaker is saying c) a kennel is a temporary place for pets to stay."
+1,Nonliterary,1.0,78.0,0.0,A camel is an ocean liner.,4.17,3.77,2.33,3.2,2.83,3.3,3.17,2.9,2.66,1.62,A camel can carry a lot of supplies.,A camel can float.,A camel is an animal.,A camel can't carry very many supplies.,,"""A camel is an ocean liner.""
+
+a) A camel can't carry very many supplies.
+b) A camel is an animal.
+c) A camel can carry a lot of supplies.
+d) A camel can float.
+",[1 2 4 3],"An ocean liner is a large ship that travels on the ocean.
+In contrast, a camel cannot carry a lot of supplies.
+This contrast projects the property of being able to carry a lot of supplies to a camel, so the speaker is saying c) a camel can carry a lot of supplies."
+2,Nonliterary,1.0,63.0,7.0,A tree is an old man.,4.3,4.27,2.7,3.4,3.73,3.8,4.17,4.33,2.62,1.83,A tree is old and seems kind.,A tree is old and seems happy.,A tree is a tall plant with leaves.,A tree is old and seems innocent.,,"""A tree is an old man.""
+
+a) A tree is old and seems innocent.
+b) A tree is old and seems kind.
+c) A tree is old and seems happy.
+d) A tree is a tall plant with leaves.
+",[1 4 3 2],"A tree is old and seems kind.
+In contrast, a tree is young and does not have leaves.
+This contrast projects the property of seeming innocent and kind to a tree, so the speaker is saying b) a tree is old and seems kind."
+3,Nonliterary,1.0,6.0,0.0,A gas station is an oasis. ,5.6,5.5,2.81,4.0,3.28,3.59,3.58,3.86,4.15,1.96,A gas station has necessary supplies.,A gas station is beautiful.,A gas station is a store.,A gas station is unwanted.,,"""A gas station is an oasis. ""
+
+a) A gas station is unwanted.
+b) A gas station is a store.
+c) A gas station has necessary supplies.
+d) A gas station is beautiful.
+",[1 2 4 3],"
+
+An oasis is a place of refuge.
+In contrast, a gas station is an unpleasant place.
+This contrast projects the property of being unwanted to a gas station, so the speaker is saying a) a gas station is unwanted."
+4,Nonliterary,1.0,144.0,0.0,Security is a trap.,4.68,4.31,2.73,3.8,3.27,3.33,3.1,3.47,1.97,1.67,Security is not as valuable as it seems.,Security is not as friendly as it seems.,Security is being free from danger or threat.,Security is more valuable than it seems.,,"""Security is a trap.""
+
+a) Security is being free from danger or threat.
+b) Security is not as friendly as it seems.
+c) Security is not as valuable as it seems.
+d) Security is more valuable than it seems.
+",[2 3 4 1],"Security is being free from danger or threat.
+In contrast, security is not being free.
+This contrast projects the property of freedom from danger and threat to security, so the speaker is saying c) security is not as valuable as it seems."
+5,Nonliterary,1.0,240.0,0.0,Weeds are the measles of a garden.,5.89,5.93,3.17,4.77,4.59,4.77,5.14,3.48,4.77,1.71,Weeds stick out and make the garden look ugly.,Weeds stick out and make the garden look interesting.,Weeds are unwanted plants.,Weeds blend in and make the garden look beautiful.,,"""Weeds are the measles of a garden.""
+
+a) Weeds stick out and make the garden look interesting.
+b) Weeds stick out and make the garden look ugly.
+c) Weeds blend in and make the garden look beautiful.
+d) Weeds are unwanted plants.
+",[3 4 1 2],"A weed is an unwanted plant that sticks out and makes the garden look ugly.
+In contrast, a weed that blends in and makes the garden look beautiful is called an herb.
+This contrasts projects the property of blending in to make the garden look beautiful to weeds, so the speaker is saying c) weeds blend in and make the garden look beautiful."
+6,Nonliterary,1.0,76.0,0.0,A friend is a ray of sunshine.,6.33,6.6,3.55,5.87,5.7,5.83,5.7,5.83,5.59,2.41,A friend is rejuvinating.,A friend is kind.,A friend is a companion.,A friend is exhausting.,,"""A friend is a ray of sunshine.""
+
+a) A friend is a companion.
+b) A friend is exhausting.
+c) A friend is kind.
+d) A friend is rejuvinating.
+",[2 1 3 4],"A ray of sunshine is a bright light that comes into people's lives.
+In contrast, friends are exhausting to be around.
+This contrast projects the property of being exhausting to be around to a friend, so the speaker is saying b) a friend is exhausting."
+7,Nonliterary,1.0,122.0,11.0,Artists are peacocks.,4.03,4.24,2.73,2.83,3.17,3.0,3.3,2.76,2.69,1.43,Artists are show-offs.,Artists are attractive.,Artists are creative people.,Artists are creators.,,"""Artists are peacocks.""
+
+a) Artists are show-offs.
+b) Artists are creators.
+c) Artists are creative people.
+d) Artists are attractive.
+",[4 1 2 3],"Peacocks are beautiful animals that display their plumage to attract mates.
+In contrast, artists are not show-offs and are not compelled to show off their appearance.
+This contrast projects the property of not being a show-off to artists, so the speaker is saying c) artists are creative people."
+8,Nonliterary,1.0,44.0,23.0,The stars are a map to a ship captain.,6.4,6.1,4.9,4.6,5.6,5.63,5.27,5.97,5.41,1.67,The stars help ship captains to navigate.,The stars help ship captains to see.,The stars are in the sky.,The stars help ship captains to lose their way.,,"""The stars are a map to a ship captain.""
+
+a) The stars help ship captains to navigate.
+b) The stars help ship captains to lose their way.
+c) The stars help ship captains to see.
+d) The stars are in the sky.
+",[4 1 3 2],"A map is a physical object that shows people where they are and where they need to go.
+In contrast, the stars are not physical and do not help ship captains navigate.
+This contrast projects the property of helping navigate to the stars, so the speaker is saying a) the stars help ship captains to navigate."
+9,Nonliterary,1.0,24.0,27.0,Time is a magnet.,4.0,4.54,2.38,3.56,2.38,2.66,2.92,2.79,2.85,1.65,People like thinking about time.,People sometimes think about time.,Time is a dimension.,People dislike thinking about time.,,"""Time is a magnet.""
+
+a) People like thinking about time.
+b) Time is a dimension.
+c) People sometimes think about time.
+d) People dislike thinking about time.
+",[4 2 3 1],"People like thinking about time because it is a dimension that people can explore.
+In contrast, people sometimes think about time because it exists within their perceptions.
+This contrast projects the property of existing within people's perceptions to time, so the speaker is saying c) people sometimes think about time."
+10,Nonliterary,1.0,57.0,1.0,A butterfly is a winged rainbow.,5.43,5.7,2.73,4.6,4.7,4.8,4.97,3.9,3.9,1.79,A butterfly is colorful.,A butterfly is beautiful.,A butterfly is an insect.,A butterfly is ugly.,,"""A butterfly is a winged rainbow.""
+
+a) A butterfly is beautiful.
+b) A butterfly is colorful.
+c) A butterfly is an insect.
+d) A butterfly is ugly.
+",[3 4 2 1],"A rainbow is a beautiful and colorful array of light.
+In contrast, a butterfly is not an array of light.
+This contrast projects the property of being beautiful and colorful to a butterfly, so the speaker is saying a) a butterfly is beautiful."
+11,Literary,1.0,146.0,2.0,Man is a box of nerves.,5.43,5.1,4.93,3.0,4.2,3.9,3.73,4.7,3.47,2.03,People can be anxious.,People can be perceptive.,Man is conscious.,People can be calm.,,"""Man is a box of nerves.""
+
+a) People can be anxious.
+b) People can be calm.
+c) Man is conscious.
+d) People can be perceptive.
+",[4 1 2 3],"
+People are able to be anxious or calm.
+In contrast, man is conscious.
+This contrast projects the property of being aware to people, so the speaker is saying c) man is conscious."
+12,Nonliterary,1.0,55.0,28.0,Tree trunks are pillars for a roof of leaves and branches.,5.53,6.07,3.73,3.86,4.9,4.53,4.87,3.73,4.27,1.53,Tree trunks provide support for leaves and branches.,Tree trunks provide nutrients for leaves and branches.,Tree trunks are leftover when trees are cut down.,Tree trunks are weak.,,"""Tree trunks are pillars for a roof of leaves and branches.""
+
+a) Tree trunks are weak.
+b) Tree trunks provide support for leaves and branches.
+c) Tree trunks provide nutrients for leaves and branches.
+d) Tree trunks are leftover when trees are cut down.
+",[1 4 3 2],"Pillars support a roof of leaves and branches.
+In contrast, tree trunks are weak and can be pulled down by the leaves and branches.
+This contrast projects the property of providing support to tree trunks from leaves and branches, so the speaker is saying b) tree trunks provide support for leaves and branches."
+13,Literary,1.0,110.0,0.0,Memories are the roots that clutch.,5.33,5.52,3.53,5.0,4.6,3.93,4.73,5.17,3.9,1.87,Memories are stabilizing.,Memories are long.,Memories are how the mind stores and remembers information.,Memories are nerve-wracking.,,"""Memories are the roots that clutch.""
+
+a) Memories are stabilizing.
+b) Memories are nerve-wracking.
+c) Memories are how the mind stores and remembers information.
+d) Memories are long.
+",[4 1 2 3],"Roots grip the soil and prevent it from being washed away.
+In contrast, memories do not grip onto anything and can be easily forgotten.
+This contrast projects the property of being stabilizing and storing information to memories, so the speaker is saying c) memories are how the mind stores and remembers information."
+14,Nonliterary,1.0,131.0,0.0,A fireman is a boxer.,3.67,3.83,2.27,2.63,2.83,3.21,2.83,2.03,1.93,1.21,A fireman is strong and strategic when putting out fires.,A fireman has an audience when putting out fires.,A fireman is someone who extinguishes fires.,A fireman is weak and misguided when putting out fires.,,"""A fireman is a boxer.""
+
+a) A fireman is weak and misguided when putting out fires.
+b) A fireman is someone who extinguishes fires.
+c) A fireman has an audience when putting out fires.
+d) A fireman is strong and strategic when putting out fires.
+",[1 2 3 4],"
+A boxer is someone who competes in boxing matches.
+In contrast, a fireman is someone who puts out fires.
+This contrast projects the property of being strong when putting out fires to a fireman, so the speaker is saying c) a fireman has an audience when putting out fires."
+15,Nonliterary,1.0,153.0,0.0,Perfume is a magic spell.,5.3,5.2,2.77,3.37,3.63,4.17,3.23,3.17,3.77,1.63,Perfume can be powerful.,Perfume can be surprising.,Perfume is a fragrant odor.,Perfume can be off-putting.,,"""Perfume is a magic spell.""
+
+a) Perfume is a fragrant odor.
+b) Perfume can be surprising.
+c) Perfume can be off-putting.
+d) Perfume can be powerful.
+",[2 3 1 4],"A magic spell is a powerful tool that can be unexpected.
+In contrast, perfume is not a magical spell.
+This contrast projects the property of power from the magic spell to perfume, so the speaker is saying c) perfume can be surprising."
+16,Nonliterary,1.0,123.0,0.0,A rumor is a plague.,5.0,6.13,3.2,4.63,4.2,4.72,5.23,4.62,4.73,2.11,A rumor spreads through people.,Rumors can kill people.,A rumour is a story.,Rumors don't matter.,,"""A rumor is a plague.""
+
+a) Rumors don't matter.
+b) A rumour is a story.
+c) Rumors can kill people.
+d) A rumor spreads through people.
+",[1 2 3 4],"
+A plague is a deadly disease that spreads quickly through populations.
+In contrast, a rumor does not actually harm anyone.
+This contrast projects the property of not harming anyone to a rumor, so the speaker is saying b) a rumor is a story."
+17,Nonliterary,1.0,219.0,27.0,Time is the skin of an onion.,3.41,3.37,2.4,3.27,1.83,2.53,3.43,2.27,2.3,1.17,Time is complicated.,Time is visible.,Time is a dimension.,Time is simple.,,"""Time is the skin of an onion.""
+
+a) Time is a dimension.
+b) Time is complicated.
+c) Time is visible.
+d) Time is simple.
+",[2 4 3 1],"Time is a dimension.
+In contrast, time is not simple and is complicated.
+This contrast projects the property of being complicated from time to time, so the speaker is saying c) time is visible."
+18,Nonliterary,1.0,214.0,13.0,Billboards are warts on the landscape.,5.37,4.77,3.13,3.77,4.07,3.83,4.47,3.37,3.53,1.66,Billboards are ugly.,Billboards provide information about companies.,Billboards are advertisements.,Billboards are beautiful.,,"""Billboards are warts on the landscape.""
+
+a) Billboards provide information about companies.
+b) Billboards are advertisements.
+c) Billboards are beautiful.
+d) Billboards are ugly.
+",[3 2 1 4],"Warts are unsightly bumps on the skin.
+In contrast, billboards are advertisements.
+This contrast projects the properties of being an advertisement and being beautiful to billboards, so the speaker is saying b) billboards are beautiful."
+19,Nonliterary,1.0,14.0,22.0,Sleep is a snowstorm.,4.2,4.42,2.44,2.24,2.83,3.72,3.27,3.1,2.59,1.35,Sleep is quiet but heavy.,Sleep is deep and calm.,Sleep is a physiological state.,Sleep is loud and light.,,"""Sleep is a snowstorm.""
+
+a) Sleep is a physiological state.
+b) Sleep is loud and light.
+c) Sleep is quiet but heavy.
+d) Sleep is deep and calm.
+",[2 1 4 3],"A snowstorm is a weather event that is loud, light, and disruptive.
+In contrast, sleep is a physiological state that is quiet, heavy, and calming.
+This contrast projects the properties of noise, light, and disruption to sleep, so the speaker is saying c) sleep is quiet but heavy."
+20,Nonliterary,1.0,99.0,0.0,An accordian is a musical file-folder.,5.63,5.7,2.97,3.77,4.93,4.63,5.17,3.7,4.6,1.32,An accordian is has a lot of folds in it.,An accordian is square.,An accordian is a musical instrument.,An accordian is smooth.,,"""An accordian is a musical file-folder.""
+
+a) An accordian is square.
+b) An accordian is has a lot of folds in it.
+c) An accordian is a musical instrument.
+d) An accordian is smooth.
+",[3 4 2 1],"
+
+A musical file-folder is square.
+In contrast, accordian is not a file-folder.
+This contrast projects the property of being a file-folder to accordian, so the speaker is saying a) an accordian is a musical instrument."
+21,Nonliterary,1.0,20.0,0.0,Darkness is a gloved hand.,5.2,5.0,2.81,4.32,4.03,3.9,4.46,4.31,3.67,1.65,Darkness is scary.,Darkness is warm.,Darkness is space without light.,Darkness is exciting.,,"""Darkness is a gloved hand.""
+
+a) Darkness is warm.
+b) Darkness is exciting.
+c) Darkness is scary.
+d) Darkness is space without light.
+",[3 1 4 2],"A gloved hand is warm.
+In contrast, darkness is not someone or something.
+This contrast projects darkness from the hand to darkness, so the speaker is saying b) darkness is exciting."
+22,Nonliterary,1.0,115.0,0.0,Children are sponges.,4.3,5.27,2.77,3.5,3.37,3.41,3.73,3.76,2.83,1.86,Children learn quickly.,Children are small.,Children are young people.,Children learn slowly.,,"""Children are sponges.""
+
+a) Children learn quickly.
+b) Children are small.
+c) Children are young people.
+d) Children learn slowly.
+",[4 3 2 1],"Sponges absorb liquids.
+In contrast, children are not sponges.
+This contrasts projects the property of absorbing liquids to children, so the speaker is saying d) children learn slowly."
+23,Nonliterary,1.0,253.0,8.0,A white rabbit's fur in winter is a soldier's army-green uniform in a jungle.,5.93,5.87,3.43,4.9,5.14,4.97,4.93,3.32,4.6,1.85,A white rabbit's fur in winter is good camoflauge.,A white rabbit's fur in winter is naturally warm and cozy.,A white rabbit's fur in winter is the outermost part of the animal.,A white rabbit's fur in winter is easy to see.,,"""A white rabbit's fur in winter is a soldier's army-green uniform in a jungle.""
+
+a) A white rabbit's fur in winter is good camoflauge.
+b) A white rabbit's fur in winter is the outermost part of the animal.
+c) A white rabbit's fur in winter is easy to see.
+d) A white rabbit's fur in winter is naturally warm and cozy.
+",[4 2 1 3],"A soldier's army-green uniform is the color of a country's flag.
+In contrast, a white rabbit's fur in winter is not the color of a country's flag.
+This contrast projects the property of being invisible to the color of a country's flag to a white rabbit's fur in winter, so the speaker is saying c) a white rabbit's fur in winter is easy to see."
+24,Nonliterary,1.0,232.0,0.0,The palm tree is nature's fan.,6.0,6.0,3.47,4.47,4.73,5.0,5.33,3.3,4.5,1.86,The palm tree can be used to cool off.,The palm tree needs electricity.,The palm tree is an evergreen.,The palm tree can be used to warm up.,,"""The palm tree is nature's fan.""
+
+a) The palm tree can be used to cool off.
+b) The palm tree can be used to warm up.
+c) The palm tree is an evergreen.
+d) The palm tree needs electricity.
+",[4 1 2 3],"A fan is used to cool off or to air out something.
+In contrast, a palm tree does not need a fan.
+This contrast projects the property of cooling down or airing something out to a palm tree, so the speaker is saying a) the palm tree can be used to cool down."
+25,Nonliterary,1.0,10.0,0.0,Creativity is a toaster.,2.48,2.96,2.35,2.36,1.93,2.03,2.88,1.52,2.11,1.19,Creativity is unpredictable.,Creativity is fast.,Creativity is creating new things.,Creativity is predictable.,,"""Creativity is a toaster.""
+
+a) Creativity is fast.
+b) Creativity is unpredictable.
+c) Creativity is creating new things.
+d) Creativity is predictable.
+",[3 4 2 1],"
+Toaster ovens are fast.
+In contrast, creativity is slow.
+This contrast projects the property of being slow to creativity, so the speaker is saying b) creativity is unpredictable."
+26,Nonliterary,1.0,243.0,0.0,The Rocky mountains are the spine of North America.,6.18,6.0,3.23,4.63,4.93,5.23,5.55,4.45,4.6,1.83,The Rocky mountains are in the center of North America.,The Rocky mountains support North America.,The Rocky mountains are in the middle of the North America.,The Rocky mountains are soft.,,"""The Rocky mountains are the spine of North America.""
+
+a) The Rocky mountains are soft.
+b) The Rocky mountains are in the center of North America.
+c) The Rocky mountains support North America.
+d) The Rocky mountains are in the middle of the North America.
+",[1 4 3 2],"A spine is a long, narrow piece of flesh that supports an animal's body.
+In contrast, the Rocky mountains are not soft.
+This contrast projects the property of being firm to the Rocky mountains, so the speaker is saying d) the Rocky mountains are in the middle of the North America."
+27,Nonliterary,1.0,53.0,0.0,A child's mind is an apple core.,3.1,3.38,2.47,2.57,2.27,2.73,2.73,1.63,2.0,1.17,A child's mind is important.,A child's mind is growing.,A child's mind is young mind.,A child's mind is trivial.,,"""A child's mind is an apple core.""
+
+a) A child's mind is important.
+b) A child's mind is trivial.
+c) A child's mind is growing.
+d) A child's mind is young mind.
+",[4 1 3 2],"
+The apple core is the center of an apple.
+In contrast, a child's mind is not the center of their body.
+This contrast projects the property of importance to the apple core, so the speaker is saying a) a child's mind is important."
+28,Nonliterary,1.0,209.0,0.0,A smile is an ambassador.,5.07,4.37,2.57,3.77,3.4,4.43,2.73,3.43,3.5,1.43,A smile helps to make a good impression.,A smile is a person.,A smile is a facial expression.,A smile helps to make a bad impression.,,"""A smile is an ambassador.""
+
+a) A smile helps to make a bad impression.
+b) A smile is a facial expression.
+c) A smile helps to make a good impression.
+d) A smile is a person.
+",[1 2 4 3],"
+
+A smile is an ambassador that tries to make a good impression.
+In contrast, a smile can also make a bad impression.
+This contrast projects the property of helping to make a good impression to a smile, so the speaker is saying c) a smile is a facial expression."
+29,Literary,1.0,126.0,0.0,The brain is the prisoner of thought.,5.4,5.23,4.17,4.3,4.53,4.8,3.73,5.03,4.4,1.9,The brain can only think certain thoughts.,The brain can only think about prison.,The brain is an organ in the skull.,The brain can think any thoughts.,,"""The brain is the prisoner of thought.""
+
+a) The brain is an organ in the skull.
+b) The brain can only think certain thoughts.
+c) The brain can only think about prison.
+d) The brain can think any thoughts.
+",[2 4 3 1],"The brain is an organ in the skull.
+The brain can only think certain thoughts.
+In contrast, the brain can think any thoughts.
+This contrasts projects the property of being able to think any thoughts to the brain, so the speaker is saying c) the brain can think any thoughts."
+30,Nonliterary,1.0,154.0,0.0,Danger is a spice.,4.63,4.87,2.87,3.57,3.53,3.73,3.73,3.43,3.53,1.83,Danger creates variety.,Danger tastes good.,Danger is when there is a possibility of suffering harm or injury. ,Danger is boring.,,"""Danger is a spice.""
+
+a) Danger creates variety.
+b) Danger is boring.
+c) Danger tastes good.
+d) Danger is when there is a possibility of suffering harm or injury. 
+",[4 1 3 2],"A spice is something that enhances the taste of food.
+In contrast, danger is something that might cause harm or injury.
+This contrast projects the property of being exciting to danger, so the speaker is saying c) danger tastes good."
+31,Nonliterary,1.0,188.0,29.0,Truth is a firefly.,4.0,3.9,2.83,3.07,3.23,2.63,3.4,2.47,3.4,1.66,Truth is useful.,Truth is powerful.,Truth is a virtue.,Truth is elusive.,,"""Truth is a firefly.""
+
+a) Truth is useful.
+b) Truth is a virtue.
+c) Truth is powerful.
+d) Truth is elusive.
+",[4 2 3 1],"A firefly is a tiny light that flits around.
+In contrast, truth is not a light and is much harder to see.
+This contrast projects the property of being a tiny light to truth, so the speaker is saying d) truth is elusive."
+32,Nonliterary,1.0,193.0,0.0,Lust is anarchy.,3.57,3.1,3.1,3.07,2.47,2.7,2.83,2.5,2.67,1.24,Lust lacks discipline and will lead to chaos.,Lust lacks happiness and will lead to despair.,Lust is a strong sexual desire.,Lust lacks happiness and will lead to chaos.,,"""Lust is anarchy.""
+
+a) Lust is a strong sexual desire.
+b) Lust lacks discipline and will lead to chaos.
+c) Lust lacks happiness and will lead to chaos.
+d) Lust lacks happiness and will lead to despair.
+",[2 4 1 3],"Anarchy is a state of disorder.
+In contrast, lust is a strong sexual desire that can lead to chaos.
+This contrast projects the property of being chaotic from lust, so the speaker is saying d) lust lacks happiness and will lead to chaos."
+33,Nonliterary,1.0,254.0,12.0,Bargain hunters are prospectors for gold.,5.34,5.73,3.13,3.87,4.07,4.48,4.45,3.36,3.93,1.59,Bargain hunters search for good deals.,Bargain hunters look for treasure.,Bargain hunters are people looking to save money.,Bargain hunters move in groups.,,"""Bargain hunters are prospectors for gold.""
+
+a) Bargain hunters look for treasure.
+b) Bargain hunters move in groups.
+c) Bargain hunters are people looking to save money.
+d) Bargain hunters search for good deals.
+",[3 1 2 4],"Gold prospectors explore for treasure.
+In contrast, bargain hunters are not looking for treasure.
+This contrast projects the property of looking for treasure to bargain hunting, so the speaker is saying c) bargain hunters are people looking to save money."
+34,Nonliterary,1.0,172.0,0.0,Wounds are fjords.,4.6,4.7,2.93,3.48,3.77,3.57,3.77,2.23,3.21,1.21,Wounds are extremely deep.,Wounds are beautiful.,Wounds are injuries.,Wounds are superficial.,,"""Wounds are fjords.""
+
+a) Wounds are injuries.
+b) Wounds are extremely deep.
+c) Wounds are superficial.
+d) Wounds are beautiful.
+",[2 4 1 3],"A fjord is a deep ocean trench carved by the flow of the sea.
+In contrast, wounds are not injuries.
+This contrast projects the property of being injuries to wounds, so the speaker is saying c) wounds are superficial."
+35,Nonliterary,1.0,21.0,5.0,A sailboat is a cat.,2.6,2.96,2.08,2.0,1.93,2.17,2.31,1.62,1.85,1.35,A sailboat can move tactically.,A sailboat is small.,A sailboat is a recreational vehicle.,A sailboat moves where the wind goes.,,"""A sailboat is a cat.""
+
+a) A sailboat is small.
+b) A sailboat can move tactically.
+c) A sailboat moves where the wind goes.
+d) A sailboat is a recreational vehicle.
+",[3 4 1 2],"A cat can move where the wind goes.
+In contrast, a sailboat is not an agent that can directly move.
+This contrast projects the property of moving where the wind goes to a sailboat, so the speaker is saying c) a sailboat moves where the wind goes."
+36,Nonliterary,1.0,67.0,11.0,Artists are gods.,3.9,3.73,2.5,2.53,2.27,2.47,2.4,2.53,2.17,1.07,Artists are creators.,Artists know everything.,Artists are creative people.,Artists are show-offs.,,"""Artists are gods.""
+
+a) Artists know everything.
+b) Artists are show-offs.
+c) Artists are creators.
+d) Artists are creative people.
+",[3 1 4 2],"Gods are creators of the universe.
+In contrast, artists are not gods.
+This contrast projects the property of being a creator to artists, so the speaker is saying c) artists are creators."
+37,Nonliterary,1.0,62.0,18.0,School teachers are granite.,4.43,4.63,2.97,3.73,3.53,3.53,3.9,2.63,2.9,1.72,School teachers are strong.,School teachers are detailed.,Old schoolteachers are people who have taught for a long time.,School teachers are boring.,"Note: changed from ""old schoolteachers""","""School teachers are granite.""
+
+a) School teachers are detailed.
+b) Old schoolteachers are people who have taught for a long time.
+c) School teachers are strong.
+d) School teachers are boring.
+",[3 2 4 1],"A granite block is hard and unyielding.
+In contrast, old schoolteachers are people who are no longer active in the profession.
+This contrast projects the property of being strong and long-lived from schoolteachers to old schoolteachers, so the speaker is saying a) school teachers are detailed."
+38,Nonliterary,1.0,77.0,0.0,Courtesy is a sweet note in the noise of the city.,6.0,6.41,3.53,5.6,4.47,5.1,5.17,4.83,5.14,1.66,Courtesy is a nice gesture.,Courtesy is a quiet gesture.,Courtesy is an expression of kindness.,Courtesy is a mean gesture.,,"""Courtesy is a sweet note in the noise of the city.""
+
+a) Courtesy is a quiet gesture.
+b) Courtesy is an expression of kindness.
+c) Courtesy is a nice gesture.
+d) Courtesy is a mean gesture.
+",[3 2 4 1],"Courtesy is a nice gesture.
+In contrast, Courtesy is a mean gesture.
+This contrast projects the property of being nice to courtesy, so the speaker is saying c) courtesy is a nice gesture."
+39,Nonliterary,1.0,30.0,0.0,A busybody is a patch of crabgrass.,4.38,4.54,2.77,3.84,2.93,3.45,3.69,2.96,3.37,1.55,A busybody is a nuassiance.,A busybody is green.,A busybody is someone who can't stop moving.,A busybody is a help.,,"""A busybody is a patch of crabgrass.""
+
+a) A busybody is a help.
+b) A busybody is green.
+c) A busybody is someone who can't stop moving.
+d) A busybody is a nuassiance.
+",[1 3 2 4],"
+A patch of crabgrass is a weed that spreads rapidly and can be a nuissance.
+In contrast, a busybody is someone who can't stand seeing weeds and tries to get rid of them.
+This contrast projects the property of helping to a busybody, so the speaker is saying d) a busybody is a nuassiance."
+40,Nonliterary,1.0,129.0,0.0,Anarchy is a watering can for destruction.,3.66,4.2,3.0,3.83,2.4,2.52,3.63,2.55,3.4,1.5,Anarchy leads to destruction.,Destruction leads to anarchy.,Anarchy is a lack of government.,Anarchy prevents destruction.,,"""Anarchy is a watering can for destruction.""
+
+a) Anarchy leads to destruction.
+b) Anarchy prevents destruction.
+c) Destruction leads to anarchy.
+d) Anarchy is a lack of government.
+",[4 1 3 2],"Anarchy is a lack of order.
+In contrast, destruction leads to anarchy.
+This contrast projects the property of leading to anarchy to anarchy, so the speaker is saying a) anarchy is a lack of government."
+41,Nonliterary,1.0,11.0,25.0,The wind is a rocking chair.,4.16,4.54,2.69,3.4,3.31,3.66,4.12,2.62,2.59,1.42,The wind goes back and forth.,The wind goes up and down.,The wind is air blowing quickly.,The wind stays still.,,"""The wind is a rocking chair.""
+
+a) The wind goes up and down.
+b) The wind goes back and forth.
+c) The wind is air blowing quickly.
+d) The wind stays still.
+",[3 4 2 1],"
+An adult sits in a rocking chair and the chair rocks back and forth.
+In contrast, the wind does not move.
+This contrast projects the property of staying still to the wind, so the speaker is saying c) the wind stays still."
+42,Nonliterary,1.0,17.0,0.0,A tree stump is a dead soldier.,4.58,4.25,2.54,4.2,3.21,3.82,3.46,2.93,2.96,1.85,A tree stump is the remains of a tree that was once alive.,A tree stump can mark a grave.,A tree stump is a dead tree.,A tree stump is currently alive.,,"""A tree stump is a dead soldier.""
+
+a) A tree stump is currently alive.
+b) A tree stump is the remains of a tree that was once alive.
+c) A tree stump can mark a grave.
+d) A tree stump is a dead tree.
+",[1 4 3 2],"A dead soldier is someone who has died in battle.
+In contrast, a tree stump does not represent someone who has died in battle.
+This contrast projects the property of being a dead soldier to a tree stump, so the speaker is saying c) a tree stump can mark a grave."
+43,Nonliterary,1.0,242.0,0.0,Television is the aspirin for boredom.,5.9,5.77,3.83,4.5,4.38,4.27,4.76,4.07,3.8,1.62,Television relieves boredom.,Television prevents boredom.,Television is entertainment.,Television causes boredom.,,"""Television is the aspirin for boredom.""
+
+a) Television causes boredom.
+b) Television is entertainment.
+c) Television relieves boredom.
+d) Television prevents boredom.
+",[1 2 4 3],"Aspirin cures headache.
+In contrast, television does not cure or prevent boredom.
+This contrast projects the property of curing or preventing boredom from aspirin, so the speaker is saying c) television relieves boredom."
+44,Nonliterary,1.0,204.0,0.0,Detectives are ferrets.,4.0,3.97,3.27,3.5,3.33,3.5,3.37,2.7,3.3,1.38,Detectives go anywhere they can.,Detectives are pets.,Detectives are people who investigate and solve crimes.,Detectives are loving.,,"""Detectives are ferrets.""
+
+a) Detectives are people who investigate and solve crimes.
+b) Detectives are pets.
+c) Detectives are loving.
+d) Detectives go anywhere they can.
+",[2 3 1 4],"
+Ferrets are pets that help detectives solve crimes.
+In contrast, detectives are not people.
+This contrast projects the property of helping people from detectives, so the speaker is saying b) detectives are pets."
+45,Nonliterary,1.0,160.0,0.0,Official reports are skeletons of the truth.,5.3,5.2,4.07,3.97,4.59,4.27,4.27,3.63,4.3,1.8,Official reports don't tell the whole story.,Official reports are versions of the truth.,Official reports are documents produced by officials.,Official reports are lies.,,"""Official reports are skeletons of the truth.""
+
+a) Official reports are versions of the truth.
+b) Official reports are lies.
+c) Official reports are documents produced by officials.
+d) Official reports don't tell the whole story.
+",[3 1 2 4],"Official reports are versions of the truth.
+In contrast, official reports are not the whole story.
+This contrast projects the property of not being the whole story from official reports to the speaker, so the speaker is saying c) official reports are documents produced by officials."
+46,Nonliterary,1.0,124.0,0.0,A dilemma is a cactus.,3.97,4.4,2.2,3.97,3.17,3.66,3.97,2.41,3.47,1.39,A dilemma is complicated and potentially painful.,A dilemma is small and potentially bloody.,A dilemma is a difficult situation.,A dilemma is simple and safe.,,"""A dilemma is a cactus.""
+
+a) A dilemma is complicated and potentially painful.
+b) A dilemma is simple and safe.
+c) A dilemma is a difficult situation.
+d) A dilemma is small and potentially bloody.
+",[4 1 2 3],"
+A cactus is a plant that is difficult to move and can be dangerous.
+In contrast, a dilemma is not a plant and is small.
+This contrast projects the property of being difficult to move and dangerous to a cactus, so the speaker is saying a) a dilemma is complicated and potentially painful."
+47,Nonliterary,1.0,4.0,0.0,The bird is nature's airplane.,6.84,6.71,3.38,5.4,5.9,5.52,5.96,5.31,5.22,1.92,Birds can fly naturally.,Birds have pilots.,The bird is an animal.,Birds aren't real.,,"""The bird is nature's airplane.""
+
+a) Birds aren't real.
+b) Birds can fly naturally.
+c) Birds have pilots.
+d) The bird is an animal.
+",[1 4 3 2],"
+
+A bird is not an animal.
+This contrast projects the property of being real to the bird, so the speaker is saying a) birds aren't real."
+48,Nonliterary,1.0,107.0,5.0,A sailboat is a leaf.,5.23,5.2,2.73,3.4,3.83,3.83,4.43,2.7,3.27,1.64,A sailboat moves where the wind goes.,A sailboat is flat.,A sailboat is a sea vessel.,A sailboat can move tactically.,,"""A sailboat is a leaf.""
+
+a) A sailboat is a sea vessel.
+b) A sailboat can move tactically.
+c) A sailboat moves where the wind goes.
+d) A sailboat is flat.
+",[2 1 4 3],"A leaf can move with the wind.
+In contrast, a sailboat cannot move with the wind.
+This contrast projects the property of being moveable with the wind to a sailboat, so the speaker is saying c) a sailboat moves where the wind goes."
+49,Literary,1.0,6.0,8.0,Clouds are worlds of wool.,5.77,6.03,3.38,4.53,5.6,4.97,5.13,4.9,3.7,1.83,Clouds are intricate.,Clouds look soft.,Clouds are a visible mass of condensed water floating in the atmosphere.,Clouds are simple.,,"""Clouds are worlds of wool.""
+
+a) Clouds are simple.
+b) Clouds are a visible mass of condensed water floating in the atmosphere.
+c) Clouds look soft.
+d) Clouds are intricate.
+",[1 2 3 4],"Worlds of wool are stories where animals live in different shapes and sizes.
+In contrast, clouds are not a story.
+This contrast projects the property of being a story to clouds, so the speaker is saying b) clouds are a visible mass of condensed water floating in the atmosphere."
+50,Nonliterary,1.0,205.0,0.0,Loud voices are bellows.,5.27,5.8,4.53,3.73,4.13,4.5,4.57,4.07,4.17,1.9,Loud voices often encourage controversy.,Loud voices often explain controvery.,fixme,Loud voices often discourage controversy.,,"""Loud voices are bellows.""
+
+a) fixme
+b) Loud voices often encourage controversy.
+c) Loud voices often discourage controversy.
+d) Loud voices often explain controvery.
+",[2 4 1 3],"
+
+To be continued..."
+51,Nonliterary,1.0,256.0,6.0,A trailer-home is the shell of a wandering turtle.,5.86,5.7,3.03,3.97,4.21,4.24,4.48,2.68,4.03,1.62,A trailer-home is always close by.,A trailer-home is protection.,A trailer-home is a portable home.,A trailer-home is a way to take more stuff on trips.,,"""A trailer-home is the shell of a wandering turtle.""
+
+a) A trailer-home is protection.
+b) A trailer-home is always close by.
+c) A trailer-home is a way to take more stuff on trips.
+d) A trailer-home is a portable home.
+",[3 4 1 2],"A trailer-home is a temporary shelter.
+In contrast, a wandering turtle has no fixed home.
+This contrast projects the property of temporary shelter to a trailer-home, so the speaker is saying d) a trailer-home is a portable home."
+52,Nonliterary,1.0,34.0,0.0,A well trained fighter is a knight in armor.,5.53,5.93,3.87,4.07,5.0,4.7,4.6,3.53,4.87,1.77,A well trained fighter has extra protection.,A well trained fighter is fast.,A well trained fighter is a champion.,A well trained fighter is more vulnerable.,,"""A well trained fighter is a knight in armor.""
+
+a) A well trained fighter has extra protection.
+b) A well trained fighter is a champion.
+c) A well trained fighter is fast.
+d) A well trained fighter is more vulnerable.
+",[4 2 3 1],"A knight in armor is extra protective.
+In contrast, a well trained fighter is less protected than a normal person.
+This difference projects the property of vulnerability to a well trained fighter, so the speaker is saying c) a well trained fighter is fast."
+53,Nonliterary,1.0,208.0,0.0,Memories are mists across lawns.,4.67,4.9,2.72,4.2,4.1,4.4,4.8,2.87,3.6,1.46,Memories are fleeting.,Memories are replayed across lawns.,Memories are recollections of the past.,Memories are permanent.,,"""Memories are mists across lawns.""
+
+a) Memories are permanent.
+b) Memories are replayed across lawns.
+c) Memories are recollections of the past.
+d) Memories are fleeting.
+",[1 3 2 4],"Mists are a natural phenomenon that can be seen on a sunny day.
+In contrast, memories are not permanent and can be forgotten.
+This contrast projects the property of being temporary to memories, so the speaker is saying c) memories are recollections of the past."
+54,Nonliterary,1.0,175.0,0.0,Divorce is the earthquake of the family.,6.0,6.3,3.6,4.9,5.73,5.13,5.27,4.4,5.0,2.03,Divorce is surprising and disruptive for families.,Divorce is a major negative event for families.,Divorce is when a married couple ends their relationship.,Divorce is smooth and easy to deal with.,,"""Divorce is the earthquake of the family.""
+
+a) Divorce is surprising and disruptive for families.
+b) Divorce is smooth and easy to deal with.
+c) Divorce is a major negative event for families.
+d) Divorce is when a married couple ends their relationship.
+",[4 1 3 2],"A major earthquake is surprising and disruptive.
+In contrast, divorce is smooth and easy to deal with.
+This contrast projects the properties of being disruptive and surprising to divorce, so the speaker is saying c) divorce is a major negative event for families."
+55,Nonliterary,1.0,258.0,4.0,A match in a forest is the case of flu in a large family.,5.97,5.87,3.9,4.87,5.1,5.1,5.1,3.64,4.77,1.74,A match in a forest can start a large fire.,A match in a forest is small.,A match in a forest is a flamible piece of wood.,A match in a forest is inconsequential.,,"""A match in a forest is the case of flu in a large family.""
+
+a) A match in a forest is small.
+b) A match in a forest can start a large fire.
+c) A match in a forest is inconsequential.
+d) A match in a forest is a flamible piece of wood.
+",[3 4 1 2],"A match in a forest is small and can start a large fire.
+In contrast, a match in a family is large and inconsequential.
+This contrast projects the properties of smallness and inconsequentiality to a match in a forest, so the speaker is saying c) a match in a forest is inconsequential."
+56,Literary,1.0,182.0,0.0,The wailing of shells is a choir for dead soldiers.,5.27,3.7,3.23,4.33,4.37,4.1,4.2,4.1,3.87,1.67,The sound of shells memorializes soldiers who have died.,The sound of shells overshadows soldiers who have died.,The sound of shells is the sound of artillery exploding.,The sound of shells trivializes soldiers who have died.,,"""The wailing of shells is a choir for dead soldiers.""
+
+a) The sound of shells overshadows soldiers who have died.
+b) The sound of shells is the sound of artillery exploding.
+c) The sound of shells memorializes soldiers who have died.
+d) The sound of shells trivializes soldiers who have died.
+",[3 2 4 1],"A choir is an organized group of singers.
+In contrast, the sound of shells is not an organized group of sounds.
+This contrast projects the property of orderly organization to the sound of shells, so the speaker is saying c) the sound of shells memorializes soldiers who have died."
+57,Nonliterary,1.0,181.0,0.0,The look of hate is a laser beam.,5.4,5.63,2.6,4.27,5.17,4.13,5.2,3.87,4.77,1.86,The look of hate is powerful.,The look of hate is hot.,The look of hate is an expression of negative emotion.,The look of hate is weak.,,"""The look of hate is a laser beam.""
+
+a) The look of hate is hot.
+b) The look of hate is an expression of negative emotion.
+c) The look of hate is powerful.
+d) The look of hate is weak.
+",[3 2 4 1],"The look of hate is a powerful expression of negative emotion.
+In contrast, the look of love is a kind of light.
+This contrast projects the property of being powerful to the look of love, so the speaker is saying c) the look of hate is powerful."
+58,Nonliterary,1.0,165.0,0.0,Oil is liquid gold.,6.4,6.7,4.37,5.67,5.7,5.77,5.3,5.8,5.93,2.1,Oil is extremely valuable.,Oil is liquid and metalic.,Oil is refined into gas.,Oil is cheap.,,"""Oil is liquid gold.""
+
+a) Oil is refined into gas.
+b) Oil is extremely valuable.
+c) Oil is liquid and metalic.
+d) Oil is cheap.
+",[2 4 3 1],"Gold is valuable.
+In contrast, oil is not a physical precious metal.
+This contrast projects the property of being valuable to oil, so the speaker is saying c) oil is liquid and metalic."
+59,Nonliterary,1.0,233.0,0.0,The desert is an oven.,6.41,6.47,3.9,4.9,6.1,5.67,5.23,5.37,5.13,2.1,The desert is hot.,The desert is square.,"The desert is dry, hot, and barren area of land.",The desert is cold.,,"""The desert is an oven.""
+
+a) The desert is cold.
+b) The desert is hot.
+c) The desert is dry, hot, and barren area of land.
+d) The desert is square.
+",[1 4 2 3],"
+An oven is a dry, hot, and barren area of land in which food is baked.
+In contrast, the desert is not a shape.
+This contrast projects the property of being dry, hot, and barren to the desert, so the speaker is saying c) the desert is square."
+60,Nonliterary,1.0,59.0,4.0,A match in a forest is a potato chip in a potato field.,3.67,3.2,2.73,2.27,2.57,3.2,3.03,2.53,2.76,1.1,A match in a forest is small.,A match in a forest can start a large fire.,A match in a forest is a small piece of flamable wood.,A match in a forest is large.,,"""A match in a forest is a potato chip in a potato field.""
+
+a) A match in a forest is large.
+b) A match in a forest is small.
+c) A match in a forest can start a large fire.
+d) A match in a forest is a small piece of flamable wood.
+",[1 4 3 2],"A match is a small piece of flamable wood.
+In contrast, a match in a potato field is a large piece of flamable wood.
+This contrast projects the property of being a large piece of flamable wood to a match in a potato field, so the speaker is saying c) a match in a forest can start a large fire."
+61,Nonliterary,1.0,156.0,0.0,A mining town is a large tavern.,4.77,4.97,3.53,3.33,4.47,4.03,3.93,3.0,3.5,1.43,People who live in mining towns drink a lot of alcohol.,People who live in mining towns are friendly.,A mining town is a town where most people work at a mine.,People who live in mining towns never drink alcohol.,,"""A mining town is a large tavern.""
+
+a) People who live in mining towns are friendly.
+b) A mining town is a town where most people work at a mine.
+c) People who live in mining towns never drink alcohol.
+d) People who live in mining towns drink a lot of alcohol.
+",[3 2 1 4],"A tavern is a large building where people drink alcohol.
+In contrast, a mining town is not a town.
+This distinction projects the property of being a town from mining towns, so the speaker is saying b) a mining town is a town where most people work at a mine."
+62,Literary,1.0,19.0,3.0,The stars are beads strung on one string.,5.47,4.57,3.1,3.47,4.33,4.33,3.93,3.87,2.23,1.5,The stars are connected.,The stars are circles.,The stars are in the sky.,The stars are disconnected.,,"""The stars are beads strung on one string.""
+
+a) The stars are connected.
+b) The stars are circles.
+c) The stars are in the sky.
+d) The stars are disconnected.
+",[4 3 2 1],"Beads are small and round.
+In contrast, the stars are vast and geometric.
+This contrast projects the property of being connected to the stars to beads, so the speaker is saying a) the stars are connected."
+63,Nonliterary,1.0,248.0,0.0,Featherweight boxers are wasps.,4.31,3.2,2.47,3.37,2.97,3.53,3.59,2.17,2.7,1.48,Featherweight boxers are agile.,Featherweight boxers are annoying.,Featherweight boxers are the lightest weightclass.,Featherweight boxers are pleasant.,,"""Featherweight boxers are wasps.""
+
+a) Featherweight boxers are the lightest weightclass.
+b) Featherweight boxers are agile.
+c) Featherweight boxers are annoying.
+d) Featherweight boxers are pleasant.
+",[2 4 3 1],"
+Weights classes are divided into categories based on weight.
+In contrast, featherweight boxers are not a weightclass.
+This contrast projects the property of not being a weightclass to featherweight boxers, so the speaker is saying c) featherweight boxers are annoying."
+64,Nonliterary,1.0,81.0,0.0,An exaggeration is an invitation to falsehood.,5.13,5.8,4.1,4.4,3.63,4.23,3.73,3.7,4.72,1.59,An exaggeration is a precursor to a lie.,An exaggeration is worse than a lie.,An exaggeration is not entirely true.,An exaggeration is not a lie.,,"""An exaggeration is an invitation to falsehood.""
+
+a) An exaggeration is worse than a lie.
+b) An exaggeration is a precursor to a lie.
+c) An exaggeration is not entirely true.
+d) An exaggeration is not a lie.
+",[3 4 2 1],"An invitation to falsehood is when someone invites someone to speak falsely.
+In contrast, an exaggeration is not an invitation to speak falsely.
+This contrast projects the property of not being an invitation to speak falsely to an exaggeration, so the speaker is saying c) an exaggeration is not entirely true."
+65,Nonliterary,1.0,238.0,0.0,Newspapers are telescopes of events.,5.41,5.63,3.83,3.97,3.9,4.37,3.93,3.37,4.33,1.79,Newspapers enable more people from all over to learn about events.,Newspapers include a lot of information about events.,Newspapers are where the news is reported.,Newspapers prevent people from learning about events.,,"""Newspapers are telescopes of events.""
+
+a) Newspapers are where the news is reported.
+b) Newspapers include a lot of information about events.
+c) Newspapers enable more people from all over to learn about events.
+d) Newspapers prevent people from learning about events.
+",[2 3 4 1],"A telescope includes a lens that magnifies an object.
+In contrast, a newspaper does not include a lens and does not magnify events.
+This contrasts projects the property of magnification from a telescope to a newspaper, so the speaker is saying b) newspapers include a lot of information about events."
+66,Nonliterary,1.0,15.0,0.0,Love is a flower.,5.84,5.96,2.92,3.8,4.59,5.0,4.65,5.21,4.33,3.08,Love is beautiful and grows.,Love dies.,Love is an emotion.,Love smells nice.,,"""Love is a flower.""
+
+a) Love smells nice.
+b) Love is an emotion.
+c) Love dies.
+d) Love is beautiful and grows.
+",[1 2 3 4],"
+Love is an emotion that is gentle, beautiful, and grows.
+In contrast, love does not smell good and it can eventually die.
+This contrast projects the properties of being gentle, beautiful, and growing to love, so the speaker is saying c) love is an emotion."
+67,Nonliterary,1.0,239.0,0.0,Purgatory is the lobby of heaven.,4.14,4.62,3.17,4.0,4.14,3.5,3.41,2.69,3.07,1.07,na,na,na,na,Religious,"""Purgatory is the lobby of heaven.""
+
+a) na
+b) na
+c) na
+d) na
+",[4 3 1 2],"
+na"
+68,Nonliterary,1.0,18.0,0.0,The queen is a nation's aunt.,3.88,4.63,3.12,2.6,2.21,2.93,2.58,2.25,2.85,0.88,The queen helps to lead a nation.,The queen helps to fund a nation.,The queen is a nation's leader.,The queen is unrelated to a nation.,,"""The queen is a nation's aunt.""
+
+a) The queen is unrelated to a nation.
+b) The queen helps to fund a nation.
+c) The queen is a nation's leader.
+d) The queen helps to lead a nation.
+",[1 3 2 4],"An aunt is related to a nation.
+In contrast, the queen is unrelated to a nation.
+This contrast projects the property of being related to a nation to the queen, so the speaker is saying c) the queen is a nation's leader."
+69,Nonliterary,1.0,120.0,0.0,The creative mind is a kettle on the stove.,4.07,5.33,2.67,3.93,3.57,3.34,3.67,3.14,3.17,1.54,The creative mind needs time to warm up.,The creative mind needs tea to function.,The creative mind is a mind that is creating.,The creative mind is ready any time.,,"""The creative mind is a kettle on the stove.""
+
+a) The creative mind is a mind that is creating.
+b) The creative mind needs time to warm up.
+c) The creative mind is ready any time.
+d) The creative mind needs tea to function.
+",[2 4 1 3],"
+A kettle is boiling on the stove.
+In contrast, the creative mind is not boiling on the stove.
+This contrast projects the property of being boiling to the creative mind, so the speaker is saying c) the creative mind is ready any time."
+70,Nonliterary,1.0,47.0,8.0,A white rabbit's fur in winter is a ready-made suit of long underwear.,5.63,6.07,3.57,3.83,4.73,4.83,5.03,2.97,4.53,1.57,A white rabbit's fur in winter is naturally warm and cozy.,A white rabbit's fur in winter is good camoflauge.,A white rabbit's fur in winter is the outermost part of the animal.,A white rabbit's fur in winter is naturally cold and uncomfortable.,,"""A white rabbit's fur in winter is a ready-made suit of long underwear.""
+
+a) A white rabbit's fur in winter is the outermost part of the animal.
+b) A white rabbit's fur in winter is naturally cold and uncomfortable.
+c) A white rabbit's fur in winter is naturally warm and cozy.
+d) A white rabbit's fur in winter is good camoflauge.
+",[2 1 4 3],"
+White rabbits have a naturally cold and uncomfortable fur in winter.
+In contrast, a white rabbit's fur in winter can be used to make a suit of long underwear.
+This contrast projects the property of being good camoflauge to a white rabbit's fur in winter, so the speaker is saying c) a white rabbit's fur in winter is naturally warm and cozy."
+71,Literary,1.0,23.0,8.0,Clouds are puffballs,6.6,6.67,4.5,4.07,6.37,5.97,6.2,6.1,5.13,1.7,Clouds look soft.,Clouds look delicious.,Clouds are a visible mass of condensed water floating in the atmosphere.,Clouds look rough.,,"""Clouds are puffballs""
+
+a) Clouds are a visible mass of condensed water floating in the atmosphere.
+b) Clouds look delicious.
+c) Clouds look soft.
+d) Clouds look rough.
+",[2 3 4 1],"A puffball is a type of fungus that is shaped like a ball.
+in contrast, clouds are not a fungus.
+This contrast projects the property of being a fungus from clouds, so the speaker is saying c) clouds look soft."
+72,Nonliterary,1.0,79.0,19.0,Power is capitalism's narcotic.,4.9,4.6,3.57,4.67,3.3,3.3,3.4,3.13,3.83,1.55,Capitalism can be undermined by power.,Power can be injected.,Power is being able to take control.,Power can resolve problems.,,"""Power is capitalism's narcotic.""
+
+a) Power is being able to take control.
+b) Power can be injected.
+c) Power can resolve problems.
+d) Capitalism can be undermined by power.
+",[2 3 1 4],"Capitalism is a system where people have power.
+In contrast, power can be taken away from capitalists by the people.
+This contrast projects the property of having power over capitalists to capitalism, so the speaker is saying c) power can resolve problems."
+73,Literary,1.0,65.0,1.0,Time is a priceless coin.,5.37,5.9,3.83,4.33,4.97,3.8,3.77,5.43,3.4,2.1,Time is extremely valuable.,Time is a circle.,Time is continued progress of existence.,Time is worthless.,,"""Time is a priceless coin.""
+
+a) Time is continued progress of existence.
+b) Time is extremely valuable.
+c) Time is a circle.
+d) Time is worthless.
+",[2 4 3 1],"Time is an agent that continues progress of existence.
+In contrast, time is worthless.
+This contrast projects the property of being valuable to time, so the speaker is saying a) time is continued progress of existence."
+74,Nonliterary,1.0,82.0,0.0,A sculpture is a landmark of an era.,5.47,4.97,4.4,3.87,3.57,4.07,3.67,3.5,4.55,1.66,Sculptures reflect the time and place they were created.,Sculptures are big.,A sculpture is a piece of art.,Sculptures have no connection to the time and place they were created.,,"""A sculpture is a landmark of an era.""
+
+a) Sculptures have no connection to the time and place they were created.
+b) A sculpture is a piece of art.
+c) Sculptures reflect the time and place they were created.
+d) Sculptures are big.
+",[1 2 4 3],"An era is a time period.
+A landmark is a physical or cultural feature that is visible from a distance and typically indicates the location of a place.
+In contrast, sculptures are physical pieces of art that are typically big and prominently displayed.
+This contrast projects the property of being a physical landmark of an era to sculptures, so the speaker is saying c) sculptures reflect the time and place they were created."
+75,Nonliterary,1.0,246.0,0.0,Migraine headaches are beating drums.,6.52,6.43,3.52,4.97,5.55,5.53,5.9,4.69,5.47,1.97,Migraine headaches can be throbbing.,Migraine headaches can make people sensitive to noise.,Migraine headaches are throbbing and painful.,Migraine headaches are comfortable.,,"""Migraine headaches are beating drums.""
+
+a) Migraine headaches can make people sensitive to noise.
+b) Migraine headaches are throbbing and painful.
+c) Migraine headaches are comfortable.
+d) Migraine headaches can be throbbing.
+",[3 2 1 4],"A throbbing, painful, and uncomfortable sensation is called a headache.
+Migraine headaches are one type of headache.
+
+In contrast, migraine headaches are not loud.
+This contrast projects the properties of being loud and throbbing to migraine headaches, so the speaker is saying d) migraine headaches can be throbbing."
+76,Nonliterary,1.0,203.0,0.0,The army is a plague.,4.37,4.53,3.07,3.8,3.37,4.3,3.87,3.27,3.1,1.9,The army is killing people.,The army is making people sick.,The army is a branch of the military.,The army is keeping people alive.,,"""The army is a plague.""
+
+a) The army is killing people.
+b) The army is making people sick.
+c) The army is keeping people alive.
+d) The army is a branch of the military.
+",[4 3 1 2],"The army is a branch of the military that kills people.
+In contrast, the army is not a person and cannot literally make people sick.
+This contrast projects the property of making people sick to the army, so the speaker is saying 4) the army is a branch of the military that keeps people alive."
+77,Nonliterary,1.0,68.0,0.0,An old man is a living history book.,6.2,6.43,4.03,4.53,4.6,5.17,5.1,4.77,4.72,2.03,An old man has a lot of knowledge about the past.,An old man has knowledge that could be tested in a history class.,An old man is a man who has lived a long time.,An old man is has little knowledge of the past.,,"""An old man is a living history book.""
+
+a) An old man is a man who has lived a long time.
+b) An old man has a lot of knowledge about the past.
+c) An old man has knowledge that could be tested in a history class.
+d) An old man is has little knowledge of the past.
+",[2 4 3 1],"A living history book is a book where the author is alive and has written about the past.
+In contrast, an old man is a man who has already lived a long time.
+This contrast projects the property of being alive from a living history book to an old man, so the speaker is saying c) an old man has knowledge that could be tested in a history class."
+78,Nonliterary,1.0,70.0,15.0,Freedom is a breath of fresh air.,5.93,6.13,3.47,4.87,4.77,5.03,4.53,5.47,5.17,2.0,Freedom is refreshing.,Freedom is cold.,Freedom is a value.,Freedom is difficult.,,"""Freedom is a breath of fresh air.""
+
+a) Freedom is cold.
+b) Freedom is difficult.
+c) Freedom is a value.
+d) Freedom is refreshing.
+",[3 1 2 4],"A breath of fresh air is refreshing.
+In contrast, freedom is not refreshing and it is difficult to live without constraints.
+This contrast projects the property of being refreshing to freedom, so the speaker is saying d) freedom is refreshing."
+79,Nonliterary,1.0,143.0,0.0,The past is a bottomless pit.,5.11,5.03,2.7,3.53,4.27,4.27,4.0,4.23,3.17,2.04,A person could spend all their time thinking about the past.,A person should spend all of their time thinking about the past.,The past is what has already happened.,The past is always easy to think about and never takes very long.,,"""The past is a bottomless pit.""
+
+a) The past is always easy to think about and never takes very long.
+b) A person could spend all their time thinking about the past.
+c) A person should spend all of their time thinking about the past.
+d) The past is what has already happened.
+",[1 4 3 2],"A bottomless pit is an unexplored place.
+In contrast, the past is easy to think about and takes very little time.
+This contrast projects the property of being easy to think about and short in length to the past, so the speaker is saying a) the past is always easy to think about."
+80,Nonliterary,1.0,25.0,0.0,Experience is a used car salesman.,5.0,4.88,3.42,3.08,2.66,3.86,3.27,2.76,2.67,1.58,Experience can be misleading.,Experience can be helpful.,Experience is observation.,Experience can be hard to find.,,"""Experience is a used car salesman.""
+
+a) Experience can be misleading.
+b) Experience is observation.
+c) Experience can be hard to find.
+d) Experience can be helpful.
+",[4 2 1 3],"A used car salesman can be misleading.
+In contrast, experience can be helpful because it is observation.
+This contrast projects the property of being helpful from experience to a used car salesman, so the speaker is saying c) experience can be helpful."
+81,Literary,1.0,21.0,6.0,A body is a prison for the soul.,6.13,6.03,4.03,4.6,3.9,4.17,4.4,5.67,4.0,1.8,A body is confining.,A body is in jail.,A body is the physical structure of a person.,A body can do anything.,,"""A body is a prison for the soul.""
+
+a) A body can do anything.
+b) A body is confining.
+c) A body is the physical structure of a person.
+d) A body is in jail.
+",[1 4 2 3],"
+A body is a structure that a person can inhabit.
+In contrast, a soul is an immaterial part of a person.
+This contrast projects the property of being a structure to a body, so the speaker is saying c) a body is the physical structure of a person.
+###
+""Existence is a river.""
+
+a) Existence flows from the past to the future.
+b) Existence is ebb and flow.
+c) Existence is constant.
+d) Existence is continuous.
+
+Let's think step by step.
+
+A river flows from the past to the future.
+Similarly, existence ebbs and flows.
+This contrasts projects the property of flowing from existence to the past and future, so the speaker is saying c) existence is constant."
+82,Nonliterary,1.0,159.0,0.0,Beware-of-dog signs are scarecrows.,5.63,6.13,4.07,3.8,4.8,4.4,5.1,3.43,4.5,1.57,Beware-of-dog signs are intended to keep certain people away.,Beware-of-dog signs are sometimes effective.,Beware-of-dog signs are inteded to keep intruders away.,Beware-of-dog signs are intended to attract certain people.,,"""Beware-of-dog signs are scarecrows.""
+
+a) Beware-of-dog signs are intended to keep certain people away.
+b) Beware-of-dog signs are inteded to keep intruders away.
+c) Beware-of-dog signs are intended to attract certain people.
+d) Beware-of-dog signs are sometimes effective.
+",[4 2 1 3],"A scarecrow is a figure that is meant to terrify animals.
+In contrast, beware-of-dog signs are not meant to frighten people and are instead meant to attract certain people.
+This contrast projects the property of being effective to beware-of-dog signs, so the speaker is saying c) beware-of-dog signs are intended to attract certain people."
+83,Nonliterary,1.0,64.0,0.0,A shadow is a piece of night.,5.13,5.67,3.27,4.67,4.27,4.1,4.5,3.13,3.9,1.69,A shadow is dark.,A shadow is mysterious.,A shadow is obstructed light.,A shadow is bright.,,"""A shadow is a piece of night.""
+
+a) A shadow is dark.
+b) A shadow is mysterious.
+c) A shadow is bright.
+d) A shadow is obstructed light.
+",[4 3 1 2],"A shadow is dark, mysterious, and Obstructed by light.
+In contrast, a shadow is bright, and reveals what is in front of it.
+This contrast projects the property of revealing what is in front of shadow to shadow, so the speaker is saying c) a shadow is bright."
+84,Nonliterary,1.0,196.0,0.0,Rain clouds are pregnant ghosts.,4.03,4.9,2.77,2.77,3.37,3.83,3.73,1.9,3.07,1.17,Rain clouds are full of water and moving around in the sky.,Rain clouds are full of water and staying still in the sky.,Rain clouds are filled with water.,Rain clouds are empty of water and moving around in the sky.,,"""Rain clouds are pregnant ghosts.""
+
+a) Rain clouds are full of water and staying still in the sky.
+b) Rain clouds are full of water and moving around in the sky.
+c) Rain clouds are empty of water and moving around in the sky.
+d) Rain clouds are filled with water.
+",[3 4 1 2],"A pregnant ghost is an empty vessel that is full of air.
+In contrast, rain clouds are full of water and staying still in the sky.
+This contrast projects the property of being full of water and staying still to a pregnant ghost, so the speaker is saying c) rain clouds are filled with water."
+85,Nonliterary,1.0,94.0,0.0,An acrobat is the bird of the bigtop.,5.57,5.93,3.2,3.23,4.43,3.53,4.7,3.57,4.07,1.57,An acrobat performs in the air.,An acrobat has feathers.,An acrobat is a performer.,An acrobat performs on the ground.,,"""An acrobat is the bird of the bigtop.""
+
+a) An acrobat has feathers.
+b) An acrobat performs in the air.
+c) An acrobat is a performer.
+d) An acrobat performs on the ground.
+",[3 4 2 1],"A bigtop is a circus tent.
+In contrast, an acrobat does not have feathers and does not perform in the air.
+This contrast projects the property of performing on the ground to an acrobat, so the speaker is saying b) an acrobat is a performer."
+86,Nonliterary,1.0,155.0,0.0,Coal mines are the bowels of the earth.,5.62,6.0,3.53,3.83,4.87,4.5,4.77,4.0,4.47,1.77,Coal mines are unpleasant places.,Coal mines are underground.,Coal mines are places where people extract coal from the land.,Coal mines are pleasant places.,,"""Coal mines are the bowels of the earth.""
+
+a) Coal mines are unpleasant places.
+b) Coal mines are places where people extract coal from the land.
+c) Coal mines are underground.
+d) Coal mines are pleasant places.
+",[4 2 3 1],"
+Bowels are the largest and deepest part of the body.
+In contrast, coal mines are underground and are not as pleasant as people might think.
+This contrast projects the property of being unpleasant to coal mines, so the speaker is saying a) coal mines are unpleasant places."
+87,Nonliterary,1.0,244.0,0.0,The eager student is a sponge.,6.03,6.4,3.7,4.83,5.21,4.33,5.34,4.83,5.03,2.07,The eager student learns quickly.,The eager student has room to grow.,The eager student is excited to learn.,The eager student is patient.,,"""The eager student is a sponge.""
+
+a) The eager student has room to grow.
+b) The eager student is excited to learn.
+c) The eager student is patient.
+d) The eager student learns quickly.
+",[3 2 1 4],"A sponge absorbs water and nutrients.
+In contrast, the eager student is excited to learn and absorbs information quickly.
+This contrast projects the properties of absorbing water and nutrients to the eager student, so the speaker is saying c) the eager student is patient."
+88,Nonliterary,1.0,197.0,0.0,Wisdom is a weatherman.,3.13,3.3,2.43,2.13,1.67,2.83,2.1,1.8,2.03,1.17,Wisdom is trying over and over again to do something hard.,Wisdom is trying to predict the weather.,Wisdom is acquired over time.,Wisdom is doing nothing.,,"""Wisdom is a weatherman.""
+
+a) Wisdom is doing nothing.
+b) Wisdom is trying to predict the weather.
+c) Wisdom is acquired over time.
+d) Wisdom is trying over and over again to do something hard.
+",[1 3 2 4],"Weathermen predict the weather.
+In contrast, wisdom is not an agent that can directly change the weather.
+This contrast projects the property of not changing the weather to wisdom, so the speaker is saying c) wisdom is acquired over time."
+89,Nonliterary,1.0,108.0,1.0,A butterfly is a flower.,4.8,5.1,2.33,3.27,4.3,3.9,3.87,3.73,3.13,1.64,A butterfly is beautiful.,A butterfly is colorful.,A butterfly is a flying insect.,A butterfly is ugly.,,"""A butterfly is a flower.""
+
+a) A butterfly is beautiful.
+b) A butterfly is ugly.
+c) A butterfly is a flying insect.
+d) A butterfly is colorful.
+",[4 1 2 3],"A flower is beautiful.
+In contrast, a butterfly is not beautiful.
+This contrast projects the property of being beautiful to a butterfly, so the speaker is saying a) a butterfly is beautiful."
+90,Nonliterary,1.0,102.0,0.0,A chicken is a walking egg carton.,5.7,5.8,3.0,3.7,3.83,3.63,5.17,3.03,3.83,1.79,A chicken is convenient for producing eggs.,A chicken fits in a box.,A chicken is a bird that lays eggs.,Chickens are inconvenient.,,"""A chicken is a walking egg carton.""
+
+a) A chicken is a bird that lays eggs.
+b) Chickens are inconvenient.
+c) A chicken fits in a box.
+d) A chicken is convenient for producing eggs.
+",[2 1 3 4],"
+
+A chicken is a bird that lays eggs.
+Chickens are inconvenient because they are noisy.
+In contrast, a chicken fits in a box.
+This contrast projects the properties of being a bird and laying eggs to chickens, so the speaker is saying b) chickens are inconvenient."
+91,Nonliterary,1.0,178.0,0.0,A liar's tongue is a spear of distrust.,5.53,5.87,2.97,5.27,5.1,4.8,4.5,3.43,5.2,2.0,Don't trust what a liar says.,Don't do what a liar says.,A liar's tongue is a part of their mouth.,Always trust what a liar says.,,"""A liar's tongue is a spear of distrust.""
+
+a) A liar's tongue is a part of their mouth.
+b) Don't do what a liar says.
+c) Always trust what a liar says.
+d) Don't trust what a liar says.
+",[2 3 1 4],"
+
+A liar's tongue is a part of their mouth, so it can be used to speak.
+In contrast, don't do what a liar says.
+This contrast projects the property of acting on what a liar says to not doing what a liar says, so the speaker is saying c) always trust what a liar says."
+92,Nonliterary,1.0,225.0,0.0,The blackmailer is a leech.,5.73,6.1,3.4,4.37,4.27,4.67,4.93,4.73,5.1,1.83,The blackmailer is bad person.,The blackmailer drinks blood.,The blackmailer is trying to take advantage of someone else.,The blackmailer is a good person.,,"""The blackmailer is a leech.""
+
+a) The blackmailer is bad person.
+b) The blackmailer is a good person.
+c) The blackmailer is trying to take advantage of someone else.
+d) The blackmailer drinks blood.
+",[4 1 2 3],"The blackmailer is a bad person.
+In contrast, the blackmailer is trying to take advantage of someone else.
+This contrast projects the property of badness from the blackmailer to trying to take advantage of someone else, so the speaker is saying c) the blackmailer is a good person."
+93,Nonliterary,1.0,166.0,0.0,The degree is a doorway.,4.57,3.8,2.53,3.6,3.4,3.3,3.37,4.43,3.73,1.5,The degree creates opportunities.,The degree helps me travel.,The degree is recognition.,The degree prevents me from gettign new opportunities.,,"""The degree is a doorway.""
+
+a) The degree prevents me from gettign new opportunities.
+b) The degree creates opportunities.
+c) The degree is recognition.
+d) The degree helps me travel.
+",[1 4 2 3],"The degree is a door that I need a credential or a letter of recommendation to get through.
+In contrast, the degree does not actually restrict my opportunities.
+This contrast projects the property of creating opportunities to the degree, so the speaker is saying c) the degree is recognition."
+94,Literary,1.0,86.0,0.0,Nerves after a quarrel are frozen leaves in winter.,5.27,4.73,3.3,5.2,5.2,4.1,5.37,4.8,4.53,1.77,Nerves after a quarrel are brittle.,Nerves after a quarrel are scarce.,Nerves are fibres in the body that transmit impulses of sensation.,Nerves after a quarrel are pliable.,,"""Nerves after a quarrel are frozen leaves in winter.""
+
+a) Nerves are fibres in the body that transmit impulses of sensation.
+b) Nerves after a quarrel are brittle.
+c) Nerves after a quarrel are pliable.
+d) Nerves after a quarrel are scarce.
+",[2 4 1 3],"Fibres are used to transmit impulses of sensation.
+In contrast, after a quarrel nerves are scarce.
+This contrast projects the property of scarcity from after a quarrel to nerves, so the speaker is saying c) nerves after a quarrel are pliable."
+95,Nonliterary,1.0,126.0,0.0,Discipline is fertilizer.,4.0,3.83,2.7,3.47,2.9,3.24,3.37,2.31,2.43,1.54,Discipline is helpful.,Discipline is a chemical.,Discipline is having a lot of will-power.,Discipline is hard.,,"""Discipline is fertilizer.""
+
+a) Discipline is a chemical.
+b) Discipline is having a lot of will-power.
+c) Discipline is hard.
+d) Discipline is helpful.
+",[3 2 1 4],"Fertilizer is helpful in growing crops.
+In contrast, discipline is hard and difficult.
+This contrast projects the property of being difficult to discipline to the discipline being helpful, so the speaker is saying c) discipline is helpful."
+96,Nonliterary,1.0,19.0,0.0,A kangaroo is a yo-yo.,5.08,5.38,2.46,3.32,3.31,2.9,4.31,3.0,3.33,1.38,A kangaroo is an animal that moves up and down.,A kangaroo is a toy,A kangaroo is a mammal.,A kangaroo is an animal that moves forward and back.,,"""A kangaroo is a yo-yo.""
+
+a) A kangaroo is a mammal.
+b) A kangaroo is an animal that moves forward and back.
+c) A kangaroo is an animal that moves up and down.
+d) A kangaroo is a toy
+",[2 1 4 3],"
+
+A yo-yo is an object that is pulled through the air by hand.
+In contrast, a kangaroo is an animal that moves forward and back.
+This contrast projects the property of being an animal that moves forward and back to a kangaroo, so the speaker is saying a) a kangaroo is an animal that moves forward and back."
+97,Nonliterary,1.0,200.0,0.0,Sarcastic smiles are acid.,5.23,5.67,3.2,4.3,4.43,4.6,4.63,3.93,4.17,2.03,Sarcastic smiles can inflict harm.,Sarcastic smiles can melt plastic.,Sarcastic smiles are not genuine.,Sarcastic smiles can be funny.,,"""Sarcastic smiles are acid.""
+
+a) Sarcastic smiles can inflict harm.
+b) Sarcastic smiles are not genuine.
+c) Sarcastic smiles can melt plastic.
+d) Sarcastic smiles can be funny.
+",[4 2 3 1],"
+Acid can corrode metals.
+In contrast, sarcasm is not a corrosive substance.
+This contrast projects the property of not being corrosive to sarcasm, so the speaker is saying c) sarcastic smiles can melt plastic."
+98,Literary,1.0,85.0,0.0,Tranquility is a woodland river winding through hills in solitude.,6.27,6.13,4.03,5.3,5.77,4.53,5.97,593.0,4.93,1.93,Tranquility is beautiful.,Tranquility is lonely.,Tranquility is calmness.,Tranquility is hideous.,,"""Tranquility is a woodland river winding through hills in solitude.""
+
+a) Tranquility is beautiful.
+b) Tranquility is calmness.
+c) Tranquility is lonely.
+d) Tranquility is hideous.
+",[4 2 3 1],"A woodland river is a calm and beautiful place.
+In contrast, tranquility is not a person and is therefore not able to experience beauty or calmness.
+This contrast projects the properties of being calm and beautiful to tranquility, so the speaker is saying a) tranquility is beautiful."
+99,Nonliterary,1.0,150.0,10.0,Alcohol is a crutch.,6.3,6.37,4.4,5.17,4.87,4.9,5.37,6.63,5.2,2.07,People can become dependent on alcohol.,Drinking provides support.,Alcohol is a drink that can make people feel relaxed.,Drinking is fun but risky.,,"""Alcohol is a crutch.""
+
+a) Drinking is fun but risky.
+b) Alcohol is a drink that can make people feel relaxed.
+c) Drinking provides support.
+d) People can become dependent on alcohol.
+",[1 2 3 4],"Alcohol is a drink that can make people feel relaxed.
+In contrast, people can become dependent on it.
+This contrast projects the properties of being a relaxing drink and making people dependent on it, so the speaker is saying b) alcohol is a drink that can make people feel relaxed."
+100,Nonliterary,1.0,22.0,16.0,History is a mirror.,5.8,6.42,3.5,5.4,4.62,4.1,4.96,5.03,4.56,2.15,We see ourselves in history.,History is a piece of furnature.,History is what happened in the past.,History is unknowable.,,"""History is a mirror.""
+
+a) History is a piece of furnature.
+b) History is unknowable.
+c) We see ourselves in history.
+d) History is what happened in the past.
+",[3 1 4 2],"A mirror is a piece of furnature that reflects people.
+In contrast, history is unknowable and it is impossible to know what people looked like in the past.
+This contrast projects the property of reflecting people to history, so the speaker is saying c) we see ourselves in history."
+101,Nonliterary,1.0,90.0,22.0,Sleep is an ocean.,3.83,4.27,2.47,2.9,3.4,3.6,2.83,3.43,2.37,1.93,Sleep is deep and calm.,Sleep is quiet but heavy.,Sleep is a physiological state.,Sleep is shallow and rough.,,"""Sleep is an ocean.""
+
+a) Sleep is quiet but heavy.
+b) Sleep is a physiological state.
+c) Sleep is deep and calm.
+d) Sleep is shallow and rough.
+",[3 2 4 1],"Sleep is a physiological state that people go through to rest their bodies.
+In contrast, sleep is not a place.
+This contrast projects the property of being a physiological state from sleep to sleep, so the speaker is saying c) sleep is deep and calm."
+102,Nonliterary,1.0,51.0,0.0,A museum is a history book.,6.6,6.48,4.63,5.17,5.87,5.73,5.7,5.73,5.47,1.93,A museum is filled with information.,A museum is boring.,A museum is a building.,A museum is useless.,,"""A museum is a history book.""
+
+a) A museum is boring.
+b) A museum is filled with information.
+c) A museum is useless.
+d) A museum is a building.
+",[3 4 1 2],"History books are one type of book that is useful.
+In contrast, a museum is a building where objects are displayed.
+This contrast projects the property of being a building to a museum, so the speaker is saying c) a museum is useless."
+103,Nonliterary,1.0,106.0,0.0,A lawyer is a lighthouse.,3.8,3.9,2.23,3.2,2.43,2.7,2.7,1.97,2.33,1.25,A lawyer helps you stay away from danger.,A lawyer lives close to the water.,A lawyer is a professional.,A lawyer causes problems.,,"""A lawyer is a lighthouse.""
+
+a) A lawyer is a professional.
+b) A lawyer causes problems.
+c) A lawyer lives close to the water.
+d) A lawyer helps you stay away from danger.
+",[2 1 3 4],"A lighthouse is built to help ships and sailors find their way.
+A lawyer is not specifically designed for this purpose, but they are in the profession of law.
+This contrasts projects the property of helping people stay away from danger to a lawyer, so the speaker is saying c) a lawyer lives close to the water."
+104,Nonliterary,1.0,260.0,0.0,Respect is a precious gem.,6.24,6.2,3.33,4.97,5.21,5.21,5.03,5.0,5.3,1.85,Respect is valuable.,Respect is hard to find.,Respect is a feeling of admiration.,Respect is silly.,,"""Respect is a precious gem.""
+
+a) Respect is valuable.
+b) Respect is hard to find.
+c) Respect is a feeling of admiration.
+d) Respect is silly.
+",[4 3 2 1],"
+Precious gems are valuable because they are rare.
+In contrast, respect is equally valuable to any other object and is not rare.
+This contrast projects the property of being valuable to respect, so the speaker is saying a) respect is valuable."
+105,Nonliterary,1.0,136.0,0.0,A judge is a balance.,5.36,5.28,3.63,4.87,5.1,5.43,5.03,3.6,4.8,1.96,A judge is well-reasoned.,A judge is correct.,A judge is a person who makes important decisions.,A judge is flippant.,,"""A judge is a balance.""
+
+a) A judge is flippant.
+b) A judge is a person who makes important decisions.
+c) A judge is correct.
+d) A judge is well-reasoned.
+",[1 2 3 4],"A balance is an instrument that can be used to steady an object.
+In contrast, a judge is not an agent that can directly balance things.
+This contrast projects the property of being an agent that can balance things to a judge, so the speaker is saying c) a judge is correct."
+106,Nonliterary,1.0,36.0,0.0,Beavers are lumberjacks with fur coats.,6.3,6.45,3.53,5.2,5.6,5.07,5.57,4.93,5.27,1.9,Beavers cut down trees.,Beavers use tools.,Beavers are mammals.,Beavers never cut down trees.,,"""Beavers are lumberjacks with fur coats.""
+
+a) Beavers cut down trees.
+b) Beavers are mammals.
+c) Beavers never cut down trees.
+d) Beavers use tools.
+",[4 2 1 3],"
+Beavers are mammals that use tools to cut down trees.
+In contrast, beavers are not lumberjacks.
+This contrast projects the property of cutting down trees to beavers, so the speaker is saying b) beavers are lumberjacks with fur coats."
+107,Literary,1.0,12.0,0.0,Rain is a collection of sheeny tears.,5.03,5.87,3.87,4.3,5.03,5.4,5.13,4.83,4.47,1.57,Rain is shiny and wet and sad.,Rain is shiny and wet and small.,Rain is water that falls from the sky.,Rain is shiny and wet and happy.,,"""Rain is a collection of sheeny tears.""
+
+a) Rain is shiny and wet and happy.
+b) Rain is water that falls from the sky.
+c) Rain is shiny and wet and small.
+d) Rain is shiny and wet and sad.
+",[1 2 3 4],"Rain is a collection of tears.
+In contrast, rain is not made of tears.
+This contrast projects the properties of being wet and shiny to rain, so the speaker is saying a) rain is shiny and wet and happy."
+108,Nonliterary,1.0,46.0,0.0,Perception is the father of memory.,4.53,4.97,2.93,4.17,2.9,3.93,3.1,3.17,4.47,1.33,You only remember what you see.,You only remember what you do.,Perception is part of experience.,You can remember everything.,,"""Perception is the father of memory.""
+
+a) Perception is part of experience.
+b) You only remember what you see.
+c) You can remember everything.
+d) You only remember what you do.
+",[2 4 1 3],"Experience is what happens while you are awake.
+In contrast, perception is what people see and remember.
+This contrast projects the property of being part of experience from perception to experience, so the speaker is saying b) you only remember what you see."
+109,Nonliterary,1.0,223.0,0.0,The pursuit of peace is a tortoise.,4.47,5.43,3.03,4.13,3.93,4.5,4.03,2.63,3.73,1.69,Progress has been slow in the pursuit of peace.,Progess has been amphibious in the pursuit of peace.,The pursuit of peace is seeking non-violent resolutions to problems.,Progress has been fast in the pursuit of peace.,,"""The pursuit of peace is a tortoise.""
+
+a) The pursuit of peace is seeking non-violent resolutions to problems.
+b) Progress has been fast in the pursuit of peace.
+c) Progess has been amphibious in the pursuit of peace.
+d) Progress has been slow in the pursuit of peace.
+",[2 1 3 4],"Peace is seeking a resolution to a problem without violence.
+In contrast, violence is an immediate and direct solution to a problem.
+This contrast projects the property of resolving a problem without violence to the pursuit of peace, so the speaker is saying a) the pursuit of peace is seeking non-violent resolutions to problems."
+110,Nonliterary,1.0,73.0,0.0,Religion is the lifeblood of society.,4.9,4.9,3.17,3.83,2.9,3.53,3.33,3.6,3.86,1.83,Religion connects people in society.,Religion is necessary for society.,Religion is a particular system of faith and worship.,Religion is detrimental to society.,,"""Religion is the lifeblood of society.""
+
+a) Religion is detrimental to society.
+b) Religion connects people in society.
+c) Religion is a particular system of faith and worship.
+d) Religion is necessary for society.
+",[1 4 2 3],"Society needs religion to connect people and give them a system of faith and worship.
+In contrast, religion is detrimental to the health and well-being of society.
+This contrast projects the property of being detrimental to society to religion, so the speaker is saying c) religion is a particular system of faith and worship."
+111,Nonliterary,1.0,174.0,0.0,Ritual is the prison of individuality.,4.77,5.03,3.1,4.0,3.83,3.43,3.6,3.33,4.3,1.48,Ritual eliminates self-expression.,Ritual is physically confining.,Ritual is a behavior done as religious rite.,Ritual encourages self-expression.,,"""Ritual is the prison of individuality.""
+
+a) Ritual is physically confining.
+b) Ritual encourages self-expression.
+c) Ritual eliminates self-expression.
+d) Ritual is a behavior done as religious rite.
+",[3 1 4 2],"A behavior is done as part of a religious ceremony.
+In contrast, behavior is not confined by ritual.
+This contrast projects the property of freedom from confinement to ritual, so the speaker is saying c) ritual eliminates self-expression."
+112,Nonliterary,1.0,31.0,2.0,A dusty and crowded attic is a paradise to child.,6.0,6.1,4.97,4.8,5.03,4.67,5.63,5.07,4.97,2.03,A dusty and crowded attic is fun for children.,A dusty and crowded attic has a lot of memories.,A dusty and crowded attic is a room in a house.,A dusty and crowded attic is a scary place,,"""A dusty and crowded attic is a paradise to child.""
+
+a) A dusty and crowded attic is a scary place
+b) A dusty and crowded attic has a lot of memories.
+c) A dusty and crowded attic is a room in a house.
+d) A dusty and crowded attic is fun for children.
+",[1 3 2 4],"Childhood is a time when things are simple and uncomplicated.
+In contrast, an attic is a dusty and crowded place where things are not organized.
+This contrast projects the properties of being unorganized and messy to an attic, so the speaker is saying c) an attic is a room in a house."
+113,Nonliterary,1.0,72.0,0.0,A dog's stomach is his master's alarm clock.,5.03,5.97,3.07,4.37,3.9,3.17,4.0,3.4,3.55,1.45,Dog's are responsive to hunger.,Dog's dislike hunger.,A dog's stomach is an organ.,Dog's don't know when they're hungry.,,"""A dog's stomach is his master's alarm clock.""
+
+a) A dog's stomach is an organ.
+b) Dog's are responsive to hunger.
+c) Dog's dislike hunger.
+d) Dog's don't know when they're hungry.
+",[2 4 3 1],"A dog's stomach is an organ that is sensitive to hunger.
+In contrast, a dog's are not responsive to hunger.
+This contrast projects the property of not being responsive to hunger to a dog's stomach, so the speaker is saying c) dog's dislike hunger."
+114,Nonliterary,1.0,186.0,0.0,The winner's cup is the athlete's crown.,5.53,5.9,4.13,4.3,5.37,4.93,4.67,4.07,5.57,1.83,The winner's cup is the prize.,The winner's cup is a hat.,The winner's cup is award for winning the competition.,The winner's cup is a toy.,,"""The winner's cup is the athlete's crown.""
+
+a) The winner's cup is the prize.
+b) The winner's cup is a toy.
+c) The winner's cup is award for winning the competition.
+d) The winner's cup is a hat.
+",[4 1 2 3],"The winner's cup is the prize for winning the competition.
+In contrast, the athlete's crown is the hat that the winner wears.
+This contrast projects the property of being the award for winning the competition to the winner's cup, so the speaker is saying c) the winner's cup is a toy."
+115,Literary,1.0,32.0,8.0,Clouds are tossed pillows.,6.37,5.97,3.17,4.73,5.97,5.77,5.77,4.93,4.3,1.93,Clouds can look scattered around.,Clouds can look intricate.,Clouds are a visible mass of condensed water floating in the atmosphere.,Clouds can look orderly.,,"""Clouds are tossed pillows.""
+
+a) Clouds can look scattered around.
+b) Clouds can look intricate.
+c) Clouds can look orderly.
+d) Clouds are a visible mass of condensed water floating in the atmosphere.
+",[4 3 1 2],"Pillows are soft and designed to help people rest.
+In contrast, clouds are not soft and can be seen as a mass of condensed water.
+This contrast projects the properties of being soft and being a mass of condensed water to clouds, so the speaker is saying b) clouds can look intricate."
+116,Nonliterary,1.0,147.0,0.0,Smog is a shroud.,4.73,5.23,4.0,4.07,3.97,3.7,4.7,3.93,4.07,1.43,Smog makes it hard to see.,Smog is made of cloth.,Smog is pollution.,Smog makes it easy to see.,,"""Smog is a shroud.""
+
+a) Smog makes it easy to see.
+b) Smog is made of cloth.
+c) Smog makes it hard to see.
+d) Smog is pollution.
+",[1 3 4 2],"A shroud is a type of clothing worn mainly in colder climates to protect the body from the elements.
+In contrast, smog is not a clothing and cannot protect the body.
+This contrast projects the property of protecting the body from the environment to smog, so the speaker is saying c) smog makes it hard to see."
+117,Literary,1.0,92.0,3.0,Stars are dancers.,5.2,5.3,2.97,3.47,5.53,5.07,4.87,4.8,3.63,2.17,The way that stars move around is entertaining.,The way that stars move around is boring.,Stars are in the sky.,The way that stars move around is invisible.,,"""Stars are dancers.""
+
+a) The way that stars move around is boring.
+b) Stars are in the sky.
+c) The way that stars move around is invisible.
+d) The way that stars move around is entertaining.
+",[3 2 1 4],"A dancer moves their body in a way that makes them look pretty.
+In contrast, the way that stars move around is not entertaining.
+This contrast projects the property of being entertaining to how stars move around, so the speaker is saying c) the way that stars move around is invisible."
+118,Literary,1.0,153.0,7.0,Snow is a down-pelt for winter.,5.5,5.47,4.07,3.93,4.87,5.23,4.43,5.2,4.83,1.73,Snow is soft and heavy.,Snow is warm.,Snow is frozen water that falls from the sky.,Snow is cold and rough.,,"""Snow is a down-pelt for winter.""
+
+a) Snow is soft and heavy.
+b) Snow is cold and rough.
+c) Snow is warm.
+d) Snow is frozen water that falls from the sky.
+",[4 1 3 2],"
+Down is the soft and warm layer of the fur of an animal.
+In contrast, snow is the soft, heavy, and cold layer of the fur of an animal.
+This contrast projects the property of being soft and heavy to snow, so the speaker is saying b) snow is cold and rough."
+119,Nonliterary,1.0,252.0,23.0,The stars are snowflakes that never fall.,5.52,5.9,2.6,4.27,4.76,5.14,5.21,2.96,4.17,1.81,The stars are intricate and beautiful feature of the night sky.,The stars are large balls of fire that are always in the sky.,The stars are fireballs.,The stars are simple and bland feature of the night sky.,,"""The stars are snowflakes that never fall.""
+
+a) The stars are simple and bland feature of the night sky.
+b) The stars are fireballs.
+c) The stars are intricate and beautiful feature of the night sky.
+d) The stars are large balls of fire that are always in the sky.
+",[1 2 4 3],"A snowflake is a simple and plain feature of the night sky.
+In contrast, the stars are large balls of fire that are always in the sky.
+This contrast projects the properties of being simple and plain to the stars and being large and fiery to the stars, so the speaker is saying b) the stars are fireballs."
+120,Nonliterary,1.0,16.0,0.0,Greed is a hugry buzzard.,5.84,5.92,3.23,4.6,4.66,4.24,5.15,3.66,4.48,2.12,Greed is shameless.,Greed can fly.,Greed is an emotion.,Greed is good.,,"""Greed is a hugry buzzard.""
+
+a) Greed can fly.
+b) Greed is an emotion.
+c) Greed is shameless.
+d) Greed is good.
+",[3 2 4 1],"A hugry buzzard is a bird that feeds on corpses.
+In contrast, greed is not an animal and can't actually fly.
+This contrast projects the property of flying to greed, so the speaker is saying a) greed can fly."
+121,Nonliterary,1.0,187.0,0.0,Adventure is a roller-coaster.,5.7,5.93,3.83,4.3,5.37,5.5,5.07,4.73,4.47,2.24,Adventure includes positive and negative experiences.,Adventure is fast.,Adventure is an exciting emotion.,Adventure is calm.,,"""Adventure is a roller-coaster.""
+
+a) Adventure includes positive and negative experiences.
+b) Adventure is an exciting emotion.
+c) Adventure is fast.
+d) Adventure is calm.
+",[4 2 3 1],"A roller coaster is an amusement park ride that typically includes curves, hills, and other features that make it exciting.
+In contrast, adventure usually includes both positive and negative experiences.
+This contrast projects the property of including both positive and negative experiences to adventure, so the speaker is saying a) adventure includes positive and negative experiences."
+122,Literary,1.0,141.0,0.0,Peas in their pods are summer children in their mothers.,5.1,5.07,3.3,4.37,4.83,4.43,4.27,4.07,3.73,1.57,Peas grow together inside a pod that nurtures them.,Peas grow together inside a pod that touches them.,Peas in their pods are veggetables.,Peas grow together inside a pod that harms them.,,"""Peas in their pods are summer children in their mothers.""
+
+a) Peas in their pods are veggetables.
+b) Peas grow together inside a pod that touches them.
+c) Peas grow together inside a pod that harms them.
+d) Peas grow together inside a pod that nurtures them.
+",[2 3 1 4],"
+Vegetables are plants that reproduce asexually.
+In contrast, peas grow together inside a pod that touches them.
+This contrast projects the property of being together inside a pod from peas to vegetables, so the speaker is saying a) peas in their pods are summer children in their mothers."
+123,Nonliterary,1.0,109.0,16.0,History is a magnet.,3.87,4.13,2.7,3.13,2.17,2.53,2.97,2.52,2.97,1.39,History attracts certain people.,History is a small piece of metal.,History is told in books.,Everyone hates history.,,"""History is a magnet.""
+
+a) History is a small piece of metal.
+b) History is told in books.
+c) Everyone hates history.
+d) History attracts certain people.
+",[3 2 1 4],"A magnet attracts metal.
+In contrast, history does not have the physical property of being a magnet.
+This contrast projects the property of attracting metal to history, so the speaker is saying c) history attracts certain people."
+124,Nonliterary,1.0,3.0,7.0,A tree is an umbrella.,5.6,5.83,3.15,4.88,4.69,5.1,4.77,4.41,4.7,2.04,A tree can offer protection from the rain.,A tree can be a fashion accessory.,A tree is a plant.,A tree cannot offer protection from the rain.,,"""A tree is an umbrella.""
+
+a) A tree can offer protection from the rain.
+b) A tree can be a fashion accessory.
+c) A tree is a plant.
+d) A tree cannot offer protection from the rain.
+",[4 3 2 1],"An umbrella is a type of shelter that protects people from the rain.
+In contrast, a tree is not a type of shelter.
+This contrast projects the property of offering protection from the rain to a tree, so the speaker is saying d) a tree cannot offer protection from the rain."
+125,Literary,1.0,27.0,0.0,Sunlight is golden dust.,6.03,5.97,3.77,5.03,5.87,5.47,5.27,5.33,4.4,1.8,Sunlight sparkles.,Sunlight can be bottled.,Sunlight is light from the sun.,Sunlight is dull.,,"""Sunlight is golden dust.""
+
+a) Sunlight can be bottled.
+b) Sunlight sparkles.
+c) Sunlight is light from the sun.
+d) Sunlight is dull.
+",[3 4 2 1],"Gold is shiny and is the best conductor of electricity.
+In contrast, sunlight is not shiny and is not a good conductor of electricity.
+This contrast projects the property of being shiny to sunlight, so the speaker is saying c) sunlight sparkles."
+126,Nonliterary,1.0,235.0,0.0,Growing up is the funeral of youth.,4.86,5.07,3.3,3.97,3.47,2.43,3.87,3.03,3.2,1.86,People change as they age.,Growing up is sad.,Growing up is what happens to people over time.,Growing up is easy.,,"""Growing up is the funeral of youth.""
+
+a) People change as they age.
+b) Growing up is what happens to people over time.
+c) Growing up is sad.
+d) Growing up is easy.
+",[4 2 3 1],"People change as they age.
+In contrast, growing up is not something that happens to people.
+This contrast projects the property of not happening to people to growing up, so the speaker is saying c) growing up is sad."
+127,Literary,1.0,89.0,0.0,An autumn storm is the funeral song of the dying year.,5.07,5.77,3.8,4.83,4.87,4.37,4.37,5.33,4.37,1.77,An autumn storm is a final indicator of an ending year.,An autumn storm is a loud indicator of an ending year.,An autumn storm is an intense weather event that happens in fall.,An autumn storm is the first indicator of an ending year.,,"""An autumn storm is the funeral song of the dying year.""
+
+a) An autumn storm is an intense weather event that happens in fall.
+b) An autumn storm is a final indicator of an ending year.
+c) An autumn storm is the first indicator of an ending year.
+d) An autumn storm is a loud indicator of an ending year.
+",[2 4 1 3],"A funeral song is a sad and sorrowful song.
+In contrast, an autumn storm is not a song.
+This contrast projects the property of being a song to an autumn storm, so the speaker is saying b) an autumn storm is the final indicator of an ending year."
+128,Literary,1.0,22.0,9.0,Love is an antidote for the world's ills.,6.57,6.5,4.87,4.53,3.93,3.93,4.0,5.9,3.97,1.6,The world's problems can be solved with love.,The world's problems can be understood with love.,Love is an emotion.,The world's problems can be made worse with love.,,"""Love is an antidote for the world's ills.""
+
+a) The world's problems can be solved with love.
+b) Love is an emotion.
+c) The world's problems can be understood with love.
+d) The world's problems can be made worse with love.
+",[4 2 3 1],"
+
+Love is an emotion that can solve the world's problems.
+In contrast, love can make the world's problems worse.
+This contrast projects the property of resolving the world's problems with love, so the speaker is saying c) the world's problems can be understood with love."
+129,Literary,1.0,120.0,0.0,An avalanche is a thunderbolt of snow.,6.17,6.2,4.63,4.3,6.23,5.93,5.43,5.43,5.43,1.8,An avalanche is powerful.,An avalanche is loud.,An avalanche is a mass of snow and ice falling down a mountainside.,An avalanche is weak.,,"""An avalanche is a thunderbolt of snow.""
+
+a) An avalanche is powerful.
+b) An avalanche is weak.
+c) An avalanche is loud.
+d) An avalanche is a mass of snow and ice falling down a mountainside.
+",[4 1 3 2],"A thunderbolt is a very powerful event.
+In contrast, an avalanche is not a powerful event.
+This contrast projects the property of power to an avalanche, so the speaker is saying b) an avalanche is weak."
+130,Nonliterary,1.0,127.0,17.0,Money is blood.,3.7,4.03,2.7,2.83,3.2,3.38,3.23,2.79,2.23,1.75,Money is how people buy and sell goods and services.,Money is easy to spend.,Money is a medium of economic exchange.,Money makes it harder to get things done.,,"""Money is blood.""
+
+a) Money is how people buy and sell goods and services.
+b) Money is easy to spend.
+c) Money is a medium of economic exchange.
+d) Money makes it harder to get things done.
+",[4 3 2 1],"Blood is necessary for people to live.
+Money is used to buy and sell goods and services.
+Money makes it easier to get things done.
+This contrasts money with blood, so the speaker is saying d) money makes it harder to get things done."
+131,Nonliterary,1.0,199.0,0.0,Mimes are wooden statues.,3.2,3.6,2.77,2.47,2.9,2.07,3.57,2.27,2.47,1.34,Mimes are very still.,Mimes are made of wood.,Mimes are people who portray characters through gesture.,Mimes are active.,,"""Mimes are wooden statues.""
+
+a) Mimes are active.
+b) Mimes are people who portray characters through gesture.
+c) Mimes are made of wood.
+d) Mimes are very still.
+",[1 2 3 4],"A statue is a still object.
+In contrast, mimes are active and use their body to portray characters.
+This contrasts projects the property of being active from mimes to statues, so the speaker is saying c) mimes are made of wood."
+132,Literary,1.0,124.0,0.0,Ancient wisdom is a fountain which makes you thirstier the more you drink.,5.67,5.93,4.07,5.27,4.33,4.3,4.4,5.8,4.6,1.7,Ancient wisdom is really interesting.,Ancient wisdom is unfulfilling.,Ancient wisdom is knowledge and experience that has been available for a long time.,Ancient wisdom is boring.,,"""Ancient wisdom is a fountain which makes you thirstier the more you drink.""
+
+a) Ancient wisdom is really interesting.
+b) Ancient wisdom is unfulfilling.
+c) Ancient wisdom is knowledge and experience that has been available for a long time.
+d) Ancient wisdom is boring.
+",[4 3 2 1],"
+Ancient wisdom is knowledge and experience that is really interesting.
+In contrast, ancient wisdom is unfulfilling.
+This contrast projects the property of being interesting to ancient wisdom, so the speaker is saying a) ancient wisdom is really interesting."
+133,Nonliterary,1.0,65.0,0.0,A flower is a grounded bird,3.63,3.73,2.37,2.93,2.2,2.53,2.87,2.4,2.48,1.21,A flower looks different and more beautiful than most plants.,A flower looks different and more delicate than most plants.,A flower is a plant.,A flower looks different and more disgusting than most plants.,,"""A flower is a grounded bird""
+
+a) A flower looks different and more delicate than most plants.
+b) A flower looks different and more disgusting than most plants.
+c) A flower is a plant.
+d) A flower looks different and more beautiful than most plants.
+",[3 1 2 4],"A grounded bird is one that is grounded in the earth.
+In contrast, a flower is not grounded.
+This contrast projects the property of being grounded to a flower, so the speaker is saying a) a flower looks different and more delicate than most plants."
+134,Nonliterary,1.0,170.0,0.0,Work is the opium of successful people.,5.17,5.4,4.57,4.57,4.3,4.4,4.2,4.6,4.37,2.03,Successful people are addicted to work.,Successful people are habitual workers.,Work is an activity that involves effort.,Successful people never work.,,"""Work is the opium of successful people.""
+
+a) Successful people never work.
+b) Successful people are addicted to work.
+c) Work is an activity that involves effort.
+d) Successful people are habitual workers.
+",[1 4 2 3],"
+Work is an activity that requires effort and many successful people are addicts to work.
+In contrast, successful people are not addicted to work.
+This contrast projects the property of being able to stop working to successful people, so the speaker is saying a) successful people never work."
+135,Literary,1.0,54.0,1.0,Time is a moving escalator.,5.63,5.83,4.13,5.87,4.13,4.43,5.23,5.1,4.07,2.17,Time never stops.,Time is jagged.,Time is continued progress of existence.,Time is extremely valuable.,,"""Time is a moving escalator.""
+
+a) Time is continued progress of existence.
+b) Time never stops.
+c) Time is jagged.
+d) Time is extremely valuable.
+",[2 4 3 1],"An escalator is a moving device that takes people up or down a long staircase.
+In contrast, time never stops and it is unclear how people would get up or down if time stopped.
+This contrast projects the property of being continued progress of existence and never stopping to time, so the speaker is saying a) time is continued progress of existence."
+136,Nonliterary,1.0,32.0,0.0,A long distance swimmer is a fearless warrior.,6.03,5.69,4.1,4.57,4.77,4.93,5.1,4.4,4.6,1.9,A long distance swimmer is courageous.,A long distance swimmer is smart.,A long distance swimmer is an athlete.,A long distance swimmer is scared.,,"""A long distance swimmer is a fearless warrior.""
+
+a) A long distance swimmer is courageous.
+b) A long distance swimmer is an athlete.
+c) A long distance swimmer is smart.
+d) A long distance swimmer is scared.
+",[4 2 3 1],"A fearless warrior is brave.
+In contrast, a long distance swimmer is not a warrior.
+This contrast projects the property of not being a warrior to a long distance swimmer, so the speaker is saying a) a long distance swimmer is courageous."
+137,Literary,1.0,201.0,0.0,Melancholy is a weeping cloud.,5.03,4.77,2.97,4.1,4.73,3.93,4.6,4.37,3.5,1.53,Melancholy is profound grief.,Melancholy is soft.,Melancholy is feeling very sad.,Melancholy is wet.,,"""Melancholy is a weeping cloud.""
+
+a) Melancholy is profound grief.
+b) Melancholy is soft.
+c) Melancholy is wet.
+d) Melancholy is feeling very sad.
+",[4 3 1 2],"A weeping cloud is a type of cloud that gets wet and heavy.
+In contrast, nothing specifically associated with sadness is included in the word 'melancholy.'
+This contrasts projects the absence of sadness to the word 'melancholy,' so the speaker is saying c) Melancholy is soft."
+138,Literary,1.0,127.0,0.0,Tears are a mother's weakness.,5.33,4.93,5.13,3.27,4.47,4.63,3.6,4.77,3.47,1.97,Tears always elicit sympathy from mothers.,Tears are hard for mothers to lift up.,Tears commonly express sadness.,Tears never elicit sympathy from mothers.,,"""Tears are a mother's weakness.""
+
+a) Tears commonly express sadness.
+b) Tears are hard for mothers to lift up.
+c) Tears never elicit sympathy from mothers.
+d) Tears always elicit sympathy from mothers.
+",[2 3 1 4],"Tears are a sign of sadness.
+In contrast, tears are not a strong enough signal to elicit sympathy from mothers.
+This contrast projects the property of being weak to tears, so the speaker is saying c) tears are never elicited by mothers as a response."
+139,Nonliterary,1.0,2.0,0.0,A dog is a walking stick.,3.56,3.38,1.96,2.12,2.03,2.97,2.85,2.55,1.89,1.65,A dog can support you on a walk.,You can carry a dog on a walk.,A dog is a mammal.,A dog can hurt you on a walk.,,"""A dog is a walking stick.""
+
+a) A dog is a mammal.
+b) A dog can support you on a walk.
+c) You can carry a dog on a walk.
+d) A dog can hurt you on a walk.
+",[2 4 3 1],"A walking stick helps people walk.
+In contrast, a dog can hurt you if you mistreat it.
+This contrast projects the property of being helpful to a dog and not hurtful to people, so the speaker is saying c) you can carry a dog on a walk."
+140,Nonliterary,1.0,212.0,0.0,Anger is a blizzard.,5.4,5.97,3.2,4.17,5.5,4.73,4.97,4.1,4.13,2.24,Anger is chaotic.,Anger is snowy.,Anger is an intense emotion.,Anger is predictable.,,"""Anger is a blizzard.""
+
+a) Anger is chaotic.
+b) Anger is an intense emotion.
+c) Anger is predictable.
+d) Anger is snowy.
+",[4 2 1 3],"A blizzard is a very extreme form of weather that is very chaotic and unpredictable.
+In contrast, anger is not chaotic and predictable.
+This contrast projects the properties of being extreme and unpredictable to anger, so the speaker is saying b) anger is an intense emotion."
+141,Nonliterary,1.0,121.0,25.0,The wind is a cat.,2.9,2.8,2.0,2.13,1.53,1.9,2.37,1.66,1.6,1.29,The wind seems agile and graceful.,The wind seems furry and cute.,The wind is air that blows.,The wind seems clumsy and lumbering.,,"""The wind is a cat.""
+
+a) The wind seems furry and cute.
+b) The wind seems agile and graceful.
+c) The wind is air that blows.
+d) The wind seems clumsy and lumbering.
+",[3 4 2 1],"
+
+A cat seems soft, friendly, and cuddly.
+In contrast, the wind seems tough, able to move quickly, and unfriendly.
+This contrast projects the properties of being friendly and cuddly to the cat, so the speaker is saying b) the wind seems agile and graceful."
+142,Nonliterary,1.0,224.0,0.0,Beaches are grills.,5.4,5.07,2.5,3.3,4.3,4.43,4.5,3.3,3.63,1.69,Beaches are hot.,Beaches cook food.,Beaches are filled with sand.,Beaches are cold.,,"""Beaches are grills.""
+
+a) Beaches are cold.
+b) Beaches cook food.
+c) Beaches are filled with sand.
+d) Beaches are hot.
+",[1 3 2 4],"Grills are places where food is cooked on a hot surface.
+
+In contrast, beaches are not places where food is cooked.
+This contrast projects the property of being hot to beaches, so the speaker is saying c) beaches are filled with sand."
+143,Nonliterary,1.0,95.0,0.0,Airplanes are angry birds.,4.83,4.43,2.33,2.87,4.4,3.87,3.87,2.6,2.63,1.32,Airplanes fly on their own course.,Airplanes sometimes attack.,Airplanes are flying vehicles.,Airplanes bring joy.,,"""Airplanes are angry birds.""
+
+a) Airplanes fly on their own course.
+b) Airplanes sometimes attack.
+c) Airplanes are flying vehicles.
+d) Airplanes bring joy.
+",[4 3 2 1],"Angry birds are animals that attack other animals.
+In contrast, airplanes are flying vehicles.
+This contrast projects the properties of flying and attacking to airplanes, so the speaker is saying a) airplanes fly on their own course."
+144,Literary,1.0,131.0,0.0,Faithful love is a tree standing through the stormiest hour.,6.23,6.3,3.93,5.73,6.1,4.9,5.93,6.3,5.07,1.93,Faithful love is strong and supportive.,Faithful love is tall and protects from rain.,Faithful love is long-lasting love.,Faithful love is exhausting.,,"""Faithful love is a tree standing through the stormiest hour.""
+
+a) Faithful love is long-lasting love.
+b) Faithful love is exhausting.
+c) Faithful love is strong and supportive.
+d) Faithful love is tall and protects from rain.
+",[2 1 4 3],"A tree stands tall and protects from rain in the stormiest hour.
+In contrast, faithful love is not strong enough to protect from the stormiest hour.
+This contrast projects the property of being strong enough to protect from the stormiest hour to faithful love, so the speaker is saying c) faithful love is strong and supportive."
+145,Nonliterary,1.0,13.0,0.0,A garbage truck is a hungry scavenger.,6.36,6.33,2.96,5.6,5.14,5.59,5.62,4.45,4.59,1.92,A garbage truck agressively looks for trash.,A garbage truck can hold a lot of trash.,A garbage truck is a large vehicle.,A garbage truck waits for trash to be dropped off.,,"""A garbage truck is a hungry scavenger.""
+
+a) A garbage truck agressively looks for trash.
+b) A garbage truck is a large vehicle.
+c) A garbage truck waits for trash to be dropped off.
+d) A garbage truck can hold a lot of trash.
+",[4 2 1 3],"A scavenger hunts for food.
+In contrast, a garbage truck only looks for trash to collect.
+This contrast projects the property of looking for food to a garbage truck, so the speaker is saying c) a garbage truck waits for trash to be dropped off."
+146,Nonliterary,1.0,80.0,17.0,Money is penicillin.,3.53,3.73,2.4,2.5,2.3,2.8,1.7,2.0,2.1,0.97,Money can make problems go away.,Money is easy to spend.,Money is a medium of economic exchange.,Money makes it harder to get things done.,,"""Money is penicillin.""
+
+a) Money is easy to spend.
+b) Money can make problems go away.
+c) Money is a medium of economic exchange.
+d) Money makes it harder to get things done.
+",[3 4 2 1],"Penicillin is a medication that kills bacteria.
+In contrast, money is not a medication.
+This contrast projects the property of being able to kill bacteria to money, so the speaker is saying c) money is a medium of economic exchange."
+147,Nonliterary,1.0,218.0,0.0,The cigar is the skunk of smokes.,5.76,6.3,3.67,4.77,4.87,4.8,5.07,4.17,4.43,1.69,The cigar is the worst smelling of smokes.,The cigar has a white stripe.,The cigar is rolled tobacco.,The cigar is the best smelling of smokes.,,"""The cigar is the skunk of smokes.""
+
+a) The cigar is the worst smelling of smokes.
+b) The cigar has a white stripe.
+c) The cigar is the best smelling of smokes.
+d) The cigar is rolled tobacco.
+",[4 3 1 2],"
+
+The skunk of smokes is the worst smelling of smokes.
+In contrast, the cigar is rolled tobacco.
+This contrast projects the properties of smelliness and being rolled to the cigar, so the speaker is saying c) the cigar is the best smelling of smokes."
+148,Nonliterary,1.0,45.0,0.0,A train is a large worm.,5.63,5.93,2.73,3.3,5.3,5.13,4.93,3.2,3.43,1.93,Trains are long and thin.,Trains are small.,A train is a large vehicle.,Trains are short and wide.,,"""A train is a large worm.""
+
+a) Trains are short and wide.
+b) Trains are small.
+c) A train is a large vehicle.
+d) Trains are long and thin.
+",[1 3 2 4],"A worm is a long, thin creature that eats things.
+In contrast, a train is not a worm and is much larger.
+This contrast projects the properties of being long and thin to a train, so the speaker is saying d) trains are long and thin."
+149,Nonliterary,1.0,169.0,0.0,Lies are a swamp.,4.97,4.83,2.83,3.77,3.53,3.93,3.83,3.57,3.47,2.27,Lies are risky.,Lies are hot.,Lies are stories that never happened.,Lies are necessary.,,"""Lies are a swamp.""
+
+a) Lies are hot.
+b) Lies are risky.
+c) Lies are necessary.
+d) Lies are stories that never happened.
+",[3 4 1 2],"A swamp is wet and boggy.
+In contrast, lies are not wet and do not include boggy areas.
+This contrast projects the properties of being wet and boggy to lies, so the speaker is saying c) lies are risky."
+150,Nonliterary,1.0,137.0,0.0,Thought is a boiling kettle.,4.82,5.76,3.1,4.37,4.1,3.67,4.1,3.63,3.87,1.78,Thought is an active process.,Thought is a process that involves a lot of pressure.,Thought is what happens in the mind.,Thought is a passive process.,,"""Thought is a boiling kettle.""
+
+a) Thought is a passive process.
+b) Thought is a process that involves a lot of pressure.
+c) Thought is what happens in the mind.
+d) Thought is an active process.
+",[1 3 2 4],"Thought is a passive process that does not involve any physical pressure.
+In contrast, thought is an active process that involves a lot of psychic pressure.
+This contrast projects the property of pressure from thought to a kettle, so the speaker is saying a) thought is a passive process."

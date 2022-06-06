@@ -2,22 +2,23 @@ library(tidyverse)
 library(brms)
 library(here)
 library(broom)
-library(Hmisc)
+library(tidyverse)
 
 # constants
 corpus = "katz"
-gpt_version = "curie"
-prompt_type = "QUD_v3"
+corpus_set = "test"
+gpt_version = "davinci"
+prompt_type = "similarity"
 K = 10
 temp = 0.9
 
 df.responses_rationale <- read.csv(
-  here(sprintf("data/model-outputs/model_responses_corpus=%s-gpt=%s-prompt=%s-k=%s-temp=%s-processed.csv",
-               corpus, gpt_version, prompt_type, K, temp)))
+  here(sprintf("data/model-outputs/model_responses_corpus=%s-set=%s-gpt=%s-prompt=%s-k=%s-temp=%s-processed.csv",
+               corpus, corpus_set, gpt_version, prompt_type, K, temp)))
 
 df.responses_basic <- read.csv(
-  here(sprintf("data/model-outputs/model_responses_corpus=%s-gpt=%s-prompt=%s-k=%s-temp=%s-processed.csv",
-               corpus, gpt_version, "basic", K, temp)))
+  here(sprintf("data/model-outputs/model_responses_corpus=%s-set=%s-gpt=%s-prompt=%s-k=%s-temp=%s-processed.csv",
+               corpus, corpus_set, gpt_version, "basic", K, temp)))
 
 df.differences <- df.responses_rationale |>
   select(ID, appropriateness_score) |>
@@ -43,14 +44,20 @@ model <- brm(appropriateness_rationale ~ ALT, family=cumulative(), data=df.diffe
 summary(model)
 
 interesting_looking_measures <- c("ESI", "IMG", "IMP", "FAM")
-model <- brm(appropriateness_rationale ~ FAM, family=cumulative(), data=df.differences)
+model <- brm(appropriateness_basic ~ FAM, family=cumulative(), data=df.differences)
 summary(model)
 plot(model)
 
-df.differences |>
-  select(interesting_looking_measures) |>
-  as.matrix() |>
-  rcorr(type="pearson")
-
-model <- brm(appropriateness_score ~ 1 + prompt_type, family=cumulative(), data = df.concatenated)
+model <- brm(appropriateness_score ~ prompt_type, family=cumulative(), data = df.concatenated)
 summary(model)
+
+ggplot(
+  data = df.differences,
+  mapping = aes(x = appropriateness_basic)
+) +
+  geom_histogram()
+  
+
+
+
+ 

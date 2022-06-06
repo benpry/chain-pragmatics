@@ -18,7 +18,7 @@ def extract_guess(response):
     response = response.strip().lower()
     match = re.findall(r"the answer is ([a-d])", response)
     if len(match) == 0:
-        match = re.findall(r"so the speaker is saying ([a-d])\)", response)
+        match = re.findall(r"the speaker is saying ([a-d])\)", response)
         if len(match) == 0:
             if len(response) < 10:
                 match = re.findall(r"[a-d]", response)
@@ -57,17 +57,25 @@ def random_baseline(ratings, n_questions=100):
     return rand_ratings
 
 corpus = "katz"
+corpus_set = "test"
 gpt_version = "curie"
 prompt_type = "basic"
 K = 10
 temp = 0.9
 
+prompt_title_names = {
+    "QUD_v3": "QUD"
+}
+
 if __name__ == "__main__":
 
-    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
+    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
     raw_guesses = []
+
+    print(f"Analyzing {len(df_responses)} responses")
+
     for index, row in df_responses.iterrows():
 
         if not isinstance(row["model_response"], str):
@@ -91,7 +99,7 @@ if __name__ == "__main__":
 
     df_responses["appropriateness_score"] = guess_ranks
     df_responses["raw_guess"] = raw_guesses
-    df_responses.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
+    df_responses.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
 
     guess_ranks = [x for x in guess_ranks if x is not None]
     raw_guesses = [x for x in raw_guesses if x is not None]
@@ -102,8 +110,8 @@ if __name__ == "__main__":
     print(f"{non_parsed_guesses} guesses not parsed")
 
     random_means = []
-    for i in range(1000):
-        random_ratings = random_baseline([1, 2, 3, 4])
+    for i in range(10000):
+        random_ratings = random_baseline([1, 2, 3, 4], n_questions=len(guess_ranks))
         random_means.append(np.mean(random_ratings))
     random_ci_lower = np.percentile(random_means, 2.5)
     random_ci_upper = np.percentile(random_means, 97.5)
@@ -111,9 +119,14 @@ if __name__ == "__main__":
     print(f"mean random rating {np.mean(random_means)}, [{random_ci_lower}, {random_ci_upper}]")
     print(f"p-value: {p_val}")
 
+    if prompt_type in prompt_title_names:
+        prompt_title = prompt_title_names[prompt_type]
+    else:
+        prompt_title = prompt_type
+
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title(f"Response Appropriateness Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts, temp={temp}",
+    hist.set_title(f"Response Appropriateness Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_title} prompts",
                    fontsize=10)
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
@@ -123,7 +136,7 @@ if __name__ == "__main__":
 
     print(raw_guesses)
     hist = sns.countplot(sorted(raw_guesses))
-    hist.set_title(f"Response Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_type} prompts",
+    hist.set_title(f"Response Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_title} prompts",
                    fontsize=10)
     hist.set_xlabel("Response")
     hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
