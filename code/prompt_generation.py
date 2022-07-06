@@ -24,15 +24,23 @@ def make_rationale_prompt(
     """
     Make a prompt that encourages the model to generate a rationale alongside the answer
     """
+    # initialize the prompt with the task description
     prompt = f"{task_description}\n###\n"
+
+    # add each of the k examples
     for index, row in df_rationales.sample(n=k).iterrows():
         prompt += row["prompt"] + "\n"
-        if step_by_step:
+        if step_by_step:  # in case we want "let's think step by step."
             prompt += "Let's think step by step.\n"
+
+        # add the relevant rationale
         prompt += row[f"{rationale_type}_rationale"] + "\n"
+        # denote the end of the exmaple with ###
         prompt += "###\n"
 
-    prompt += main_question + "\nLet's think step by step.\n"
+    # add "let's think step by step" if necessary
+    if step_by_step:
+        prompt += main_question + "\nLet's think step by step.\n"
 
     return prompt
 
@@ -40,12 +48,15 @@ def make_rationale_prompt(
 def make_k_shot_prompt(
         test_prompt: str,
         task_description: str,
-        k: int = 5
+        k: int = 10
     ) -> str:
     """
     Make a k-shot prompt using the Katz corpus
     """
+    # initialize with the task description
     full_prompt = f"{task_description}\n###\n"
+
+    # shuffle the rows and compile the prompts
     df_shots = df_rationales.sample(n=k)
     for index, row in df_shots.iterrows():
         # write the prompt
@@ -54,6 +65,7 @@ def make_k_shot_prompt(
         full_prompt += f"\nThe answer is {answer_markers[np.argmax(np.fromstring(row['values'][1:-1], dtype=int, sep=' '))]} {row['Good (4)']}"
         full_prompt += "\n###\n"
 
+    # add "the answer is" before the main answer
     full_prompt += test_prompt + "\nThe answer is "
 
     return full_prompt
@@ -63,16 +75,21 @@ def make_katz_prompt(row) -> str:
     """
     This function turns a row of the Katz dataset into a prompt for GPT-3
     """
+    # extract the metaphorical statement and all paraphrases
     statement = row["Statement"]
     good = row["Good (4)"]
     less_good = row["Less good (3)"]
     semantic = row["Semantic (2) - category/desription"]
     bad = row["Bad (1)"]
+
+    # shuffle the responses
     responses = [bad, semantic, less_good, good]
     response_indices = np.random.choice(range(len(responses)), size=4, replace=False)
 
+    # create a string with the statement and all the options
     prompt = f'"{statement}"\n\n'
     for marker_idx, i in enumerate(response_indices):
         prompt += answer_markers[marker_idx] + " " + responses[i] + "\n"
 
+    # return the prompt and the goodness scores
     return prompt, response_indices + 1

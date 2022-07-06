@@ -15,16 +15,16 @@ def extract_guess(response):
     Figure out which response the model chose
     """
     response = response.strip().lower()
+    # look for "the answer is X"
     match = re.findall(r"the answer is ([a-d])", response)
+
     if len(match) == 0:
+        # look for "the speaker is saying X"
         match = re.findall(r"the speaker is saying ([a-d])\)", response)
         if len(match) == 0:
-            if len(response) < 10:
-                match = re.findall(r"[a-d]", response)
-                if len(match) == 0:
-                    return None
-            else:
-                return None
+            # if there still isn't a match, return None
+            return None
+
     return match[0]
 
 
@@ -36,34 +36,41 @@ def rank_guess(guess, ratings):
 
 
 def bootstrapped_ci(scores, n=100000):
+    """
+    Construct a bootstrapped confidence interval
+    """
+    # do the bootstrapped resampling
     all_bs = np.random.choice(scores, size=(n, len(scores)))
+    # compute means within each instance
     means = np.mean(all_bs, axis=1)
+
+    # compute the overall mean and a confidence interval
     mean = np.mean(means)
     ci_lower = np.percentile(means, 2.5)
     ci_upper = np.percentile(means, 97.5)
 
+    # return the mean and confidence interval
     return mean, ci_lower, ci_upper
 
 def random_baseline(ratings, n_questions=100):
     """
     Suppose we randomly selected answers, what ranks would we end up with?
     """
+    # choose ratings at random
     rand_ratings = []
     for q in range(n_questions):
         random_rating = int(np.random.choice(ratings))
         rand_ratings.append(random_rating)
 
+    # return all the random ratings
     return rand_ratings
 
+# specify global variables
 corpus_set = "test"
 gpt_version = "curie"
 prompt_type = "basic"
 K = 10
 temp = 0.9
-
-prompt_title_names = {
-    "QUD_v3": "QUD"
-}
 
 if __name__ == "__main__":
 
@@ -117,14 +124,9 @@ if __name__ == "__main__":
     print(f"mean random rating {np.mean(random_means)}, [{random_ci_lower}, {random_ci_upper}]")
     print(f"p-value: {p_val}")
 
-    if prompt_type in prompt_title_names:
-        prompt_title = prompt_title_names[prompt_type]
-    else:
-        prompt_title = prompt_type
-
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title(f"Response Appropriateness Distribution: {gpt_version} with {K}-shot {prompt_title} prompts",
+    hist.set_title(f"Response Appropriateness Distribution: {gpt_version} with {K}-shot {prompt_type} prompts",
                    fontsize=10)
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
@@ -134,7 +136,7 @@ if __name__ == "__main__":
 
     print(raw_guesses)
     hist = sns.countplot(sorted(raw_guesses))
-    hist.set_title(f"Response Distribution: {gpt_version} with {K}-shot {prompt_title} prompts",
+    hist.set_title(f"Response Distribution: {gpt_version} with {K}-shot {prompt_type} prompts",
                    fontsize=10)
     hist.set_xlabel("Response")
     hist.get_figure().savefig(here(f"figures/response_distribution_gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
