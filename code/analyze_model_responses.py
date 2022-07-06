@@ -1,7 +1,6 @@
 """
 This file takes the model outputs and analyzes them
 """
-import pickle
 import re
 
 import numpy as np
@@ -56,7 +55,6 @@ def random_baseline(ratings, n_questions=100):
 
     return rand_ratings
 
-corpus = "katz"
 corpus_set = "test"
 gpt_version = "curie"
 prompt_type = "basic"
@@ -69,7 +67,7 @@ prompt_title_names = {
 
 if __name__ == "__main__":
 
-    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
+    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
     raw_guesses = []
@@ -99,7 +97,7 @@ if __name__ == "__main__":
 
     df_responses["appropriateness_score"] = guess_ranks
     df_responses["raw_guess"] = raw_guesses
-    df_responses.to_csv(here(f"data/model-outputs/model_responses_corpus={corpus}-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
+    df_responses.to_csv(here(f"data/model-outputs/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
 
     guess_ranks = [x for x in guess_ranks if x is not None]
     raw_guesses = [x for x in raw_guesses if x is not None]
@@ -126,17 +124,17 @@ if __name__ == "__main__":
 
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title(f"Response Appropriateness Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_title} prompts",
+    hist.set_title(f"Response Appropriateness Distribution: {gpt_version} with {K}-shot {prompt_title} prompts",
                    fontsize=10)
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
-    hist.get_figure().savefig(here(f"figures/appropriateness_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
+    hist.get_figure().savefig(here(f"figures/appropriateness_distribution_gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
 
     plt.clf()
 
     print(raw_guesses)
     hist = sns.countplot(sorted(raw_guesses))
-    hist.set_title(f"Response Distribution: {corpus} corpus {gpt_version} with {K}-shot {prompt_title} prompts",
+    hist.set_title(f"Response Distribution: {gpt_version} with {K}-shot {prompt_title} prompts",
                    fontsize=10)
     hist.set_xlabel("Response")
-    hist.get_figure().savefig(here(f"figures/response_distribution_corpus={corpus}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
+    hist.get_figure().savefig(here(f"figures/response_distribution_gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
