@@ -34,7 +34,14 @@ def make_random_k_shot_prompt(chosen_prompt, task_description, questions, k=5, d
     prompt += chosen_prompt
     return prompt
 
-def make_rationale_prompt(main_question, task_description, corpus="katz", rationale_type="QUD", k=10, step_by_step=True):
+def make_rationale_prompt(
+        main_question: object,
+        task_description: object,
+        corpus: object = "katz",
+        rationale_type: object = "QUD",
+        k: object = 10,
+        step_by_step: object = True
+    ) -> str:
     """
     Make a prompt that encourages the model to generate a rationale alongside the answer
     """
@@ -69,7 +76,7 @@ def make_katz_prompt(row):
 
     return prompt, response_indices + 1
 
-def make_k_shot_prompt(test_row, task_description, k=5):
+def make_k_shot_prompt(test_prompt, task_description, k=5):
     """
     Make a k-shot prompt using the Katz corpus
     """
@@ -79,9 +86,9 @@ def make_k_shot_prompt(test_row, task_description, k=5):
         # write the prompt
         full_prompt += row["prompt"]
         # write the answer
-        full_prompt += f"\nThe answer is {answer_markers[np.argmax(np.fromstring(row['values'][1:-1], dtype=int, sep=' '))]}"
+        full_prompt += f"\nThe answer is {answer_markers[np.argmax(np.fromstring(row['values'][1:-1], dtype=int, sep=' '))]} {row['Good (4)']}"
         full_prompt += "\n###\n"
 
-    full_prompt += test_row["prompt"] + "\nThe answer is "
+    full_prompt += test_prompt + "\nThe answer is "
 
     return full_prompt

@@ -7,8 +7,8 @@ library(tidyverse)
 # constants
 corpus = "katz"
 corpus_set = "test"
-gpt_version = "davinci"
-prompt_type = "similarity"
+gpt_version = "curie"
+prompt_type = "QUD_v3"
 K = 10
 temp = 0.9
 
