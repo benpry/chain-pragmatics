@@ -10,6 +10,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 guess_labels = ["a", "b", "c", "d"]
+
+
 def extract_guess(response):
     """
     Figure out which response the model chose
@@ -17,13 +19,18 @@ def extract_guess(response):
     response = response.strip().lower()
     # look for "the answer is X"
     match = re.findall(r"the answer is ([a-d])", response)
-
     if len(match) == 0:
         # look for "the speaker is saying X"
         match = re.findall(r"the speaker is saying ([a-d])\)", response)
         if len(match) == 0:
-            # if there still isn't a match, return None
-            return None
+            # if there still isn't a match, check for an answer with just the letter
+            if len(response) == 2:
+                match = re.findall(r"([a-d])\)", response)
+
+                if len(match) == 0:
+                    return None
+            else:
+                return None
 
     return match[0]
 
@@ -52,6 +59,7 @@ def bootstrapped_ci(scores, n=100000):
     # return the mean and confidence interval
     return mean, ci_lower, ci_upper
 
+
 def random_baseline(ratings, n_questions=100):
     """
     Suppose we randomly selected answers, what ranks would we end up with?
@@ -74,7 +82,7 @@ temp = 0.9
 
 if __name__ == "__main__":
 
-    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
+    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus=katz-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
     raw_guesses = []
@@ -126,8 +134,8 @@ if __name__ == "__main__":
 
     print(guess_ranks)
     hist = sns.histplot(guess_ranks, discrete=True)
-    hist.set_title(f"Response Appropriateness Distribution: {gpt_version} with {K}-shot {prompt_type} prompts",
-                   fontsize=10)
+    hist.set_title(f"Appropriateness Distribution: {gpt_version} with {prompt_type} prompts",
+                   fontsize=12)
     hist.set_xticks([1, 2, 3, 4])
     hist.set_xlabel("Appropriateness Score")
     hist.get_figure().savefig(here(f"figures/appropriateness_distribution_gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))
@@ -136,7 +144,7 @@ if __name__ == "__main__":
 
     print(raw_guesses)
     hist = sns.countplot(sorted(raw_guesses))
-    hist.set_title(f"Response Distribution: {gpt_version} with {K}-shot {prompt_type} prompts",
-                   fontsize=10)
+    hist.set_title(f"Response Distribution: {gpt_version} with {prompt_type} prompts",
+                   fontsize=12)
     hist.set_xlabel("Response")
     hist.get_figure().savefig(here(f"figures/response_distribution_gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.png"))

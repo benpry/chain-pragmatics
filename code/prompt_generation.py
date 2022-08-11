@@ -38,9 +38,11 @@ def make_rationale_prompt(
         # denote the end of the exmaple with ###
         prompt += "###\n"
 
+    # add the main question
+    prompt += main_question + "\n"
     # add "let's think step by step" if necessary
     if step_by_step:
-        prompt += main_question + "\nLet's think step by step.\n"
+        prompt += "Let's think step by step.\n"
 
     return prompt
 

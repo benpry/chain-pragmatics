@@ -2,13 +2,12 @@ library(tidyverse)
 library(brms)
 library(here)
 library(broom)
-library(tidyverse)
 
 # constants
 corpus = "katz"
 corpus_set = "test"
 gpt_version = "curie"
-prompt_type = "QUD_v3"
+prompt_type = "contrast"
 K = 10
 temp = 0.9
 
@@ -30,17 +29,19 @@ df.differences <- df.responses_rationale |>
 
 df.concatenated <- df.responses_rationale |>
   select(ID, appropriateness_score) |>
-  mutate(prompt_type = "rationßale") |>
+  mutate(prompt_type = "rationale") |>
   rbind(df.responses_basic |> 
           select(ID, appropriateness_score) |>
           mutate(prompt_type = "basic")
         )
 
-model <- brm(appropriateness_diff ~ 1, data=df.differences)
-summary(model)
+top_30_familiar <- slice_max(df.differences, order_by=FAM, n=30)
+bottom_30_familiar <- slice_min(df.differences, order_by=FAM, n=30)
+
+mean_fam_difference = mean(top_30_familiar$appropriateness_rationale, na.rm=T) - mean(bottom_30_familiar$appropriateness_rationale, na.rm=T)
 
 psycholing_cols <- c("CMP","ESI","MET","MGD","IMG","IMS","IMP","FAM","SRL","ALT")
-model <- brm(appropriateness_rationale ~ ALT, family=cumulative(), data=df.differences)
+model <- brm(appropriateness_rationale ~ FAM, family=cumulative(), data=df.differences)
 summary(model)
 
 interesting_looking_measures <- c("ESI", "IMG", "IMP", "FAM")
@@ -57,7 +58,3 @@ ggplot(
 ) +
   geom_histogram()
   
-
-
-
- 
