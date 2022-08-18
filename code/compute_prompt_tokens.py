@@ -61,7 +61,7 @@ if __name__ == "__main__":
     longest_response = 0
     for gpt_version in gpt_versions:
         for prompt_type in prompt_types:
-            df_responses = pd.read_csv(here("data/model-outputs/model_responses_corpus={}-set={}-gpt={}-prompt={}-k={}-temp={}-processed.csv"
+            df_responses = pd.read_csv(here("data/model-outputs-old/model_responses_corpus={}-set={}-gpt={}-prompt={}-k={}-temp={}-processed.csv"
                                             .format("katz", corpus_set, gpt_version, prompt_type, K, temp))).dropna(axis=0, subset="model_response")
 
             df_responses["length"] = df_responses["model_response"].apply(lambda x: len(tokenizer(x)["input_ids"]))

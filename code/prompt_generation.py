@@ -50,25 +50,38 @@ def make_rationale_prompt(
 def make_k_shot_prompt(
         test_prompt: str,
         task_description: str,
-        k: int = 10
+        k: int = 10,
+        options_only: bool = False
     ) -> str:
     """
     Make a k-shot prompt using the Katz corpus
     """
     # initialize with the task description
-    full_prompt = f"{task_description}\n###\n"
+    full_prompt = ""
+    if not options_only:
+        full_prompt += f"{task_description}\n###\n"
 
     # shuffle the rows and compile the prompts
     df_shots = df_rationales.sample(n=k)
     for index, row in df_shots.iterrows():
         # write the prompt
-        full_prompt += row["prompt"]
+        if options_only:
+            # remove the first line if we are in the options only baseline
+            full_prompt += "\n".join(row["prompt"].split("\n")[2:])
+        else:
+            full_prompt += row["prompt"]
         # write the answer
         full_prompt += f"\nThe answer is {answer_markers[np.argmax(np.fromstring(row['values'][1:-1], dtype=int, sep=' '))]} {row['Good (4)']}"
         full_prompt += "\n###\n"
 
-    # add "the answer is" before the main answer
-    full_prompt += test_prompt + "\nThe answer is "
+    # add the test prompt
+    if options_only:
+        full_prompt += "\n".join(test_prompt.split("\n")[2:])
+    else:
+        full_prompt += test_prompt
+
+    # add "the answer is"
+    full_prompt += "\nThe answer is "
 
     return full_prompt
 
@@ -95,3 +108,4 @@ def make_katz_prompt(row) -> str:
 
     # return the prompt and the goodness scores
     return prompt, response_indices + 1
+

@@ -7,7 +7,7 @@ from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 
 # the task description and prompt types to print
 task_description = "Choose the most appropriate paraphrase of the first sentence."
-prompt_types = ["basic", "non_explanation", "QUD", "similarity", "contrast", "subject_predicate"]
+prompt_types = ["basic", "non_explanation", "QUD", "similarity", "contrast", "subject_predicate", "options_only"]
 K = 10
 
 if __name__ == "__main__":
@@ -26,6 +26,8 @@ if __name__ == "__main__":
                                         task_description,
                                         k=K
                                         )
+        elif prompt_type == "options_only":
+            prompt = make_k_shot_prompt(example_test_prompt, task_description, k=K, options_only=True)
         else:
             prompt = make_rationale_prompt(example_test_prompt,
                                            task_description,
@@ -33,6 +35,7 @@ if __name__ == "__main__":
                                            k=K,
                                            step_by_step=False
                                            )
+
 
         # print it out
         print("\n" + prompt_type.upper() + "\n")

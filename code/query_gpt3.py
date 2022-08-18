@@ -10,10 +10,10 @@ from prompt_generation import make_k_shot_prompt, make_rationale_prompt
 # global variables
 openai.api_key = os.environ["OPENAI_API_KEY"]
 task_description = "Choose the most appropriate paraphrase of the first sentence."
-prompt_type = "contrast"
-gpt_version = "davinci"
+prompt_type = "options_only"
+gpt_version = "curie"
 corpus_set = "dev"
-temp = 0.8
+temp = 0.7
 K = 10
 
 gpt_version_codes = {
@@ -37,13 +37,17 @@ if __name__ == "__main__":
 
         # create the relevant prompt
         if prompt_type == "basic":
-            prompt = make_k_shot_prompt(row, task_description, k=K)
+            prompt = make_k_shot_prompt(row["prompt"], task_description, k=K)
         elif prompt_type == "non_explanation":
             prompt = make_rationale_prompt(row["prompt"], task_description, rationale_type=prompt_type,
                                            k=K, step_by_step=False)
+        elif prompt_type == "options_only":
+            prompt = make_k_shot_prompt(row["prompt"], task_description, k=K, options_only=True)
         else:
             prompt = make_rationale_prompt(row["prompt"], task_description, rationale_type=prompt_type,
-                                           k=K, step_by_step=True)
+                                           k=K, step_by_step=False)
+
+        print(prompt)
 
         # get the response from GPT-3
         response = openai.Completion.create(

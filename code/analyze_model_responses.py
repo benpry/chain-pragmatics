@@ -24,12 +24,9 @@ def extract_guess(response):
         match = re.findall(r"the speaker is saying ([a-d])\)", response)
         if len(match) == 0:
             # if there still isn't a match, check for an answer with just the letter
-            if len(response) == 2:
-                match = re.findall(r"([a-d])\)", response)
+            match = re.findall(r"^([a-d])\)", response)
 
-                if len(match) == 0:
-                    return None
-            else:
+            if len(match) == 0:
                 return None
 
     return match[0]
@@ -74,15 +71,15 @@ def random_baseline(ratings, n_questions=100):
     return rand_ratings
 
 # specify global variables
-corpus_set = "test"
+corpus_set = "dev"
 gpt_version = "curie"
 prompt_type = "basic"
 K = 10
-temp = 0.9
+temp = 0.7
 
 if __name__ == "__main__":
 
-    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_corpus=katz-set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
+    df_responses = pd.read_csv(here(f"data/model-outputs/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}.csv"))
     non_parsed_guesses = 0
     guess_ranks = []
     raw_guesses = []
@@ -112,7 +109,7 @@ if __name__ == "__main__":
 
     df_responses["appropriateness_score"] = guess_ranks
     df_responses["raw_guess"] = raw_guesses
-    df_responses.to_csv(here(f"data/model-outputs/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
+    df_responses.to_csv(here(f"data/model-outputs-old/model_responses_set={corpus_set}-gpt={gpt_version}-prompt={prompt_type}-k={K}-temp={temp}-processed.csv"))
 
     guess_ranks = [x for x in guess_ranks if x is not None]
     raw_guesses = [x for x in raw_guesses if x is not None]
