@@ -109,3 +109,24 @@ def make_katz_prompt(row) -> str:
     # return the prompt and the goodness scores
     return prompt, response_indices + 1
 
+
+def make_inverse_katz_prompt(row) -> str:
+    """
+    This function turns a row of the inverse Katz dataset into a prompt for GPT-3
+    """
+    # extract the metaphorical statement and all paraphrases
+    statement = row["statement"]
+    true_answer = row["true_answer"]
+    distractors = [row["distractor_1"], row["distractor_2"], row["distractor_3"]]
+
+    # shuffle the responses
+    responses = [true_answer] + distractors
+    response_indices = np.random.choice(range(len(responses)), size=4, replace=False)
+
+    # create a string with the statement and all the options
+    prompt = f'"{statement}"\n\n'
+    for marker_idx, i in enumerate(response_indices):
+        prompt += answer_markers[marker_idx] + " " + responses[i] + "\n"
+
+    # return the prompt and the goodness scores
+    return prompt, np.where(response_indices == 0)[0][0] + 1
